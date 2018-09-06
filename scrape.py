@@ -4,9 +4,13 @@ from bs4 import BeautifulSoup
 import re
 from urlparse import *
 import json
+from os import walk
+
 
 reload(sys)  
 sys.setdefaultencoding('utf8')
+
+filenames = []
 
 dump = "["
 
@@ -83,14 +87,21 @@ def find_links_in_page(soup):
         links.append(channel.get('href'))
     return links
 
+def find_if_needed(link):
+    if link.split("/")[-1] + ".html" in filenames:
+        return False
+    return True
+
 def fetch_new_channel(link):
     global cur_channel
-    channel = urllib2.urlopen(base_url+link)
-    html = channel.read()
-    cur_channel.url = base_url+link
-    channel_soup = BeautifulSoup(html, 'html.parser')
-    cur_channel.html = html.decode('utf-8')
-    return channel_soup
+    if find_if_needed(link):
+        channel = urllib2.urlopen(base_url+link)
+        html = channel.read()
+        cur_channel.url = base_url+link
+        channel_soup = BeautifulSoup(html, 'html.parser')
+        cur_channel.html = html.decode('utf-8')
+        return channel_soup
+    return None
 
 def fetch_new_page(num):
     page = urllib2.urlopen(base_url+"channels/public?page="+str(num))
@@ -174,17 +185,25 @@ def run(times):
         links = find_links_in_page(page_soup)
         for link in links:
             channel_soup = fetch_new_channel(link)
-            extract_channel(channel_soup)
-            json = cur_channel.to_json()
-            dump += json + ","
-            cur_channel.dump_html()
-            cur_channel.dump_json()
+            if not channel_soup is None:
+                extract_channel(channel_soup)
+                json = cur_channel.to_json()
+                dump += json + ","
+                cur_channel.dump_html()
+                cur_channel.dump_json()
+            else:
+                print "skipping"
     dump = dump[:-1]
     dump = dump + "]"
     print dump
 
 def prefetch():
-    global max_page
+    global max_page, filenames
+    filenames = []
+    for (dirpath, dirnames, filenames) in walk("./html"):
+        filenames.extend(filenames)
+        break
+    
     page = urllib2.urlopen(base_url+"channels/public")
     soup = BeautifulSoup(page, 'html.parser')
     pages = soup.find_all('li')
@@ -198,7 +217,7 @@ def prefetch():
 
 prefetch()
 run(max_page)
-#run(2)
+#run(1)
 
 
 
