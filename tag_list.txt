@@ -1,0 +1,5248 @@
+temperature
+humidity
+darthomir
+temperature
+homero
+Arduino Pro Mini
+esp8266
+Bastun
+siaf
+xalk
+Wondecla
+Solar
+wind
+Off Grid
+Milanówek
+PM10
+PM2.5
+WeatherDuino
+Air Quality Index
+PM2.5
+PM10
+co2
+temperature
+humidity
+lora
+signal
+DS1307
+Sense_Hat
+raspberry_pi
+humidity
+Pressure
+temperature
+Solar
+water
+temperature
+DHT22
+esp8266
+xmit
+weatherstation
+wifi
+pogoda
+weather
+jadowniki
+temperature
+humidity
+DHT22
+Raspberry Pi Zero W
+Python
+BME280
+temperature
+humidity
+Air pressure
+Brno
+VUT
+OrangePI Lite
+BMP180
+IOT
+Lviv
+pi-pu
+weather
+počasí
+Tlučná
+Sturry
+Greenhouse
+temperature
+humidity
+WeMos
+DHT11
+storageroom
+1-Wire
+temperature
+furnace
+bnoiler
+raspberry_pi
+Wimos D1 mini
+DS18S20
+testing
+Onehunga
+Kraftstoffpreise
+Essen
+Würzburg
+Castrop
+Castrop-Rauxel
+Rauxel
+Tankstellen
+Diesel
+Super
+E5
+Deutsch
+BRD
+germany
+€
+eur
+euro
+Kraftstoffpreis
+Tanke
+tanken
+Tankstelle
+Tankstellenpreis
+Tankstellenpreise
+Deutschland
+NRW
+Ruhrgebiet
+RAN
+Jet
+ohne Gewähr
+Gewähr
+ohne
+PHP
+Sekunden
+execution
+execution_time
+Cronjob
+Server-Kontrolle
+Kontrolle
+time
+Zeit
+E10
+community
+environment
+IVF
+St Kilda Rd
+Melbourne
+vaxguard
+Sansai
+sansai home
+datalogger
+temperature
+humidity
+AMR
+AMI
+vazamento
+wifi
+esp8266
+monitoramento remoto
+astronomy
+weather
+Astro
+diy
+SQM
+HC-SR04
+LDR
+DHT22
+leds
+Air Quality Index
+PM2.5
+PM10
+co2
+WeatherDuino Pro2 Plus
+AHU
+weather
+temperature
+barometric pressure
+humidity
+dew point
+flackwell
+Wemos D1 Mini V2
+esp8266
+dht11 sensor
+temperature
+humidity
+de Koning
+RT AirQual
+meteo
+meteostation
+Rumburk
+Montreuil-sur-Mer
+Prater
+2018
+temperature
+humidity
+temp
+on
+off
+PM2.5
+Ahmatovo
+zrusenov
+IOT
+temp
+humidity
+csbb
+temperature
+Power
+AHU
+https://personal.xively.com/feeds/181425425
+beer fridge
+SoC
+Batteriespeicher
+PV
+Fronius
+Ökofen
+Pellets
+Hotzenwad
+weather
+Wetter
+hockenheim
+temperature
+germany
+Tamm
+COAIB
+Electric Imp
+Adafruit
+MAX31885
+Type K thermocouple
+Glass fusing kiln
+bordeaux
+station
+weather
+temps réel
+temperature
+esp8266
+BME280
+esp8266
+BME280
+Garn
+wood
+Boiler
+outdoor
+Heat
+esp8266
+BME280
+DHT22
+temp
+hum
+pi
+Raspberry Pi
+temperature
+humidity
+DS18B20
+esp8266
+DS18B20
+temperature
+humidity
+environmental
+esp8266
+DS18B20
+nodemcu
+ACS712
+fridge
+Lua
+ESP-12F
+234
+DHT22
+ve2cuz-wx
+current
+Power
+hot
+DHT22
+esp8266
+Sosnowiec
+Mielecka
+poland
+Argentina
+bariloche
+esp8266
+Temperatura
+humedad
+relativa
+weather
+Link
+Arduino
+wireless sensor
+Link
+Arduino
+wireless sensor
+Pond
+Trout
+temperature
+water
+air
+Arduino
+Yun
+DS18B20
+dry aged room
+dry aged
+temperature
+humidity
+esp8266
+DS18B20
+AM2302
+Arduino
+Xbee
+DHT22
+fpachecoibz
+swimming pool
+Test
+Isi
+environment temperature
+Water temperature
+volume
+harlingen
+Harlingen city
+franeker
+dronrijp
+friesland
+erwin713
+water
+monitoring
+Visualization
+management
+radionrg
+Nowy Sącz
+stacja pogodowa
+meteo
+esp8266
+SCP1000
+NRF24L01+
+Polska
+Racconigi
+polveri sottili
+Temperatura
+raspberry
+IOT
+Home
+temp
+Virgin Media
+Broadband
+speedtest
+Speed test
+Solar
+DeepSleep
+LiPo
+16340
+DHT11
+nodemcu
+ESP01
+PM2.5
+humidity
+temperature
+homes-smart
+esp8266
+orange pi zero
+Home Assistant
+munich
+isar
+river
+water level
+Water temperature
+Wasserstand
+Water Flow
+temperature
+humidity
+Pressure
+energy monitoring
+esp8266
+current transformer
+Power
+Tatarstan
+Kazan
+Home
+russia
+BME280
+Sardinia's Meteo
+temperature
+humidity
+Moscow
+weather
+esp8266
+DHT22
+UNIVER
+Aparcamiento1
+temp
+humidity
+WeMos D1 Mini
+Tyn
+esp8266
+temperature
+humidity
+DHT22
+BMP280
+SRF05
+esp8266
+DS18B20
+INA219
+LTC4056
+BME280
+TSL2561
+BMP180
+HWTemp
+Greenhouse
+humidity
+temperature
+czech
+liba
+cheb
+DHT22
+CZ
+czech republic
+Temperatura
+DS18B20
+Radiation
+counts/minute
+Geiger
+co2
+sensor
+Tom
+Tom1
+ONT
+traffic intensity
+road traffic
+road intensity
+beehive cebelnjak tehtnica nova cerkev slovenija tehtanje cebel donos cebelarska zveza slovenije gsm tehtnica airtech atmolab jost laznik
+1000
+Temperatura
+umidade
+recife
+Stulz
+Thanet
+Kent
+England
+UK
+DS18
+Arduino
+Broadstairs
+CT10
+Lviv
+OrangePi i96
+BMP180
+storage
+post harvest
+temperature
+relative humidity
+902
+esp8266
+MQ-5
+DHT22
+cleeve
+weather
+temperature
+wind
+Pressure
+rain
+rainfall
+Temperatura
+raspberry
+sensor
+temperature
+nodemcu
+DHT
+espeasy
+PT100
+TRANSMISOR PT100 4-20 mA
+RTD PT100
+WCS1800
+SHT2X
+hot water
+tank
+MÍDIA;TECNOLOGIA;SENSOR;ARDUÍNO;ULTRAVIOLETA
+temperature
+TMP
+LiFePo4
+living room
+esp8266
+Pokeys
+Prevalje
+Zalogovnika
+esp8266
+am2320
+LiPo
+temperature
+humidity
+sleep
+ESP
+Six Mile lake
+lake level
+Six mile
+lake
+six
+mi
+ruggirello
+Wind Speed & DIrection
+rain
+temperature
+Pressure
+Approx altitude
+Solar
+Arduino
+PV
+IOT
+Wejherowo
+Temperatura
+Воронеж
+Voronezh
+DS18S20
+DS1820
+temperature
+Sparkfun
+LiPo Fuel Gauge
+MAX17043
+esp8266
+temperature
+oe1gca
+RT AirQual
+stazione meteo
+BMP280
+mecuy62
+DHT22
+weather station
+esp8266
+BME280
+DHT11
+IW3HBX
+BME280
+TSL2561
+esp8266
+Inside Weather Station
+Air Quality Index
+PM2.5
+PM10
+co2
+WeatherDuino
+esp8266
+temperature
+brightness. DHT22 in and DS18b20 outside
+BME280
+homero
+beehive
+raspberry
+dmd
+PP
+patientpad
+temp
+living-room
+
+esp8266
+nodemcu
+Lua
+mh-z19
+co2
+Moscow
+DHT22
+BMP280
+nivel
+Caixa dagua
+Mirante
+panel pv 250W+50Ah
+solar góra
+grunt (1
+75 m ds18b20)
+DHT22
+WeMos D1 Mini
+DS18B20
+BH1750
+BMP180
+Sky2
+temperature
+humidity
+Power
+light
+dew point
+Taupunkt
+schimmel
+nodemcu
+espeasy
+hondamz
+esp8266
+pzem
+energy
+monitor
+online
+nodemcu
+pzem-004t
+Lviv
+NanoPi Duo
+Ukraine
+BMP280
+Pomiary online www.HISTO.pl Poznan Poland
+IOT
+esp8266
+Southmoreland
+Greenhouse
+Arduino
+DHT11
+WeMos
+PIR
+themperature
+log
+esp8266
+client
+Sorocaba
+Temperature; Humidity;input_battery_voltage; Temperature;Humidity;Temperature;Humidity:Pressure;
+Zwickau
+lora
+Energy Meter
+Node-RED
+NbB-IoT
+sample
+geronlab
+A502
+temperature
+outdoor
+Power
+Home
+teplota
+TMP
+average ppm
+Gas Value
+CO
+smoke
+LPG
+Arduino
+Bouriciuslaan
+Stulz
+monitoring
+system
+soldering
+HO Server Room
+temperature
+humidity
+weather
+Smarty Tempy
+SmartyTempy
+IOT
+Santa Clara
+california
+USA
+internetofthings
+Internet of Things
+smarthome
+smart home
+SmartCities
+Smart Cities
+bot
+bots
+Telegram Bot
+TelegramBot
+SantaClaraTempBot
+Santa Clara Temp Bot
+Internet das Coisas
+Telegram Bots
+TelegramBots
+Smarty W IoT
+smartyWiot
+SmartBuilding
+Smart Building
+SmartCondominium
+Smart Condominium
+Silicon Valley
+siliconvalley
+Vale do Silício
+water;garden;IoT;LoRa
+temperature
+esp8266
+tank
+levels
+temperature
+water
+Temp Sensors
+esp8266
+temperature
+humidity
+esp8266
+DHT22
+BMP280
+BME280
+erwin713
+nodemcu
+esp8266
+DHT22
+lux
+energy monitor
+
+alicudino
+agonet
+temp
+bedroom
+lämpötila
+giannis
+EMU
+oe9
+esp8266
+Arduino
+BMP180
+TSL45315
+VEML6070
+Barometric
+Pressure
+temperature
+humidity
+uv
+LightIntensity
+Si7021
+nodemcu
+TSL2591
+JSC
+esp8266
+temperature
+Detector
+12TA
+PO19
+Melexis
+Infrared
+thermopile
+MLX90614
+sensor
+HTU21D
+humidity
+PIR movement
+Watts
+CampDavid
+Watts
+CampDavid
+SLB3
+Raspberry Pi
+DHT22
+temperature
+humidity
+Temperatures
+house
+diy
+zone
+regulation
+Brno
+education
+SAP Slovensko
+Si7021
+TSL2561
+BMP180
+weather
+diy
+HomeAssistant
+Temperatura
+Cracow
+astronomy
+weather
+Astro
+diy
+electricity
+pulse
+nodemcu
+Lua
+esp8266
+openhab
+Solar
+solar panel
+monitoring
+temperature
+country-house
+Greenhouse
+Temperatura
+pomiary
+krusevac
+Temperatura
+Arduino
+nene
+nenadtripkovic
+temperature
+sensors
+https://www.facebook.com/groups/1732673917010538/
+DS-2_winddirection
+DS-2_windspeed
+DS-2_windgust
+DS-2_temperature
+PIR
+office
+esp8266
+Zyxel
+Beeline
+Foton
+LDR
+temperature
+humidity
+DHT22
+Arduino
+Ethernet
+w5100
+esp8266
+BMP180
+DHT22
+#Level Monitoring
+#Ultrasonic Sensor
+#nodemcu
+Arduino Uno WiFi
+ciao
+Thingspeak
+DHT22
+Vortice
+Virtuino
+Android
+Arduino Uno
+Arduino
+Temperatur
+Luftfeuchtigkeit
+temperature
+humidity
+Hysterese
+Taupunkt
+wifi
+Kellerlüftung
+Lüftung
+dew point
+Hysteresis
+ventilation
+Basement ventilation
+Feuchtigkeit
+Pool
+Nanode
+Arduino
+central heating
+temperature
+Electric Imp
+esp32
+ESP
+esp-wroom-32
+BME280
+Solar
+LiPo
+2500mAh
+temperature
+humidity
+Pressure
+voltage
+463885
+esp8266
+Smart Refrigerator
+Arduino
+temperature
+temperature
+Radiation
+counter
+Geiger
+radioactivity
+DHT11
+Arduino
+esp8266
+alfaromeo
+i2c
+nodemcu
+light sensor
+BMP280
+ESP01s AD
+
+Feinstaub
+luftdaten
+air quality
+particle sensor
+SDS011
+Fine dust
+Wetter
+weather
+temperature
+humidity
+Temperatur
+Luftfeuchtigkeit
+DHT22
+temperature
+humidity
+Air pressure
+air quality
+Out Door Temperature
+esp8266
+temperature
+DS18B20
+Pool
+temperature
+Solar
+heating
+Sun
+co2
+dust
+air
+K30
+PMS5003
+temp
+humidity
+ppm
+c
+%
+Feusdorf
+vulkaneifel
+eifel
+junkerath
+feusdorf eifel
+erwin713
+esp8266
+BME280
+IOT
+Beaconsfield
+temperature
+DS18B20
+sonoff
+esp8266
+Node-RED
+mestrado
+Loulé
+Barreiras Brancas
+PA
+temperature
+humidity
+BME280
+2tc
+temp
+humidity
+open
+Pino
+overview
+Luftfeuchte
+Lufttemperatur
+nodemcu
+DHT22
+Luftdruck
+BMP280
+margarine
+esp8266
+nodemcu
+MQ-5
+DS18B20
+Lua
+ESP-12F
+Traffic
+ETA
+Arduino
+esp8266
+SCT013
+current
+intensity
+Power
+Madrid
+Spain
+EMONLIB
+DHT22
+DS18B20
+RFM12b
+Wilcza
+Oregon
+sonde
+weather
+outside
+exterieur
+fibaro
+WeMos
+Adafruit
+Kraftstoffpreise
+Volmarstein
+Wetter
+Hagen
+Tankstellen
+Diesel
+Super
+E5
+Deutsch
+BRD
+germany
+€
+eur
+euro
+Kraftstoffpreis
+Wetter (Ruhr)
+Wetter-Ruhr
+Tanke
+tanken
+Tankstelle
+Tankstellenpreis
+Tankstellenpreise
+Deutschland
+NRW
+Ruhrgebiet
+Total
+Jet
+ohne Gewähr
+Gewähr
+ohne
+Vila Real
+Si7021
+DHT11
+portugal
+esp8266
+DHT11
+temperature
+humidity
+IOT
+Estonia
+deep sleep
+battery powered
+LM35
+Tallinn
+DHT22
+temperature
+sucy2 Temperatur
+SPAG
+abc
+martiartu
+esp8266
+esp8266
+DS18B20
+Kolín
+dth22
+esp8266
+BMP180
+Dust Sensor
+esp-12
+wemosd1mini
+WeMos
+temperature
+DS18B20
+wemosD1
+CZ
+lisen
+Brno
+indoor
+Strom
+Photovoltaik
+Ternopil
+AirQM
+Oregon
+sonde
+temperature
+humidity
+house
+fibaro
+dweet.io
+phant
+freeboard.io
+sensor
+esp8266
+IOT
+Athens
+temp
+DS18D20
+Greece
+GR
+temperature
+nodemcu
+one wire
+temperature
+humidity
+temp
+wi-fi
+real-time
+indoor
+tnpu
+environmental
+Ukraine
+air quality
+PM10
+PM2.5 monitor
+CHEM-BIO Ternopil
+Ternopil
+Arduino
+IoT2
+meres
+SDM120
+sdm120c
+energy
+Power Meter
+esp8266
+Arduino
+Modbus
+power factor
+energy monitor
+Hungary
+jb
+temp
+temp out
+Grimmered
+IVF
+Pharmacy
+QLD
+Wickham
+yy2
+bio
+temp
+humidity
+esp8266
+DHT11
+irrigation
+open channel
+level
+sr04
+Arduino
+weather
+weather station
+czech republic
+czech
+Brno
+temperature
+humidity
+luminosity
+light
+Pressure
+esp8266
+nodemcu
+Arduino
+LDR
+diy
+temperature
+relative humidity
+atmospheric pressure
+DS18B20
+HH10D
+BMP180
+Arduino
+xbee
+Radiation
+counter
+Geiger
+oe1gca
+sid
+NSY
+45.9 kHz
+#ESP8266
+#nodemcu
+#bmp180
+#dht22
+Viet Nam Power
+IOT
+CEPC
+Hoi An
+Cold
+Compman
+DHT22
+LDR
+rain sensor
+Mycha
+Bledzew
+Air pressure
+light sensor
+BMP180
+weather
+esp8266
+nodemcu
+server room
+temperature
+humidity
+monitor
+temperature
+ESP-01
+Vilar Formoso
+weather
+portugal
+Penha Garcia
+weather
+portugal
+Rosal de la Frontera
+weather
+portugal
+Anadia
+weather
+portugal
+Avelãs de Caminho
+weather
+portugal
+esp32
+ESP
+esp-wroom-32
+BME280
+Solar
+LiPo
+2500mAh
+temperature
+humidity
+Pressure
+voltage
+Alvares
+weather
+portugal
+Chickens
+COOP
+temperature
+light
+Raspberry Pi
+Arduino
+IOT
+DHT 22
+nodemcu
+DA52
+DA52.RU
+Carborobot
+баня
+temperature
+humidity
+co2
+WeMos
+d1
+weather
+station
+BME280
+BME
+280
+mini.esp
+8266
+esp8266
+aragon
+Zaragoza
+actur
+Estacion meteorologica
+meteo
+esp8266
+HTU21D
+MPL3115A2
+solar panel
+zsp
+skórcz
+smog
+kociewie
+mykietyn
+mundurówka
+ekonomik
+logistyk
+esp8266
+pzem-004t
+temperature
+humidity
+control
+Pressure
+temperature
+esp8266
+DS18B20
+nodemcu
+esp8266
+DS18B20
+BMP180
+BH1750
+DHT22
+iol
+MES
+ODS
+MTAI
+suhu
+kelembaban
+jababeka
+CAS
+InWall
+humidity
+temperature
+esp8266
+weatherstation
+Switzerland
+temperature
+humidity
+DHT22
+DHT11
+Squix78
+Stulz
+Vijaya Gardens
+Jamshedpur
+India
+Byomkesh Dash
+esp8266
+BME280
+temperature
+humidity
+Pressure
+AmbSense
+summer
+house
+garden
+cornwall
+DS18B20
+BMP180
+esp8266
+ningbo
+thermostat
+wifi
+esp8266
+weather
+temperature
+Pressure
+humidity
+temperature
+solar radiation
+temperature
+relative humidity
+oe1gca
+21325
+Precipitation
+temperature
+relative humidity
+oe1gca
+16818
+Escola
+portugal
+quinta do conde
+barulho
+ruído na escola
+esp8266
+sensor som
+boa água
+Arduino
+soil
+moisture
+sensor
+
+WeMos D1 Mini
+BME280
+BME280
+GWANGJU
+korea
+乐年
+室内
+温度
+湿度
+温湿度
+203
+窗户
+ESP0031
+乐年
+室内
+温度
+湿度
+温湿度
+203
+电视机
+ESP0033
+乐年
+室内
+温度
+湿度
+温湿度
+103
+厕所
+ESP0028
+Santuario
+Antioquia
+colombia
+humedad
+Estación
+Temperatura
+첫마을5단지
+Kherson
+Херсон
+Ukraine
+Украина
+esp8266
+Lua
+nodemcu
+BME280
+matlab
+DS18B20
+LDR
+DHT22
+environmental
+weather
+monero
+xmr
+blockchain
+weather station
+esp8266
+DS18B20
+Test
+Tags
+Oilwatcher
+heating oil
+Ireland
+Dundalk
+County Louth
+weather
+temperature
+humidity
+oe1gca
+MHE FV
+Radiation
+RadMon
+Geiger
+DS18B20
+outside
+raspberry
+temperature
+toyama
+japan
+Águas Boas
+weather
+portugal
+temperature
+humidité
+arrosage
+ventilateur
+anemometer
+wind speed
+Wireless
+diy
+temperature
+stacja pogody
+pogoda na Brodwinie
+Sopot
+T24
+temperature
+GoC
+GoC
+DHT22
+ESP8266WiFi
+DS18B20
+WeMos D1
+WeMos D1 Mini
+
+weather
+DS18B20
+DHT22
+germany
+humidity
+KS300
+Leverkusen
+Luftfeuchtigkeit
+Niederschlagsmenge
+rainfall
+Temperatur
+temperature
+weather
+Wetter
+wind velocity
+Windgeschwindigkeit
+raspberrypi
+nosal
+zakopane
+Temperatur
+Luftfeuchte
+Luftdruck
+Luenen
+Lünen
+NRW
+Deutschland
+germany
+DHT22
+WeMos
+nodemcu
+esp8266
+BME280
+#temp
+s19
+occupancy
+PIR
+8266
+weather
+temperature
+humidity
+rain
+wind
+Indoors
+outdoors
+Orange Agricultural Institute
+oai
+weather
+Meter Atmos41
+solar radiation
+Lightning
+wind
+temperature
+rainfall
+FDT
+DPI
+Orange Agricultural Institute
+oai
+weather
+Meter Atmos41
+atmospheric pressure
+humidity
+FDT
+DPI
+G5
+PMS5003
+am2320
+Radon
+co2
+humidity
+Pressure
+temperature
+monitoring
+Gamma radiation
+Greenhouse
+garden
+plants
+Brunnhaus
+Bienenstöcke
+beelogger
+Solaranlage
+Raum Karlsruhe
+germany sowie Heizungsvorlauf
+Batteriestatus  und Olersparnis. ESP 8266 - 01
+4xDS18B20
+Temperatura
+temp
+humidity
+ESP8622
+DHT22
+Varna
+Bulgaria
+weather
+temperature
+humidity
+brightness
+sunlight
+乐年
+室内
+温度
+湿度
+温湿度
+106
+窗户
+ESP0016
+乐年
+室内
+温度
+湿度
+温湿度
+102
+厕所
+ESP0013
+乐年
+室内
+温度
+湿度
+温湿度
+102
+电视机
+ESP0012
+乐年
+室内
+温度
+湿度
+温湿度
+102
+窗户
+ESP0011
+乐年
+室内
+温度
+湿度
+温湿度
+106
+电视机
+ESP0019
+#iotlab #yolo #iot2 #meres
+esp8266
+DHT22
+linux
+memory
+CPU
+du
+windspeed anemometer arduino Si4432
+Boiler
+DS18B20
+Solar
+relay
+control
+sample
+geronlab
+A502
+O2
+temp
+press
+智能家居
+smog
+mysłowice
+kanarek
+myslowicki smog
+zagłębie
+powietrza
+powietrze
+pył
+koivulinna
+dth22
+esp8266
+temperature
+humidity
+weather
+BMP180
+IOT
+DHT22
+esp8266
+cellar
+temperature
+light
+LDR
+Air pressure
+dew point
+humitity
+Solar
+PTV
+550l
+4panels
+nodemcu
+esp8266
+BME280
+weather
+temperature
+Pressure
+humidity
+dewpoint
+watertenk
+flood
+Measure
+homeautomation
+MeteoPi
+Niedzwiedz
+mBank
+mPotega
+temperature humidity inhouse
+bird box
+nestbox
+nest box
+RPI
+Raspberry Pi
+Birdbox
+weather
+lutita
+agyagfalva
+temperature
+stazione meteo
+mecuy62
+DHT22
+weather station
+esp8266
+dew point
+Punto di Rugiada
+IW3HBX
+EVG
+JAFIRA.cz
+temperature
+Lan Controler
+person
+people
+Traffic
+patrons
+Greenhouse
+DHT11
+rain
+moisture
+light
+Arduino
+uno
+ethernet shield
+Temperatur
+Feuchte
+Luftdruck
+karlsruhe
+K2PI
+K2PI-13
+aprs
+wx
+koivulinna
+DHT22
+esp8266
+temperature
+relative humidity
+dew point
+dust  particles
+stuttgart
+Feinstaub
+respirable dust
+SDS011
+Arduino
+davis
+Greece
+Athens
+kantza
+vantage vue
+DHT22
+maxsonar
+mb1240
+ESP
+esp8266
+ESP12
+esp8266 12
+weather
+station
+weatherstation
+DS18B20
+logger
+wifi
+RSSI
+
+ingle
+temperature
+humidity
+indoor
+outdoor
+Wiedemann
+weather station
+TaloLogger
+leppalanloukko
+MULTILAB
+DHT22
+RTL433
+DS18B20
+esp8266
+OrangePi0
+WeMos
+nodemcu
+DVB-T
+easyesp
+scale
+Cat feeder
+espeasy
+domoticz
+IRIMEENET
+pogoda
+Bochnia
+nodemcu
+esp8266
+ESP
+BME280
+BME
+weather
+nodemcu
+DHT22
+PMS7003
+esp8266
+BME280
+IOT
+i2c
+temperature
+humidity
+inside
+HTU21D
+Dragoman
+2210
+Bulgaria
+raak
+berthoud
+esp8266
+ESP-12E
+DHT 22
+lima
+peru
+Arduino
+esp8266
+ducati24h
+esp8266
+18F25K22
+SCT-013-030
+PPmeter
+Sevilla
+electric meter
+energy monitoring
+Power Meter
+Photon AM2302
+Porto
+weather
+portugal
+temp
+meteo
+Castro Daire
+weather
+portugal
+Trancoso
+weather
+portugal
+Feira
+weather
+portugal
+Oliveira do Hospital
+weather
+portugal
+Guarda
+weather
+portugal
+Vagos
+weather
+portugal
+Viseu
+weather
+portugal
+Si7021
+mh-z19
+voltage
+RTC
+reboot
+system
+GSM
+Kraftstoffpreise
+Tankstellen
+Wetter
+E5
+Deutsch
+BRD
+germany
+htc22
+€
+Kraftstoffpreis
+Wetter (Ruhr)
+Wetter-Ruhr
+Tanke
+tanken
+Tankstelle
+Tankstellenpreis
+Tankstellenpreise
+eur
+euro
+Deutschland
+NRW
+Ruhrgebiet
+esp8266
+Total
+ohne
+ohne Gewähr
+Gewähr
+Messdaten
+Polska
+otwock
+wczasowa
+zanieczyszczenie
+chrobry
+pogoda
+ciśnienie
+Temperatura
+Sunfiber
+air quality
+PM2.5
+PM10
+
+LoRAthens
+Ciepla
+Woda
+Krakow
+Piastow
+solaire
+Autoconsommation
+Gestion du surplus
+Solar
+energy consumption
+Power Meter
+Arduino
+esp8266
+WeMos D1
+Android
+solar panel
+nodemcu
+DHT22
+MAF
+SIL
+Львів
+Вулиця
+Левандівка
+Температура.
+Wetter
+Faßberg
+29328
+weather
+esp8266
+DHT22
+BMP180
+Montecristo
+fm montecristo
+Fm MTC
+Radiation
+Pezinok
+Slovakia
+Arduino
+Geiger
+sbm20
+SBM-20
+Dane testowe
+hannon1000
+ethernet weather station
+Bambooke
+weather station
+Fort Washington
+Maryland
+Prince George's County
+Yoctopuce
+meteo
+temperature
+Pressure
+humidity
+Salotto1
+esp8266
+Arduino
+OTA
+D1 Mini
+spotlight16
+DOW
+Competition
+zombie
+Detector
+airpi
+ESP-01
+ESP
+esp8266
+Arduino
+3.3v
+3v3
+hvac
+Wireless
+air conditioner
+Arduino Pro Mini
+heater
+energy
+monitoring
+Usage
+energy usage
+energy monitoring
+monitor
+energy monitor
+on7rd
+firewall
+geonosis
+temperature
+PM2.5
+temperature
+humidity
+Stulz
+esp8266
+BME280
+IOT
+1
+fotowoltaika
+panele słoneczne
+solary
+biskupiec
+meteo
+meteostation
+Rumburk
+weather data
+atmospheric pressure
+wind speed
+Woods
+test sensor
+Arduino
+RTC
+relay
+BMP180
+Arduino
+DHT22
+DS18B20
+soil
+humidity
+light
+rain
+Tipping Bucket
+Heat
+convector
+BME 280
+light dependent resistor
+soil moisture sensor
+Arduino Pro Mini
+Brunnhaus
+Bienenstöcke
+beelogger
+Pi DH22
+Radiation
+Straling
+Geigercounter
+ingle
+soil
+moisture
+temperature
+Solar
+thermal collector
+raspberry pi 3 dht22
+ESP12
+Żywiec
+stacja
+Pogodowa
+meteo
+Brzuśnik
+BME280
+Solar
+panel
+esp32
+
+esp8266
+Witty Cloud
+HC-SR04
+Homeseer
+MAF
+SIL
+DHT22
+Wetter
+weather
+Temperatur
+temperature
+Bayern
+DHT11
+DS18B20
+esp8266
+WeMos D1 Mini
+WeMos
+ESP
+8266
+weather
+sellwood
+westmoreland
+moreland
+portland
+Oregon
+pws
+weewx
+acurite
+BME280
+ambientweather
+AM2302
+DS1820
+BME280
+teplota
+sensors
+Gas
+temp
+Agrosilvicoltura 2.0
+Lisbon
+weather
+portugal
+Peniche
+weather
+portugal
+tank
+level
+water usage
+esp8266
+wemosD1
+Hall Effect Flow Sensor G1
+Volltel LV800 Pressure Sensor
+Arduino
+mkr1000
+OneWire
+RPI
+Neptune
+TRELLEBORG IoT
+Jortronm
+JTRON
+DHT11
+temperature
+humidity
+DS1820
+Arduino
+Ethernet
+CZ
+Brno
+lisen
+DS18B20
+wifi
+esp8266
+temperature
+연습
+Solar Weather Station
+esp8266
+BME280
+krosno
+Temperatura
+nodemcu
+ESP
+DS18
+DS18B20
+poland
+podkarpackie
+OLED
+water level
+Raspberry Pi
+Adafruit
+HC-SR04
+ESP8266 Wetterstation
+raspberry pi 3
+temperature
+Pressure
+BMP180
+DHT22
+Greenhouse
+smog PM PM10 PM2.5 Łowicz pył pomiar ESP pollution  air quality AQI Lowicz sensor jakość powietrze  SDS011 SDS021 airmonitor
+wi-fi
+real-time
+indoor
+tnpu
+environmental
+Ukraine
+air quality
+PM10
+PM2.5 monitor
+CHEM-BIO Ternopil
+Ternopil
+pomiary
+Wärmeschrank
+Honig
+eifel
+Imkerei
+charge kWh consumption
+Aquarium
+Fish tank
+esp8266
+DS18B20
+DT22
+WeMos D1 Mini
+Power
+RO
+Västanåskolan
+Västanå
+gurgaon
+wind speed component
+sonic
+temperature
+Delhi NCR
+experimental
+temp
+humidity
+esp8266
+HDC1000
+temperature
+humidity
+AQI
+Bangalore
+air
+quality
+index
+India
+whitefield
+PM2.5
+EPA
+NAQI
+NAQS
+Air Quality Index
+PM2.5
+PM10
+WeatherDuino
+co2
+home monitor
+V1
+photon
+hot
+esp8266
+BME280
+Zwoleń pogoda
+TTN
+Solar
+sergio arboleda
+WeMos
+SHT-30 shield
+bachohospital
+temperaturka
+Polska
+Bydgoszcz
+meteo
+ciśnienie
+zapylenie
+nasłonecznienie
+Szwederowo
+Bielicka
+sht21
+ml8511
+pms3003
+Modbus
+Temperatura
+raspberry
+BMP280
+BH1750
+STM32
+esp8266
+BME280
+INA219
+ADS1115
+NJL7502L
+Solar
+Battery
+aa
+NiMH
+japan
+ky
+ka
+vy
+VK
+VA
+pm
+PP
+ul
+weather
+Dzhuriv
+Ukraine
+Arduino
+sensors
+esp8266
+temp
+esp8266
+Jarocin
+Heidingsfeld
+esp8266
+BME280
+esp8266
+D1 Mini
+BME280
+6600 mAh LiPo
+TPS61200
+weather
+portugal
+Alcoutim
+Santa Comba de Rossas
+weather
+portugal
+São Marcos da Serra
+weather
+portugal
+Salir
+weather
+portugal
+Serta
+weather
+portugal
+Castelo Branco
+weather
+portugal
+Mogadouro
+weather
+portugal
+Vila Nova de Foz Côa
+weather
+portugal
+OpenWRT
+D-link Dir-320
+digitemp_DS9097
+DS18B20
+PL2303
+temperatures monitoring
+USB
+TTL
+extra memory.
+Alpalhão
+weather
+portugal
+Bemposta
+weather
+portugal
+esp8266
+DS18B20
+hvac
+Славутич
+Украина
+Slavutich
+Ukraine
+solar monitoring
+battery load
+Solar Power
+PV
+environmental
+monitoring
+pressão
+Temperatura
+umidade
+piracicaba
+LAN K Piwnica
+smog
+lublin
+Relaksowa
+pomiar
+Stulz
+KWB
+temperature
+lux
+relative humidity
+Air pressure
+Box3
+zs7
+stacja
+meteo
+blogoslawiona
+karolina
+Arduino
+gimnazjm
+nr 4
+rzeszów
+Polska
+sp18
+szkola podstawowa nr 18
+esp8266
+HX711
+PT100
+raspberry
+DS18B20
+Aquarium
+WeMos D1
+weather station
+air quality
+humidity
+MR WATT
+Simone Cecchetti
+Gianluigi Micheletti
+Pressure
+stazione meteo
+qualità aria
+pressione
+Temperatura
+mrwatt
+particulate matter
+FACENS
+Smart Campus
+Carema
+Torino
+italy
+perth
+Australia
+temperature
+light
+LDR
+Carborobot
+Прометей-Автомат
+ЯИК
+котельная
+твердое топливо
+автоматика
+Карборобот
+уголь
+диспетчеризация
+оповещение
+авария
+сигналы
+Русские Тапки
+DA52
+rustapki.ru
+DA52.RU
+sztywniak
+fibaro
+hc2
+co2
+temp
+humidity
+IoT Project
+absolute Humidity
+dew point
+Solar
+Geyser
+hot water
+temp
+Saia PCD
+alicudino
+agonet
+nivel de agua
+eamsep
+température
+esp8266
+ds1820
+NTZ
+Filter
+Q-LAB
+BME280
+esp8266
+DS18B20
+BVRC Channel
+Albufeira
+weather
+portugal
+Room_Temperature
+co2
+Tczew
+
+esp8266
+DHT11
+BMP180
+DS18B20
+esp32
+Geiger Counter
+aging chamber
+Charcuterie
+humidity
+temperature
+RPI
+Raspberry Pi
+curing
+aging
+salumi
+xxx
+Temperature sensor reading
+Humidity sensor reading
+MULTILAB
+Loger
+DHT22
+ESP8266WiFi
+ESP8266  DTH22
+ESP-12F
+DHT11
+Lua
+weather
+Particle photon
+Solar
+DHT11
+Stulz
+Santiago do Cacém
+weather
+portugal
+Aljustrel
+weather
+portugal
+Grandola
+weather
+portugal
+Ferreira do Alentejo
+weather
+portugal
+Vidigueira
+weather
+portugal
+Amareleja
+weather
+portugal
+weather
+portugal
+Vendas Novas
+weather
+portugal
+evora
+weather
+portugal
+Borba
+weather
+portugal
+B-52a
+Arduino_Serial_Out
+Morgny
+Esp8266
+France
+Dumx
+Ds18b20
+Ds1820
+Nodemcu
+ninojack
+radioactivity
+netherlands
+indoor
+esp32
+j305
+Geiger tube
+Radiation
+Radiation
+weather
+heating
+floor
+hydronic
+forecast
+weather
+temperature
+relative humidity
+Valores
+Koi
+Pond
+UK
+temp
+Depth
+Arduino
+esp8266
+Waag 200 kg
+Raciborsko
+air
+PM10
+PM2.5
+photoresistor
+photon
+particle
+kitchen
+lightmyfire
+esp32
+ACS712
+zmpt101b
+relay
+temperature
+humidity
+poland
+sarnow
+silesia
+temperature
+乐年
+室内
+温度
+湿度
+温湿度
+103
+电视机
+ESP0027
+LSM800
+Bioimaging
+Newcastle University
+Temperatura
+presion
+humedad
+esp8266
+Wemos Mini
+wifi
+Kobylisy
+topeni
+kana
+kanala
+ESP2688-01
+BME280
+Temperatur
+Libeznice
+ITECW_MCE_IOT
+co2
+USB
+TMP
+Fm Nihuil
+Nihuil
+Cold
+soverum
+Bengaluru
+Bangalore
+temperature
+humidity
+Pressure
+mixing ratio
+dew point
+India
+Dasarahalli
+MSLP
+weather
+weather station
+esp8266
+BME280
+esp8266
+DS18B20
+nodemcu
+Si7021
+BMP280
+sh1106
+Lua
+weather
+ESP-12F
+PIR
+Arduino Uno
+wiznet 5100
+DS18B20
+LM58D
+Pernambuco
+IR
+texnet
+olinda
+brasil
+kharkiv
+Kharkov
+Ukraine
+Харьков
+Украина
+Харків
+Україна
+kh
+ua
+hot
+hot
+oe9
+UV Index
+VEML 6075
+Temperature Monitoring
+DHT22
+stacja pogody
+weather station
+pogoda
+brwinów
+wiatr
+ciśnienie
+Polska
+Temperatura
+weewx
+RO
+IOT
+temperature
+humidity
+light
+SensorTag
+raspberry
+pi
+Node.js
+weather station stacja pogodowa pyskowice slask silesia polska poland temperatura temperature relative humudity wilgotnosc wzgledna naslonecznienie sunlight cisnienie atmospheric pressure
+Gelsa
+Zaragoza
+aragon
+Solar
+MPPT
+SRNE
+Free Energy
+PROCESS BB
+madmax24
+esp8266
+hedgehog
+WH1080
+weather
+humidity
+temperature
+Pressure
+raspberrypi
+esp8266
+CumulusMX
+ψυγειο
+Ορνιθογευσία
+meteostanice
+Arduino
+GSM
+meteostation
+Jindřichův Hradec
+czech republic
+DHT22
+NodeMCU V3
+SDS011
+Radon
+co2
+humidity
+Pressure
+temperature
+monitoring
+Gamma radiation
+weather
+station
+Arduino
+ESP
+8266
+esp8266
+ESP
+nodemcu
+Solar
+pump
+light
+ACS712
+BH1750
+esp8266
+BME
+rechargeable
+bedroom
+temperature
+birra
+beer
+homebreweing
+Frigo
+Temperatura
+cdias
+IOT
+IoT Works
+works
+Internet of Things
+iotworks
+iotwork
+iot work
+work
+Murrhardt
+Murr
+Pegel
+Niederschlag
+WeMos D1
+DHT22
+Renkum
+nederland
+the netherlands
+wx
+Blunenau
+brasil
+aprs
+PU5ALK
+kiln
+electric ceramic kiln.
+temp1
+Hum1
+temp2
+Hum2
+temp3
+Hum3
+Temp4
+Hum4
+nodemcu
+BME280
+Wetter
+Wetterstation
+weather
+weather station
+Chiemgau
+Innsalzach
+Altötting
+Unterneukirchen
+Xbee
+XIG
+DHT22
+BMP085
+Arduino
+Bioimaging
+Newcastle University
+microscope
+multiphoton
+RO
+LMS   Beckov
+PM2.5
+Home
+garage
+
+Home
+outside
+esp32
+ACS712
+zmpt101b
+relay
+Wifi Power meter
+esp8266 power meter
+погода
+метео
+проноз
+Луцьк
+метеостанція
+RPI
+external
+OSTR
+13mi776
+weer
+data
+buienradar
+rotterdam
+TV
+uptime
+Klima Heiligenhaus Nordring
+Tritium
+decay
+beta particles
+long-term stability
+AtmoLab
+beehive
+UAV
+weather
+Nihuil
+Fm Ayer
+Siena
+esp8866
+BME280
+Arduino
+pressione
+Temperatura
+batteria
+Italia
+italy
+toscana
+humidex
+sipoonkorpi;esasakke
+Rekuperator
+Skierniewice
+weather station
+stacja pogodowa
+weather
+pogoda
+meteo
+outdoor
+temperature
+humidity
+1000
+esp8266
+DHT22
+Arduino
+WeMos D1 Mini
+Solar
+PV
+Temperatura
+water
+paddock
+horse
+waterlevel
+waterhoogte
+Windspeed
+windsnelheid
+........................................
+HaMa
+Barometric
+Pressure
+temp
+esp8266
+sensor
+DHT11
+esp8266
+DS18B20 X 3
+Basement
+humidity
+lightlevel
+At my home in Stånga on Gotland in Sweden
+weather
+temperature
+humidity
+wind
+Barometer
+rain
+IOTBB
+Milanówek
+PM10
+PM2.5
+Envigado
+temperature
+humidity
+Arduino
+nodemcu
+Monitoreo
+medellin
+BMP280
+Pressure
+AQI
+air quality
+esp8266
+colo
+bia
+8 hs dia 20 = 19145 / 19hs 19148
+upstairs temp and humidity
+esp32
+BME280
+BMP280
+IOT
+Temperatura
+clima
+maceió
+AL
+Alagoas
+Internet das Coisas
+1ESP8266
+DS18B20
+inchoo
+magento
+beehive
+raspberry
+TTN
+raspi
+дача
+stupid
+Nodemcu8266
+DHT11
+esp8266
+temp
+FHEM
+Celsius
+Temperatur
+Börnchen
+x-band
+Arduino
+Mega
+Yun
+Omega2+
+home security
+home monitor
+PIR
+Near Field
+Temp/Humidiry
+Wire Wrap
+Rotex
+Heatpump
+Wärmepumpe
+HPSU
+Compact
+508
+Daikin
+ESP12F
+BMP180
+sht21
+temperature
+humidity
+temp
+humidity
+count
+nodemcu
+Lua
+esp8266
+weather
+Stulz
+Stulz
+Stulz
+Stulz
+SMPO
+Wh
+Particle photon
+DHT22
+Fish tank
+low voltage transformer
+3 phase transformer
+single phase transformer
+voltage stabilizer
+ ac stabilizer
+power regulator
+reactor
+Metrohm Autolab
+esp8266
+Arduino
+BME280
+office
+desk_weather
+humidity
+Ideal Humidity
+esp8266
+DHT22
+PM2.5
+PM1.0
+PM10
+Bellevue
+WA
+Washington
+WildFire
+AirQualityIndex
+AQI
+seattle
+temperature
+humidity
+DHT22
+acquario
+Arduino
+reef
+MQ-2
+MQ-7
+Arduino_I2C
+esp8266
+sht21
+DHT22
+NodeMCU V3
+meteostanice
+Temperatur
+Si7021
+esp8266
+temperature
+Si7021
+esp8266
+humidity
+Si7021
+esp8266
+Battery
+nodemcu
+BMP180
+DS18B20
+esp8266
+am2320
+Искър
+България
+BMP085
+Air Quality Index
+PM2.5
+PM10
+WeatherDuino
+co2
+Palmerston North
+Manawatu
+New Zealand
+PalmyWeather
+esp8266
+homes-smart
+http://it4it.club
+http://blog.squix.org
+http://wifi-iot.com
+Arduino
+esp8266
+netherlands
+Wägezelle
+lora
+IOT
+Home Environment Monitoring System
+sample
+geronlab
+A502
+esp8266
+DHT11
+standalone
+Ameba
+kevinlin
+DHT22
+LCD1602
+temperature
+humidity
+LASS
+PSM3003
+esp8266
+BME280
+humidity
+Air pressure
+BH1750
+temperature
+lux
+Radcliffe
+Manchester
+UK
+Solar
+Power
+Solar Power
+E3DC
+Photovoltaik
+Switzerland
+IOT
+raspberry
+java
+javascript
+Node.js
+Humenné
+Slovakia
+IOT
+BME280
+sigfox
+zwieratko
+simplecell
+Arduino
+LPWAN
+loděnice
+spartak sedlec
+BME280
+DS18B20
+pi zero
+esp8266; dht22
+temperature
+humidity
+Pressure
+Dresden
+germany
+Deutschland
+Klotzsche
+Strom
+Zirndorf
+Deutschland
+BRD
+Solar
+
+乐年
+室内
+温度
+湿度
+温湿度
+101
+电视机
+ESP0006
+temperature
+Radimer
+Herzig
+humidity
+teplota; tlak; vlhkost; meteostanice; velešín
+Kallikrateia
+Chalkidiki
+temperature
+kallikratia
+xalkidiki
+temperature
+STB
+Feinstaub
+Hamburg
+particulate matter
+Fine dust
+temperature testing
+lora
+weather station
+felton
+cambooya
+BME280
+weather
+Temperatura
+humidity
+tempo
+Maringá
+Estação
+esp8266
+DHT22
+temperature
+Estação climática
+sensor de temperatura
+sensor de umidade
+nodemcu
+Raspberry Pi
+DS18B20
+Aquarium
+temperature
+light
+bh1750fvi
+Solar
+WeMos D1 Mini
+BME280
+
+skinnskatteberg
+serverrum
+västmanland
+Sweden
+Sverige
+skinnskattebergs kommun
+temperature
+STTS
+indonesia
+RAK811
+Node-RED
+lorawan
+IOT
+LIS3DH
+lora
+DHT11
+Slovakia
+FEI STU
+temperature
+humidity
+weather
+BME280
+RG-11
+temperature
+Pressure
+humidity
+wind direction
+wind speed
+rain
+Temperatur
+Feuchtigkeit
+34225
+Baunatal-Hertingshausen
+Baunatal
+Hertingshausen
+Deutschland
+germany
+temperature
+humidity
+Geiger Counter
+Radiation
+Geiger
+esp32
+las vegas
+temperatue
+humidity
+SI7021/HTU21D
+Prater 2018
+oe1gca
+temperature
+Arduino
+SAT24
+SAT 24
+Weather Forecast
+forecast
+Weather Radar
+Weather Map
+Weather Online
+Pollham
+Loxone
+Power
+lolkishore
+PM2.5
+Material Particulado
+pm
+rosario
+Santa Fe
+Argentina
+lu6fpj
+esp8266
+DS18B20
+Thingspeak
+WLAN
+Arduino
+Solar
+esp8266
+ACS712
+Kaunas
+lietuva
+lithuania
+DHT22
+Raspberry B+
+status
+gardening
+IOT
+esp8266
+V200
+af104-rkz
+Adafruit HUZZAH ESP8266
+Sparkfun TMP102
+sigfox
+Arduino
+meteo
+DHT11
+MKRFOX 1200
+DHT22
+RSSI
+snr
+LPWAN
+MKRFox1200
+868 MHz
+IOT
+sensor
+low power
+esp8266
+BME280
+BH1750
+humidor
+humidity
+temp
+DHT22
+esp8266
+power consumption
+Power Monitor
+Power Meter
+voltage
+Current electricity
+ADE7816
+ESP-WROOOM-02
+esp8266
+ESPr_Developer
+shed
+critical
+beer fridge
+lux
+temperaatura
+hola caracola
+Oscar Martinez Castro
+Estacion meteorologica
+Arcia
+Profesor Arcia
+UNI EO
+Estación meteorológica uni
+Estación meteorológica rata
+estasion meteorologica rata
+voltage
+volt
+loadbalance
+plant
+sensor
+humidity
+weather
+esp8266
+DS18B20
+Solar
+direct
+vac tube
+thermo-siphon
+esp8266
+10k Thermistor.
+temp
+sol
+DHT11
+actron
+chanel1
+mierzwice
+pump
+Controller
+water pump
+pump controller
+jet pump
+solenoid
+Arduino
+Arduino Uno
+esp8266
+ESP-01
+solenoid valve
+containertech
+vannrensing
+veidekke
+Bergen
+pihome
+air quality
+IAQ
+VOC
+TVOC
+#nokoments
+Texas Instruments TMP102
+Zhengzhou  Winsen Electronics MQ-3
+xbee
+Arduino
+Raspberry Pi
+Oregon
+fibaro
+daaf
+redbeard28
+Power
+Phase 1
+Phase 2
+MPPT
+Battery
+oe1gca
+CPM
+Radiation
+x-ray
+Geiger
+Vienna
+Wien
+esp8266
+DS18B20
+wifi-iot
+Xbee
+XIG
+DHT22
+Arduino
+Seeeduino
+esp8266
+DHT22
+drytech
+temperature
+humidity
+electroosmosis
+dry
+arduino mega
+DS18B20
+BMP180
+DHT22
+bh1750fvi
+ml8511
+Air Quality Index
+PM2.5
+PM10
+WeatherDuino
+co2
+Darra
+QLD
+Australia
+weather
+temperature
+humidity
+dew point
+Pressure
+esp8266
+DHT22
+VH400
+MQTT
+plant
+watch
+IOT
+diy
+mcu
+TSL2561
+BMP180
+monitoring
+gardening
+ph
+DHT22
+WeMos
+BMP180
+indoor
+temperature
+room
+nodemcu
+DS18B20
+esp8266
+Arduino
+OrangePI
+2G-IoT
+BMP280
+Lviv
+Ukraine
+hondamz
+DHT22
+PIC16F1827
+Luftfeuchtigkeit
+Temperatur
+esp8266
+esp8266
+temperature
+logger
+UDOO Neo
+somail
+temperature
+garden
+indoor
+Arduino
+astronomy
+weather
+Astro
+diy
+SQM
+hot
+currentcost
+temperature
+c
+voltage
+temperature
+Pressure
+Chaves
+weather
+portugal
+esp8266
+DHT11
+Lviv
+RaspberryPi Zero W
+Обухівка
+Кіровське
+Дніпро
+погода
+температура
+тиск
+вологість
+освітленність
+meter
+CampDavid
+PM2.5
+PM10
+AQI
+co2
+WeatherDuino
+RH
+Sobreira
+weather
+portugal
+Areosa
+weather
+portugal
+temperature
+humidity
+room
+Woods
+rainwater tank
+погода
+черноморск
+co2
+temperature
+Pressure
+humidity
+Yoctopuce
+a0a4
+Santa Fe
+heater
+Boiler
+umidade
+Temperatura
+Thingspeak
+DHT11
+esp8266
+weather station
+esp8266
+WeMos
+BME280
+solar panel
+TP4056
+photovoltaic
+Measuring of earthquakes Hanoi
+Sieu Quan
+vietnam
+temperature
+Measuring of earthquakes and Temperature in Sieu Quan
+hanoi
+CO2 Controller ESp8266
+Test
+Wetter
+esp32
+temperature
+humidity
+moisture
+relay
+weather
+monitor
+ESP
+Watering
+nettemp
+raspberrypi
+RPI
+DS18B20
+raspbian
+ServerRoom
+temperature
+
+internetofshed
+temperature
+humidity
+light
+rain
+atmospheric pressure
+weather
+humidifier
+WeMos
+BME280
+taiwan
+Changhua
+air
+Lviv
+Ukraine
+esp8266
+Wiedemann
+RadMon
+logger
+photon
+temperature
+atmospheric pressure
+Poznań
+Jeżyce
+Sołacz
+temperature
+Solar
+Home
+green
+PV
+MPPT
+Green energy
+Irrigation Pump Pressure
+esp8266
+wittycloud
+witty
+LDR
+light
+temperature
+Gamle Oslo
+Norway
+temperature humidity
+Envigado
+PM2.5
+Contaminación
+Arduino
+DHT22
+BMP180
+WeMos
+DHT22
+Dolní Bečva
+teplota DS18B20
+Arduino ESP8266
+DHT11 Humidity and temperature
+raspberry pi 3
+linuxStyler
+datalogger
+CPU Temp
+temperature
+outdoor
+esp8266
+Solar
+Arduino
+esp8266
+EasyAqua
+aquaponics
+Main
+wasser
+humidity
+TempDht22
+aussen
+temperature
+omega2
+DS18B20
+Kallikrateia
+xalkidiki
+Chalkidiki
+ΚΑΛΛΙΚΡΑΤΕΙΑ
+ΧΑΛΚΙΔΙΚΗ
+ΠΡΟΓΝΩΣΗ
+forecast
+weather station
+ΜΕΤΕΩΡΟΛΟΓΙΚΟΣ ΣΤΑΘΜΟΣ
+myChanTag
+Slovenia
+slovenija
+vreme
+ilirska
+SLO
+si
+Ilirska Bistrica
+DHT22
+esp8266
+IOT
+
+tortoise
+hibernation
+esp8266'logger
+T_Vernar
+Test Data
+breaklabs
+tracking
+GPS
+lora
+Cold
+lorawan
+Pino
+Sensor04
+Pino
+Sensor03
+Pino
+sensor02
+Pino
+Sensor01
+Pino
+Sensor08
+Pino
+Sensor07
+Pino
+Sensor06
+Pino
+Sensor05
+Pino
+Sensor10
+BME280
+Berlin
+Schöneberg
+weather station
+temp
+Huette
+kitchen
+Dallas
+temperature
+2018
+willlietheboatman
+willie
+boatman
+heating
+teplota
+vlhkost
+relativní
+lux
+SDI-12
+Liudr
+Decagon
+5TM
+caridine
+esp8266
+nodemcu
+mcp9808
+i2c
+LDR
+anemometer
+ARD-Tech
+Xbee
+XIG
+DHT22
+Arduino
+esp8266
+DS18B20
+Bavaria
+germany
+Obergriesbach
+chaloupka
+Humedad Temperatura
+ghorvat
+esp8266
+Temperatura
+humedad
+DHT22
+Raspberry Pi
+linux
+Python
+WeMos D1 Mini
+Tx20
+esp8266
+BMP-280
+SHT31
+NAS
+lm-sensors
+Hungary
+server
+debian
+HardDiskSentinel
+BMP085
+esp8266
+Arduino Nano
+DHT22
+GP2Y1014AU
+# weather station
+#humidity
+#temperature
+#Germany
+PRPCEMA
+tipping rain gauge
+nodemcu
+nrf24
+sleep mode
+low power
+ATMOSPHER
+bacho
+bachohospital
+Araçatuba-SP
+PM2.5
+LASS
+Linkit 7688 Duo
+MQ135 ESP8266 Hoofddorp dht22
+air quality
+hong kong
+NO2
+iol
+iol
+iol
+esp8266
+temperature
+Solar
+nandi
+Solar
+ESP
+esp8266
+collector
+Boiler
+Zagreb
+esp8266
+nodemcu
+Croatia
+Davis Vantage Pro2
+weewx
+Raspberry Pi
+Gamma
+Strahlung
+Radioaktivität
+Ohu
+Kernkraftwerk
+Störfall
+AKW Isar
+Solar
+Off Grid
+Pakistan
+Temp inne
+Luftfuktighet
+skola
+teknik
+åk2
+solar PTV
+300l spremnik
+2 rabljena kolektora
+spoj kolektora paralelno
+serijski nakon 12.6.
+RIEGO
+sensores
+VASTAG_TOMI
+Wisol
+sigfox
+UAMI
+W F
+WeatherDuino
+Air Quality Index
+PM2.5
+PM10
+Dorset
+UK
+Freibad
+Erlebnisbad
+Dorfhain
+Wassertemperatur
+live
+Echtzeit
+Tharandt
+Tharandter Wald
+sachsen
+Klingenberg
+Lufttemperatur
+luft
+wasser
+Luftfeuchtigkeit
+Wetter
+weather
+humidity
+temperature
+nodemcu
+esp8266
+BME280
+weather
+temperature
+Pressure
+humidity
+dewpoint
+sample
+geronlab
+A502
+hot
+mr surfer
+outdoor
+outdoor sensor
+esp32
+ACS712
+zmpt101b
+relay
+Arduino
+Thermo module
+Peltier
+103AT
+CZ
+WeMos
+BME280
+wifi
+esp8266
+Arduino
+temperature
+humidity
+Pressure
+lisen
+Brno
+Trevs House Temp.
+Power Monitor
+energy monitor
+fridge temp
+room temp
+temperature
+Vihorlat
+Slovakia
+IOT
+BME280
+sigfox
+zwieratko
+simplecell
+Arduino
+LPWAN
+Ubuntu
+Taipei
+taiwan
+temperature
+färna
+rävåsen
+skinnskatteberg
+Sweden
+Sverige
+västmanland
+temperature
+IKNI
+Lviv
+Ukraine
+lekplatsvägen
+lekplatsvägen 14
+Arduino
+weather station
+DHT11
+BMP180
+Raspberry Pi
+KMV_Avto
+Plovdiv
+Rogoshko shose
+air quality
+SDS011
+PM2.5
+PM10
+Raspberry Pi
+BME280
+temperature
+Pressure
+humidity
+Stulz
+Měření nejen v reálném čase...
+Arduino
+ATmega328p
+RTC
+32.768
+Clock
+temperature
+Accuracy
+temperature
+humidity
+temperature
+relative humidity
+Test
+monitoring
+system
+soldering
+Partricles
+PM2.5
+PM10
+temperature
+barometric pressure
+oe1gca
+6382
+temperature
+relative humidity
+Soil Moisture
+oe1gca
+18320
+battery monitor
+Brno
+weather
+weather station
+humidity
+Pressure
+dewpoint
+temperature
+teplota
+vlhkost
+tlak
+rosny bod
+Mereni
+esp8266
+nodemcu
+Arduino
+Bystrc
+temperature
+min
+max
+ahrensburg
+temperature
+färna
+rävåsen
+skinnskatteberg
+Sweden
+Sverige
+västmanland
+esp8266
+nodemcu
+Lua
+squirrel
+IOT
+plant
+datalogger
+esp8266
+Arduino
+nodemcu
+esp8266
+DHT22
+BMP280
+photosensitive
+DHT22
+OrangePI
+opi
+Hungary
+Budapest
+ENS220
+Pressure
+temperature
+AMS
+Temperatur
+humidity
+Pressure
+乐年
+室内
+温度
+湿度
+温湿度
+103
+窗户
+ESP0025
+乐年
+室内
+温度
+湿度
+温湿度
+105
+厕所
+ESP0023
+乐年
+室内
+温度
+湿度
+温湿度
+105
+电视机
+ESP0022
+CZ
+Brno
+lisen
+DS18B20
+wifi
+esp8266
+temperature
+乐年
+室内
+温度
+湿度
+温湿度
+106
+厕所
+ESP0020
+乐年
+室内
+温度
+湿度
+温湿度
+105
+窗户
+ESP0021
+security
+count
+online!!! Ubon Ratchathani. Thailand.
+#trakianbeach
+Ökofen
+Vissmann
+Solarthermie
+ESP
+8266
+temperature
+humidity
+DHT
+11
+22
+DS18B20
+esp8266
+Sever do Vouga
+weather
+portugal
+Pombal
+weather
+portugal
+Benavente
+weather
+portugal
+Reguengos de Monsaraz
+weather
+portugal
+Fronteira
+weather
+portugal
+Portalegre
+weather
+portugal
+Torres Vedras
+weather
+portugal
+Aguiar
+weather
+portugal
+Montargil
+weather
+portugal
+temperature
+Pressure
+Cold
+Rekuperator
+Ceradz
+parkowa
+Polska
+co2
+NDIR
+environment
+air quality
+carbon dioxide
+nodemcu
+DS18B20
+wifi
+NAVARRA
+Pamplona
+JAIME
+Ilmastointikone
+lämpötila
+dust
+MP 2.5
+Chile
+temuco
+Arduino
+DSM501
+ESP8266 ESP-01S
+TSL2561
+BMP180
+AM2321
+Strinity Sensor cobber
+Temperatura
+Presión atmosférica
+Humedad almosférica
+GP2Y1014
+esp8266
+af104.RSSI
+VOC
+eCO2
+iAQ-core
+TVOC
+eVOC
+ITBOX
+a
+b
+c
+d
+E
+raspberry
+Python
+France
+Test
+raspberrypi
+Solar
+Battery
+Varna
+Bulgaria
+Cubieboard2
+linux
+BMV 700
+ds18b20abcd
+Arduino
+esp8266
+IOT
+inside
+temperature
+garage
+fox
+esp8266
+weather
+Indoor Sensors
+DS18B20
+Barometer
+PO19
+Caucel
+Plenum invocación
+โรงพยาบาลโรคผิวหนังเขตร้อนภาคใต้ จังหวัดตรัง
+ตรัง
+smart light DTU Diplom
+ESP Meteo
+Sparkfun ESP8266 DS18B20 DHT22
+B153
+IMM
+WeatherDuino
+Air Quality Index
+PM2.5
+PM10
+co2
+uo
+erebor
+ultima online
+shard
+temperature
+emea
+europe
+amsterdam
+paris
+Berlin
+Madrid
+Moscow
+outdoor
+London
+Zurich
+stockholm
+Reformacka32
+temperature
+raspberry-pi
+Darmstadt
+germany
+D1 Mini
+DHT11
+Temperatura
+humedad
+Señal WIFI
+Bateria
+presion
+BH1750
+BMP180
+Iluminancia
+Panel Solar
+España
+Ea2
+BL999
+Raspberry Pi
+rtlsdr
+rtl_433
+18b20
+opop biopel
+co2
+temperature
+humidity
+atmospheric pressure
+BME280
+esp32
+lolin32
+weatherstation
+temperature
+humidity
+air
+Pressure
+Radiation
+sbm20
+Soil Moisture
+xbee
+VH400
+Solar
+opensprinkler
+MAF
+SIL
+temperature
+Esterno2
+esp8266
+nodemcu
+Si7021
+DS18B20
+Lua
+weather
+ESP-12F
+sh1106
+PIR
+BMP280
+307457
+co2
+monitor
+house
+level
+battery powered
+乐年
+室内
+温度
+湿度
+温湿度
+101
+窗户
+ESP0004
+Polska
+poland
+łaziska górne
+laziska gorne
+slask
+PM2.5
+PM10
+PM1
+Temperatura
+ciśnienie
+AlarmLuftowy.pl
+alarm
+Luftowy
+luft
+smog
+sensor
+nodemcu
+esp8266
+humedad
+Temperatura
+DHT22
+LoRAthens
+esp8266
+energy monitor
+ADS1115
+OTA
+current
+Power
+sht11
+Arduino
+garage
+temperature
+humidity
+hygrometer
+Thermometer
+MAF
+SIL
+eNVIRO
+Temperatura
+Ciele
+sample
+geronlab
+A502
+sample
+geronlab
+A502
+sample
+geronlab
+A502
+AQI
+PMS5003
+PM1.0
+PM10
+BMP180
+PM2.5
+DHT11
+ecodevices
+69100
+temperature
+humidity
+Pressure
+Temperatur
+weather
+temperature
+humidity
+dew point
+particle
+photon
+temperature
+DHT
+DHT22
+kitchen
+HelloWorld
+stove
+heating
+esp32
+Bann
+Wetter
+Львів
+Онлайн
+Атмосферний тиск
+Левандівка
+Тиск.
+Air pressure
+BMP180
+DHT22
+Arduino
+light sensor
+esp8266
+rain sensor
+wind speed meter.
+WeMos
+SHT30
+Liberec
+temperature
+temp
+Power
+Watts
+esp8266
+wind
+anemometer
+Sevilla
+DS18B20
+esp8266
+Lua
+Sevilla
+DS18B20
+esp8266
+Lua
+esp8266
+Bavaria
+germany
+DS18B20
+Obergriesbach
+IOT
+Fish
+Pond
+IoT2
+meres
+São Paulo
+SP
+BR
+brasil
+DHT11
+nodemcu
+esp8266
+BME280
+temperature
+humidity
+Pressure
+DS18B20
+owfs
+1wire
+Raspberry Pi
+Air Quality Index
+PM2.5
+PM10
+WeatherDuino
+co2. AQM
+AQI
+Canberra
+iAQcore
+Indoor Air Quality
+Gas
+AMS
+iAQ-core
+sensor
+TVOC
+co2
+eTVOC
+eCO2
+eqTVOC
+eqCO2
+Home
+Hotwater Temp
+Pomiar temperatury
+nodemcu
+wifi
+OneWire
+Piec CO
+DS18B20
+LoRAthens
+air quality
+PM2.5
+PM10
+pilis
+Temperatura
+Bateria
+Carga
+weather
+temperature
+Pressure
+Barometer
+indoor
+outdoor
+weather
+Łódź
+pogoda
+Wetter
+Temperatur
+Mehrn
+Arduino
+DHT22
+esp8266
+nodemcu
+IOT
+temperature
+luminosity
+Arduino
+relative humidity
+heat index
+atmospheric pressure
+Dom
+Temperatur
+humidity
+Raspberry Pi
+Temperatura
+pressão
+umidade
+sensehat
+Altitude
+altitu a nível do mar
+temperature
+Pressure
+humidity
+sealevel
+cuiaba
+mato grosso
+brasil
+brazil
+esp8266
+raspberry
+DS18B20
+MQ2
+Temperatura
+Humo
+smoke
+PLQ
+reef
+acuarium sensors
+Heizung
+ejice
+meschers
+France
+esp2866
+max6675
+DS18B20
+MQ-9
+esp8266
+nodemcu
+DS18B20
+temperature
+monitor
+sht11
+HKUST
+hong kong
+3125B
+Nova Ves nad Zitavou 427
+sansillusion
+temp and humidity
+Brník
+Aquarium
+terrarium
+czech
+karlsruhe
+Temperatur
+CZ
+czech republic
+Znojmo
+Meteo -  Višňové u Znojma
+casa de maquinas
+MPPT
+pip
+inverter
+WatchPower
+Ostrea
+Shore
+Ukraine
+Kiev region
+esp8266
+smart home
+Berezan' town
+DS18B20
+BME280.
+houston
+DHT22
+ESP
+Lua
+sluc
+aquaponics
+Feinstaub
+Mannheim
+Västanå förskola
+Västanå
+#WeatherTolstuha
+volts
+CampDavid
+amps
+CampDavid
+medEneg
+Home
+weather
+humidity
+temperature
+D1 Mini
+esp8266
+Arduino
+Solar Power
+aprs
+MSEB
+raw
+streetlight
+humidity
+co2
+Light analysis (RedGreenBlue & UVB-UVA)
+
+temperature
+#hometemp
+#DS18B20
+#raspberry
+#logger
+newsjj
+IOT
+Test
+Si021
+esp8266
+esp8266
+HTU21D
+humidity
+temperature
+heating
+DS18B20
+Raspberry Pi
+temp
+distance
+Christian
+homero
+Arduino
+sr04
+water
+level
+wałcz
+walcz
+Temperatura
+Polska
+poland
+esp8266
+DHT22
+Fundao
+weather
+portugal
+Arganil
+weather
+portugal
+Coimbra
+weather
+portugal
+Leiria
+weather
+portugal
+weather
+portugal
+Fatima
+weather
+portugal
+Tomar
+weather
+portugal
+Ioannina
+Greece
+temp
+esp8266
+Lua
+IOT
+IOT
+sensor temperatura e umidade do ar
+sensor temperatura e umidade do solo
+beehive
+bee hive
+monitoring
+scale
+zygaria
+Beescale
+weatherstation
+Wetterstation
+SegelClub
+Waging
+oe9
+Bludenz
+OE9KBV
+Austria
+Vorarlberg
+6700
+esp8266
+oe9
+Bludenz
+OE9KBV
+Austria
+Vorarlberg
+6700
+esp8266
+oe9
+Bludenz
+OE9KBV
+Austria
+Vorarlberg
+6700
+particle
+ThingSpek
+temperature
+Aquarium
+Geiger count with SMB-19 and dust sensor DSM501.
+esp8266
+DHT22
+SCT-013-000
+home power usage
+raspa agdelta
+VRC
+LK
+temperature
+humidity
+
+Lankontroler
+nodemcu
+BME280
+TSL2561
+shtorm
+ecology
+cardio
+health monitoring
+digital health
+Temperatur und Luftfeuchte
+EDF
+Eau et chauffe eau
+Temperatures
+Thun
+Switzerland
+radioactivity
+3600
+slimme meter
+slimme
+meter
+smart meter
+energy
+Sincs
+Cold
+Weather NakhonSiThamarat
+weather
+Thailand
+DHT11
+Escola
+Seixal
+portugal
+esp8266
+WeMos8266
+Power
+energy
+CZ
+DS18B20
+temperature
+lisen
+Brno
+wi-fi
+nodemcu
+meteo
+weather
+VCC
+outdoor
+Měření nejen v reálném čase...
+temperature
+esp8266
+ESP-01
+DS3231
+T_INT
+T_EST
+UM
+temperature
+humidity
+London
+atmospheric pressure
+PlastikRAD
+poręby
+temp1
+Hum1
+analogna
+temp2
+Hum2
+DS18S20
+#LASS
+bruno
+unieux
+Cronjob
+Skript
+PHP
+Laufzeiten
+Sekunden
+Kraftstoffpreise
+Tankstellen
+Diesel
+Super
+E5
+E10
+Deutsch
+BRD
+germany
+€
+Kraftstoffpreis
+Tanke
+tanken
+Tankstelle
+Tankstellenpreis
+Tankstellenpreise
+eur
+euro
+Deutschland
+NRW
+Ruhrgebiet
+ohne
+ohne Gewähr
+Gewähr
+Messdaten
+mh-z19
+DHT22
+BMP180
+temperature
+humidity
+Greenhouse
+meteo
+Pressure
+temperature
+Ukraine
+Trostyanets_Sumy
+esp8266
+BME280
+Solar
+sensor
+mikm
+Smarty Tempy
+SmartyTempy
+Smarty W IoT
+smartyWiot
+IOT
+Northern Jersey
+tri-state area
+New Jersey
+nj
+USA
+internetofthings
+Internet of Things
+smarthome
+smart home
+SmartCities
+Smart Cities
+bot
+bots
+Telegram Bot
+TelegramBot
+Internet das Coisas
+Telegram Bots
+TelegramBots
+SmartBuilding
+Smart Building
+SmartCondominium
+Smart Condominium
+Hillsdale
+NYC
+NY
+New York
+New York Metropolitan Area
+Nova York
+HillsdaleTempBot
+Hillsdale Temp Bot
+TTN
+lora
+world
+gw
+temperature
+humidity
+indoor
+Home
+乐年
+室外
+温度
+ESP0000
+湿度
+室外温湿度
+server
+information
+testing
+numbers
+germany
+NIedersachsen
+Hannover
+Burgwedel
+Fuhrberg
+Wetter
+Temperatur
+Luftdruck
+Feinstaub
+temperature
+Pressure
+Particular Matter
+BH1750
+Si7021
+BMP180
+esp8266
+warsaw
+warszawa
+Białołęka
+Wroom-02
+STM32
+HTU21D
+BMP280
+wifi
+Pomiar temperatury
+stacja pogodowa
+THPS
+sp5ein
+samarino
+lago
+lake
+lagoon
+IOT
+Pool
+Solar
+esp8266
+DS18B20
+Feather Huzzah
+Latching Relay FeatherWing
+Praher
+Servomotor EO510 12-24V
+2-ways ball valve
+Adafruit
+Fritz Dect 210
+Speck Magic 6
+ESP12
+Lucenec
+stanica
+meteo
+Trebelovce
+BME280
+Solar
+panel
+pocasie
+Rizzo Controls
+temperature
+Smoker
+humidity
+YMCA
+photon
+temp
+humidity
+light
+prueba
+LDR
+NodeMCU V3
+LoLin
+Ataraxia
+Amarante
+weather
+portugal
+nodemcu
+DHT11
+BMP180
+LDR
+Regenmelder
+Arouca
+weather
+portugal
+temp
+temperature
+schaffenburg
+makerspace
+Aschaffenburg
+temperature
+humidity
+temperature
+humidity
+voltage
+channel_strength
+esp8266
+DHT22
+Lua
+nodemcu
+easyesp
+esp8266
+ESP8266MOD
+BMP180
+DHT22
+TSL2561
+PV
+monitor
+Solar
+GNOME
+FLC
+buoy
+Durango
+Colorado
+temperature
+esp8266
+nodemcu
+chirp
+plant
+humidity
+capacitive humidity sensing
+watering alarm
+esp8266
+MPPT
+hot
+weather
+esp8266
+BME280
+Air Quality Index
+PM2.5
+PM10
+WeatherDuino
+co2
+AHU
+temperature
+Thermistor
+Hot water cistern
+voltage
+current
+Power
+frequency
+energy
+VAWT
+h-rotor
+savonius
+eoliana verticala
+hibrid
+esp8266
+DHT11
+json
+Odemira
+weather
+portugal
+Serpa
+weather
+portugal
+Mértola
+weather
+portugal
+Castro Verde
+weather
+portugal
+Tavira
+weather
+portugal
+Almodôvar
+weather
+portugal
+Faro
+weather
+portugal
+Aljezur
+weather
+portugal
+Lagos
+weather
+portugal
+esp8266
+BME280
+DS18B20
+Pressure
+temperature
+humidity
+moisture
+water
+avans
+LM34 temp sensor
+wlan; RSSI
+Stulz
+saks
+Σοφίτα
+Snake
+Lviv
+Dust Sensor Shinyei ppd42ns
+Amstelweather
+Global Radiation (Watt/meter^2)
+Wind Speed(m/s)
+Wind Direction (0 North
+90 East
+180 South
+270 West)
+Temperature (Centigrade Degree)
+Relative Humudity (%RH)
+background radiation
+kenley UK
+F-105
+Arduino_Serial_Out
+A-7
+Arduino_Serial_Out
+temperature
+humidity
+dewpoint
+photon
+hewalex
+Solar
+esp8266
+nodemcu
+collector
+ESP
+Boiler
+temperature
+Brno
+czech republic
+Outside Temperature
+esp8266
+DHT22
+Termperatur
+Luftfeuchte
+esp8266
+BME280
+Электросталь
+Россия
+Московская обл.
+Coventry's
+Dowling
+Latrobe
+Tasmania
+DHT22
+BMP180
+nodemcu
+Arduino
+Arduino
+esp8266
+DS18B20
+badtemperatur
+vattentemperatur hallången
+IOT
+monitoring suhu
+Vaccines
+Refrigeration
+GMSC
+Flugplatz
+Beiersdorf
+
+ht22 murasson enregistrement temperature humidite
+weather station
+temperature
+humidity
+Presure
+BME280
+esp8266 12e
+Tsol
+t41
+t42
+Pino
+Sensor09
+background radiation
+Radiation
+CPM
+Atomic Radition
+The Environmental readings from Socially Rented accommodation by Renfrewshire Council
+Stulz
+Arduino
+BMP180
+DHT22
+Sensor Hall.
+dev016
+esp8266
+symphonet
+speed
+symhome
+kr1
+kiararesidence1
+speedtest
+Internet
+Tempature
+Mining
+preachermanx
+Povoa de Varzim
+weather
+portugal
+Samões
+weather
+portugal
+Vila Real
+weather
+portugal
+Refojos de Basto
+weather
+portugal
+Braga
+weather
+portugal
+Siena
+BME280
+Arduino
+pressione
+Temperatura
+batteria
+esp8866
+Italia
+italy
+toscana
+Umwelt
+Langenfeld
+Terrasse
+cdias
+Arduino Uno
+esp8266
+DHT22
+comune
+server
+bordighera
+Brent
+Raspberry Pi
+openhab
+t1
+humidity
+temperature
+weather
+climate
+light levels
+barometric pressure
+temperature
+relative humidity
+DS18B20
+Landis
+Si7021
+sht11
+BMP085
+MLX90614
+esp8266
+ESP01
+BMP180
+temp
+temperature
+Pressure
+weather
+deep sleep
+IOT
+Power
+Arduino
+weather station
+air quality
+humidity
+MR WATT
+Simone Cecchetti
+Gianluigi Micheletti
+Pressure
+stazione meteo
+qualità aria
+pressione
+Temperatura
+mrwatt
+temperature
+humidity
+urtenen
+schönbühl
+esp8266 dht22 iot nodejs
+temp
+humidity
+dew point
+North Ward
+QLD
+Townsville
+DHT22
+esp8266
+UNIVER
+Aparcamiento2
+Skierniewice
+weather station
+stacja pogodowa
+weather
+pogoda
+meteo
+outdoor
+temperature
+humidity
+humedad
+Temperatura
+erwin713
+Temperatura
+humedad
+WeMos
+DHT11
+Chile
+BMP085
+MobileData
+pihome1
+weather station
+weer
+brugge
+meteo
+Temperatuur
+chaloupka-2
+hot
+IoT2
+meres
+Stulz
+Stulz
+DHT11
+BMP180
+esp8266
+weather station
+nodemcu
+hong kong
+Greenhouse
+Arduino Wind Humid Press Temp.
+RadMon
+Radiation
+Geiger
+Lungötz;
+Österreich
+Annaberg
+Wetter
+esp8266
+BME280
+nodemcu
+12E
+Sieuquan
+hanoi
+vietnam
+MAF
+SIL
+LoRAthens
+air quality
+PM2.5
+PM10
+meteorologia
+pirineo
+sobrarbe
+labuerda
+esp8266
+España
+aragon
+meteorology
+weather
+esparbel
+station
+Enviromental
+data
+Test python posting
+SF_TEMP_SFW_H11
+RO
+mkr1000
+Water Wall
+
+temperature
+Umidity
+Pressure
+esp6288
+DHT22
+BMP180
+Arduino
+meteo
+esp8266
+DHT11
+K12
+meteo
+Kramsky
+nodemcu
+DS18B20
+DHT22
+ED300L
+Solarmax
+PV
+esp8266
+nodemcu
+BME280
+DS18B20
+Lua
+weather
+ESP-12F
+Si7021
+ssd1306
+PIR
+esp8266
+DHT22
+lux
+selkach
+drau
+wind
+surf
+windsurf
+surfspot
+ludmannsdorf
+Wetter
+EMU
+Denizli
+weather
+Home
+food
+Big Smoke
+More food
+Food Abuse
+Nazare
+weather
+portugal
+Caldas da Rainha
+weather
+portugal
+Figueira da Foz
+weather
+portugal
+lima
+peru
+esp8266
+Arduino
+Temperatura
+humedad
+esp8266
+BME280
+Rikon
+water
+level
+rain
+esp8266
+esp8266 with NodeMCU + bme280
+TOutside
+Tinside
+TinsideProbe
+HOutside
+HInside
+Stulz
+Flame
+PIR
+ultrasonic.
+pogoda
+weather
+zakopane
+wmcoc
+Home
+electricity
+weather station
+Raspberry Pi
+IOT
+PV
+Arduino
+ningbo
+thermostat
+wifi
+esp8266
+temperature
+DS18B20
+WR703N
+node
+home automation
+environmental
+Stulz
+Stulz
+weather
+temperature
+humidity
+Pressure
+rain
+AHU
+AHU
