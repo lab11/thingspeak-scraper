@@ -93,15 +93,15 @@ def extract(j_str):
 
     # tags per author
     try:
-        tag_list = tags_per_author[author];
+        cur_tag_list = tags_per_author[author];
         for tag in tags:
-            tag_list.append(tag)
-        tags_per_author[author] = tag_list
+            cur_tag_list.append(tag)
+        tags_per_author[author] = cur_tag_list
     except:
-        tag_list = []
+        cur_tag_list = []
         for tag in tags:
-            tag_list.append(tag)
-        tags_per_author[author] = tag_list
+            cur_tag_list.append(tag)
+        tags_per_author[author] = cur_tag_list
 
 def test_retrieve(index):
     global d
@@ -121,10 +121,11 @@ def query_all():
 load_to_mem()
 query_all()
 
+print tag_list
 
 #word_cloud()
 #author_histogram()
-tag_per_author()
+#tag_per_author()
 
 #test_retrieve(40150)
 #for key, value in d.iteritems() :
