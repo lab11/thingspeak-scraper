@@ -1,0 +1,1 @@
+{"name": "Temperature [C]", "url": "https://thingspeak.com//channels/154329", "author": "rrusinov", "disc": "DHT22 Temperature", "tags": ], "charts": [{ "title": "Field 1 Chart", "second_title": "", "xaxis": "", "yaxis": "", "chart_type": "spline", "results": "100", "header": "/channels/154329/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=100&type=spline"}]}

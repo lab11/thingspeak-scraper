@@ -1,0 +1,1 @@
+{"name": "probe lab voeding", "url": "https://thingspeak.com//channels/265321", "author": "patcher", "disc": "power supply  watch", "tags": ], "charts": [{ "title": "Field 1 Chart", "second_title": "", "xaxis": "", "yaxis": "", "chart_type": "line", "results": "60", "header": "/channels/265321/charts/1?bgcolor=%231C1C1C&color=%23ffff99&dynamic=true&results=60&type=line"}]}

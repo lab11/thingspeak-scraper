@@ -1,0 +1,7 @@
+{"name": "Fish tank", "url": "https://thingspeak.com//channels/26781", "author": "mike27140", "disc": "Autonomous temperature wifi sensor for my fish tank.", "tags": ["Morgny", "Esp8266", "France", 
+"Dumx",
+"Ds18b20",
+"Ds1820",
+"Nodemcu"], "charts": [{ "title": "Current Temperature", "second_title": "", "xaxis": "", "yaxis": "", "chart_type": "", "results": "", "header": "/apps/plugins/10134"},{ "title": "Channel Location", "second_title": "", "xaxis": "", "yaxis": "", "chart_type": "", "results": "", "header": "/channels/26781/maps/channel_show"},{ "title": "Field 1 Chart", "second_title": "7 days temperature", "xaxis": "", "yaxis": "", "chart_type": "spline", "results": "", "header": "/channels/26781/charts/1?&yaxismax=26&yaxismin=23&timescale=60&days=7&dynamic=true&type=spline&title=7%20days%20temperature"},{ "title": "Channel Status Updates", "second_title": "", "xaxis": "", "yaxis": "", "chart_type": "", "results": "", "header": "/channels/26781/status/recent"}]}
+
+

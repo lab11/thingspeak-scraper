@@ -1,0 +1,1 @@
+{"name": "particle_temp_probe", "url": "https://thingspeak.com//channels/152751", "author": "andlier", "disc": "", "tags": ], "charts": [{ "title": "Field 1 Chart", "second_title": "", "xaxis": "", "yaxis": "", "chart_type": "line", "results": "1000", "header": "/channels/152751/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&max=11000&min=0&results=1000&type=line"}]}
