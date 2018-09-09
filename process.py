@@ -15,13 +15,26 @@ d = {}
 tag_list = []
 author_count = {}
 tags_per_author = {}
+num_authors = 0
+num_tags = 0
+num_languages = 0
+num_disc = 0
+num_graphs_w_xaxis = 0
+num_graphs_w_yaxis = 0
+avg_number_graphs_w_any_axis_label_per_author = 0
+avg_tags_per_author = 0
+avg_graphs_per_author = 0
+avg_disc_length = 0
+num_comments = 0
+num_comments_with_link = 0
+num_line_charts = 0
+num_gauges = 0
 
 
 def word_cloud():
     global tag_list
     word_str = ''.join(tag_list)
     wordcloud = WordCloud().generate(word_str)
-
     plt.imshow(wordcloud, interpolation='bilinear')
     plt.axis("off")
 
@@ -124,7 +137,7 @@ query_all()
 print tag_list
 
 #word_cloud()
-#author_histogram()
+author_histogram()
 #tag_per_author()
 
 #test_retrieve(40150)
