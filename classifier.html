@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div>
+<iframe src="https://www.thingspeak.com/channels/410128/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Outside+Temp&type=line','/channels/410128/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Humidity&type=line" height="300" width="500"></iframe>
+</div>
+
+<script type="text/javascript">
+function showfield(name){
+  if(name=='Other')document.getElementById('div1').innerHTML='Other: <input type="text" name="other" />';
+  else document.getElementById('div1').innerHTML='';
+}
+</script>
+
+<select name="graph_classification" id="graph_classification" onchange="showfield(this.options[this.selectedIndex].value)">
+<option selected="selected">Please select ...</option>
+<option value="Image">Image</option>
+<option value="Line Chart">Line Chart</option>
+<option value="Scatter Chart">Scatter Chart</option>
+<option value="Gauge">Gauge</option>
+<option value="Error">Error</option>
+<option value="Other">Other</option>
+</select>
+<div id="div1"></div>
+
+<br>
+<div>
+Graph Title: <input type="text" name="title">
+No Title: <input type="checkbox" id="no_title" name="no_title" value="no_title">
+</div> 
+
+<br>
+<div>
+<button type="button">Next</button>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+

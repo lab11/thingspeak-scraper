@@ -10,6 +10,15 @@ import matplotlib.mlab as mlab
 # 256841.json had a \ to take out
 
 
+# g1: super users?
+# g2: languages?
+# g3: static or dynamic graphs? per type?
+# g4: what is being graphed? (based on tags, disc, axis names)
+# g5: are certain graphs most commented upon? most shared?
+# g6: do people make the same types of graphs?
+# g7: how well do people describe graphs?
+# g8: makeup of a channel (i.e. how many graphs / what grouping?)
+
 d = {}
 
 tag_list = []
@@ -29,6 +38,7 @@ num_comments = 0
 num_comments_with_link = 0
 num_line_charts = 0
 num_gauges = 0
+num_images = 0
 
 
 def word_cloud():
@@ -89,6 +99,7 @@ def extract(j_str):
     global tag_list
     global author_count
     global tags_per_author
+    print j_str
     j = json.loads(j_str)
     tags = j['tags']
     author = j['author']
@@ -137,7 +148,7 @@ query_all()
 print tag_list
 
 #word_cloud()
-author_histogram()
+#author_histogram()
 #tag_per_author()
 
 #test_retrieve(40150)

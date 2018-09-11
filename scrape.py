@@ -6,11 +6,14 @@ from urlparse import *
 import json
 from os import walk
 from langdetect import detect
+import matlab_parser
+import gauge_parser
 
+# https://thingspeak.com//channels/37691 intersting channel... gauges and text box
+#
 
 
 #TODO
-# add videos
 # api_key might get trigger apis
 
 # https://thingspeak.com/channels/22793 gets most things...
@@ -33,42 +36,53 @@ dump = "["
 
 class Matlab:
     title = ""
+    header = ""
+    graph_type = ""
 
     def __init__(self):
         self.title = ""
+        self.header = ""
+        self.graph_type = ""
 
     def fix(self, value):
         return value.encode('utf-8').strip().replace('"', "'").replace("\\", "-")
 
     def fix_all(self):
         self.title = self.fix(self.title)
+        self.header = self.fix(self.header)
+        self.graph_type = self.fix(self.graph_type)
 
     def to_json(self):
         self.fix_all()
-        json_str = '"title": ' + self.title
+        json_str = '"title": "' + self.title + '", "header": "'+ self.header + '", "graph_type": "' + self.graph_type + '"'
 
-class Maps:
+class Map:
     title = ""
+    header = ""
 
     def __init__(self):
         self.title = ""
+        self.header = ""
 
     def fix(self, value):
         return value.encode('utf-8').strip().replace('"', "'").replace("\\", "-")
 
     def fix_all(self):
         self.title = self.fix(self.title)
+        self.header = self.fix(self.header)
 
     def to_json(self):
         self.fix_all()
-        json_str = '"title": ' + self.title
+        json_str = '"title": "' + self.title + '", "header": "'+ self.header + '"'
 
-class Gauge:
+class Gauge2:
     max_val = ""
     min_val = ""
     gauge_name = ""
     interval_val = ""
     options = ""
+    title = ""
+    header = ""
 
     def __init__(self):
         self.max_val = ""
@@ -76,6 +90,8 @@ class Gauge:
         self.gauge_name = ""
         self.interval_val = ""
         self.options = ""
+        self.title = ""
+        self.header = ""
 
     def fix(self, value):
         return value.encode('utf-8').strip().replace('"', "'").replace("\\", "-")
@@ -86,10 +102,47 @@ class Gauge:
         self.gauge_name = self.fix(self.gauge_name)
         self.interval_val = self.fix(self.interval_val)
         self.options = self.fix(self.options)
+        self.title = self.fix(self.title)
+        self.header = self.fix(self.header)
 
     def to_json(self):
         self.fix_all()
-        json_str = '"max_val": "'+self.max_val+'", "min_val": '+self.min_val+'", "gauge_name:" '+self.gauge_name+'", "interval_val": ' +self.interval_val+'", "options": ' + self.options+'"'
+        json_str = '"max_val": "'+self.max_val+'", "min_val": '+self.min_val+'", "gauge_name:" '+self.gauge_name+'", "interval_val": ' +self.interval_val+'", "title": ' + self.title+'", "header": '+self.header+'", "options": ' + self.options+'"'
+        return json_str
+
+class Gauge:
+    max_val = ""
+    min_val = ""
+    gauge_name = ""
+    interval_val = ""
+    options = ""
+    title = ""
+    header = ""
+
+    def __init__(self):
+        self.max_val = ""
+        self.min_val = ""
+        self.gauge_name = ""
+        self.interval_val = ""
+        self.options = ""
+        self.title = ""
+        self.header = ""
+
+    def fix(self, value):
+        return value.encode('utf-8').strip().replace('"', "'").replace("\\", "-")
+
+    def fix_all(self):
+        self.max_val = self.fix(self.max_val)
+        self.min_val = self.fix(self.min_val)
+        self.gauge_name = self.fix(self.gauge_name)
+        self.interval_val = self.fix(self.interval_val)
+        self.options = self.fix(self.options)
+        self.title = self.fix(self.title)
+        self.header = self.fix(self.header)
+
+    def to_json(self):
+        self.fix_all()
+        json_str = '"max_val": "'+self.max_val+'", "min_val": '+self.min_val+'", "gauge_name:" '+self.gauge_name+'", "interval_val": ' +self.interval_val+'", "title": ' + self.title+'", "header": '+self.header+'", "options": ' + self.options+'"'
         return json_str
 
 
@@ -152,7 +205,7 @@ class Comment:
     
     def to_json(self):
         self.fix_all()
-        json_str = '"author": "' + self.author + ', "creation_time": "' + self.creation_time + ', "text": "' + self.text + '"'  
+        json_str = '{"author": "' + self.author + '", "creation_time": "' + self.creation_time + '", "text": "' + self.text + '"}'  
         return json_str
 
 class Channel:
@@ -166,11 +219,33 @@ class Channel:
     create_time = ""
     shares = ""
     language = ""
-    num_videos = 0
+    num_videos = "0"
     maps = ""
     matlabs = ""
+    gauges = ""
+    gauges2 = ""
+    statuses = ""
 
     html = ""
+
+    def __init__(self):
+        self.name = ""
+        self.url = ""
+        self.author = ""
+        self.disc = ""
+        self.tags = ""
+        self.charts = ""
+        self.comments = ""
+        self.create_time = ""
+        self.shares = ""
+        self.language = ""
+        self.num_videos = "0"
+        self.maps = ""
+        self.matlabs = ""
+        self.gauges = ""
+        self.gauges2 = ""
+        self.statuses = ""
+        self.html = ""
 
     def pretty_print(self):
         print "\tname: " + self.name.encode('utf-8').strip()
@@ -180,12 +255,15 @@ class Channel:
         print "\ttags: " + str(self.tags).encode('utf-8').strip()
         print "\tcharts:" + str(self.charts).encode('utf-8').strip()
         print "\tcomments:" + str(self.comments).encode('utf-8').strip()
-        print "\tcreate_time:" + str(self.create_time).encode('utf-8').strip()
+        #print "\tcreate_time:" + str(self.create_time).encode('utf-8').strip()
         print "\tshares:" + str(self.shares).encode('utf-8').strip()
         print "\tlanguage:" + str(self.language).encode('utf-8').strip()
-        print "\tnum_videos:" + str(self.num_videos).encode('utf-8').strip()
-        print "\tmaps:" + str(self.maps).encode('utf-8').strip()
-        print "\tmatlabs:" + str(self.matlabs).encode('utf-8').strip()
+        #print "\tnum_videos:" + str(self.num_videos).encode('utf-8').strip()
+        #print "\tmaps:" + str(self.maps).encode('utf-8').strip()
+        #print "\tmatlabs:" + str(self.matlabs).encode('utf-8').strip()
+        #print "\tgauges:" + str(self.gauges).encode('utf-8').strip()
+        #print "\tgauges2:" + str(self.gauges2).encode('utf-8').strip()
+        #print "\tstatuses:" + str(self.statuses).encode('utf-8').strip()
         #print "\thtml:" + self.html.encode('utf-8').strip()
 
     def dump_html(self):
@@ -195,32 +273,41 @@ class Channel:
     def fix(self, value):
         return value.encode('utf-8').strip().replace('"', "'").replace("\\", "-")
 
+    def fix_array(self, value):
+        return value.encode('utf-8').strip().replace("\\", "-")
+
     def fix_all(self):
         self.name = self.fix(self.name)
         self.url = self.fix(self.url)
         self.author = self.fix(self.author)
         self.disc = self.fix(self.disc)
-        self.tags = self.fix(self.tags)
+        self.tags = self.fix_array(self.tags)
         self.shares = self.fix(self.shares)
-        self.charts = self.fix(self.charts)
-        self.comments = self.fix(self.comments)
-        self.create_time = self.fix(self.create_time)
-        self.num_videos = self.fix(self.num_videos)
-        self.maps = self.fix(self.maps)
-        self.matlabs = self.fix(self.matlabs)
+        self.charts = self.fix_array(self.charts)
+        self.comments = self.fix_array(self.comments)
+        #self.create_time = self.fix(self.create_time)
+        #self.num_videos = self.fix(self.num_videos)
+        #self.maps = self.fix(self.maps)
+        #self.matlabs = self.fix(self.matlabs)
+        #self.gauges = self.fix(self.gauges)
+        #self.gauges2 = self.fix(self.gauges2)
+        #self.statuses = self.fix(self.statuses)
 
     def language_check(self):
-        if not len(self.disc) == 0:
-            self.disc = unicode(self.disc, errors='replace')
-            self.language = detect(self.disc.lower())
-        else:
-            self.name = unicode(self.name, errors='replace')
-            self.language = detect(self.name.lower())
+        try:
+            if not len(self.disc) == 0:
+                self.disc = unicode(self.disc, errors='replace')
+                self.language = detect(self.disc.lower())
+            else:
+                self.name = unicode(self.name, errors='replace')
+                self.language = detect(self.name.lower())
+        except:
+            self.language = "None"
 
     def to_json(self):
         self.fix_all()
         self.language_check()
-        json_str = '{"name": "' + self.name + '", "url": "' + self.url + '", "author": "' + self.author + '", "disc": "' + self.disc + '", "tags": "' + self.tags + '", "shares": "' + self.shares + '", "charts": "' + self.charts + '", "comments": ' + self.comments + '", "maps": "' + self.maps + '", "matlabs": ' + self.matlabs + '", "language": "' + self.language + '"}' 
+        json_str = '{"name": "' + self.name + '", "gauges": "' + self.gauges + '", "gauges2": "' + self.gauges2 + '", "statuses": "' + self.statuses + '", "url": "' + self.url + '", "author": "' + self.author + '", "disc": "' + self.disc + '", "tags": ' + self.tags + ', "shares": "' + self.shares + '", "charts": ' + self.charts + ', "comments": ' + self.comments + ', "maps": "' + self.maps + '", "matlabs": "' + self.matlabs + '", "language": "' + self.language + '"}' 
         return json_str
     
     def dump_json(self):
@@ -245,9 +332,12 @@ def find_if_needed(link):
 def fetch_new_channel(link):
     global cur_channel
     if find_if_needed(link):
+        cur_channel = Channel()
         channel = urllib2.urlopen(base_url+link)
         html = channel.read()
         cur_channel.url = base_url+link
+        #print "\n\n"
+        #print base_url+link
         channel_soup = BeautifulSoup(html, 'html.parser')
         cur_channel.html = html.decode('utf-8')
         return channel_soup
@@ -268,28 +358,43 @@ def fetch_new_page(num):
     page_soup = BeautifulSoup(page, 'html.parser')
     return page_soup
 
-def parse_matlab(chart_soup):
-    print "matlab"
+# TODO
+# //*[@id="g80"] in doc is legend
+# //*[@id="g57"] type 
+# 
+def parse_matlab(chart_soup, header, title):
+    graph_type = matlab_parser.load(base_url + header)
+    json_str = '"title": "' + title + '", "header": "'+ header + '", "graph_type": "' + graph_type + '"'
+    #print json_str
+    return json_str
 
-def parse_maps(chart_soup):
-    print "maps"
+# TODO
+def parse_maps(chart_soup, header, title):
+    json_str = '"title": "' + title + '", "header": "'+ header + '"'
+    return json_str
 
-def parse_gauge(chart_soup):
-    print "gauge"
+# TODO
+def parse_gauge(chart_soup, header, title):
+#    print base_url+header
     cur = Gauge()
-    response = urllib2.urlopen(base_url + header)
-    iframe_soup = BeautifulSoup(response)
-    print iframe_soup
-#        print chart_soup
-    cur.header = header
-    cur.title = title
-    return cur.to_json()
-    exit()
+    values = gauge_parser.load(base_url + header)
+    print values
+#    response = urllib2.urlopen(base_url + header)
+#    iframe_soup = BeautifulSoup(response, 'html.parser')
 
-def parse_chart(chart_soup):
-    print "chart"
+#    print iframe_soup
+#        print chart_soup
+#    cur.header = header
+    return cur.to_json()
+
+# TODO
+def parse_gauge2(chart_soup, header, title):
+    json_str = '"title": "' + title + '", "header": "'+ header + '"'
+    return json_str 
+
+def parse_chart(chart_soup, header, title):
+    #print "\tchart"
     cur = Chart()
-    title = chart_soup.find('div','window-title').text
     header = chart_soup.find('iframe','window-iframe').get('src')
     qs = urlparse(header)[4]
     o = parse_qs(qs)
@@ -317,83 +422,76 @@ def parse_chart(chart_soup):
     cur.title = title
     return cur.to_json()
 
-def extract_chart_data(charts_soup):
-    global cur_channel
-    charts = []
-    json_charts = '['
-    charts.append(parse_chart(chart_soup))
-    for chart in charts:
-        json_charts += "{ " + chart + "},"
-    json_charts = json_charts[:-1] + "]"
-    cur_channel.charts = json_charts 
-
-def extract_gauge_data(gauges_soup):
-    global cur_channel
-    gauges = []
-    json_gauges = '['
-    for gauge_soup in gauges_soup:
-        gauges.append(parse_gauge(gauge_soup))
-    for gauge in gauges:
-        json_gauges += "{ " + gauge + "},"
-    json_gauges = json_gauges[:-1] + "]"
-    cur_channel.gauges = json_gauges 
-
-def extract_map_data(maps_soup):
-    global cur_channel
-    maps = []
-    json_maps = '['
-    for map_soup in maps_soup:
-        maps.append(parse_map(map_soup))
-    for cur_map in maps:
-        json_maps += "{ " + cur_map + "},"
-    json_maps = json_maps[:-1] + "]"
-    cur_channel.maps = json_maps 
-
-def extract_matlab_data(matlabs_soup):
-    global cur_channel
-    matlabs = []
-    json_matlabs = '['
-    for matlab_soup in matlabs_soup:
-        matlabs.append(parse_matlab(matlab_soup))
-    for matlab in matlabs:
-        json_matlabs += "{ " + matlab + "},"
-    json_matlabs = json_matlabs[:-1] + "]"
-    cur_channel.matlabs = json_matlabs 
-
 def make_json_str(to_convert):
     json_str = '['
     for item in to_convert:
-        json_str += "{ " + matlab + "},"
-    json_str = json_str[:-1] + "]"
+        if item:
+            json_str += '"' + item + '",'
+    if not json_str == '[':
+        json_str = json_str[:-1] + "]"
+    else:
+        json_str = '[]'
     return json_str
 
 def extract_visualizations(channels_soup):
     global cur_channel
     charts = []
-    maps = []
-    gauges = []
-    matlabs = []
+#    maps = []
+#    gauges = []
+#    gauges2 = []
+#    matlabs = []
+#    statuses = []
     charts_soup = channels_soup.find_all('div', attrs={'class':'window-container'})
     for chart_soup in charts_soup:
         header = chart_soup.find('iframe','window-iframe').get('src')
-        if 'plugin' in header:
-            gauges.append(parse_gauge(chart_soup, header))
-        if 'youtube' in header:
-            cur_channel.num_videos = cur_channel.num_videos + 1
-        if 'matlab_visualizations' in header:
-            matlabs.append(parse_matlab(chart_soup))
-        if 'channels' in header and 'maps' in header:
-            maps.append(parse_maps(chart_soup))
-        if 'channels' in header and 'charts' in header:
-            charts.append(parse_chart(chart_soup))
-    cur_channel.matlabs = make_json_str(matlabs)
-    cur_channel.charts = make_json_str(charts)
-    cur_channel.gauges = make_json_str(gauges)
-    cur_channel.maps = make_json_str(maps)
-    print cur_channel.matlabs
-    print cur_channel.gauges
-    print cur_channel.maps
-
+        title = chart_soup.find('div','window-title').text
+        charts.append(header)
+#        if 'plugin' in header:
+#            gauges.append(parse_gauge(chart_soup, header, title))
+#            gauges.append(header)
+#        elif 'https://www.youtube.com' in header:
+#            cur_channel.num_videos = str(int(cur_channel.num_videos) + 1)
+#        elif 'matlab_visualizations' in header:
+#            matlabs.append(header)
+#            matlabs.append(parse_matlab(chart_soup, header, title))
+#        elif 'channels' in header and 'maps' in header:
+#            maps.append(header)
+#            maps.append(parse_maps(chart_soup, header, title))
+#        elif 'channels' in header and 'charts' in header:
+#            charts.append(header)
+#            charts.append(parse_chart(chart_soup, header, title))
+#        elif 'channels' in header and 'status' in header:
+#            statuses.append(header)
+#            statuses.append(parse_status(chart_soup, header, title))
+#            pass
+#        elif 'channels' in header and 'widget' in header:
+#            gauges2.append(header)
+#            gauges2.append(parse_gauge2(chart_soup, header, title))
+#        else:
+#            print header
+#    if matlabs:
+#        cur_channel.matlabs = make_json_str(matlabs)
+#    if charts:
+#        cur_channel.charts = make_json_str(charts)
+#    if gauges:
+#        cur_channel.gauges = make_json_str(gauges)
+#    if maps:
+#        cur_channel.maps = make_json_str(maps)
+#    if gauges2:
+#        cur_channel.gauges2 = make_json_str(gauges2)
+#    if statuses:
+#        cur_channel.statuses = make_json_str(statuses)
+    #cur_channel.pretty_print()
+    #print cur_channel.matlabs
+    #print cur_channel.gauges
+    #print cur_channel.maps
+    # [u'/channels/75470/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line', u'/channels/75470/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line', u'/channels/75470/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line', u'/channels/75470/charts/4?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line', u'/channels/75470/maps/channel_show', u'https://www.youtube.com/embed/5LqhG5vBxDI?wmode=transparent']
+    json_charts = "["
+    for chart in charts:
+        json_charts = json_charts + '"' + chart + '",'
+    json_charts = json_charts[:-1] + "]"
+    cur_channel.charts = json_charts
+#    return json_charts
 
 def extract_meta_data(channel_soup):
     global cur_channel
@@ -405,15 +503,11 @@ def extract_meta_data(channel_soup):
     except:
         shares = "0"
     l_json = channel_soup.find('div', attrs={'id':'wrap'}).find_all('script', attrs={'src': None, 'type': None})[0].text.split('\n')[2:-2][0][17:]
-    
-    #num_videos = channel_soup.find_all('div', attrs={'id': 'player'})
-    #print num_videos
 
     cur_channel.author = author
     cur_channel.disc = disc
     cur_channel.name = name
     cur_channel.shares = shares
-    #cur_channel.num_videos = num_videos
 
 def extract_tags(channel_soup):
     global cur_channel
@@ -431,19 +525,22 @@ def parse_comment(comment_soup):
     cur = Comment()
     cur.author = comment_soup.find('span', attrs={'class':'username'}).find('a').text.strip()
     cur.creation_time = comment_soup.find('span', attrs={'class':'prettydate'}).text.strip()
-    cur.text = comment_soup.find('div', attrs={'class': None, 'id': None}).text.replace("\n","").strip()
+    cur.text = comment_soup.find('div', attrs={'class': None, 'id': None}).text.replace("\n","").strip().replace('"', "'")
     return cur.to_json()
 
 def extract_comments(channel_soup):
     global cur_channel
     comments = []
+    json_comments  = '['
     comments_soup = channel_soup.find('div', attrs={'class':'commentlink'}).find_all('table', attrs={'class':'commenttable'})
-    json_comments = '['
     for comment_soup in comments_soup:
         comments.append(parse_comment(comment_soup))
     for comment in comments:
-        json_comments += "{ " + comment + "},"
-    json_comments = json_comments[:-1] + "]"
+        json_comments = json_comments +  comment + ','
+    if json_comments == '[':
+        json_comments  = '[]'
+    else:
+        json_comments = json_comments[:-1] + "]"
     cur_channel.comments = json_comments
     #print json_comments
 
@@ -467,13 +564,16 @@ def run(times):
                     extract_channel(channel_soup)
                     json = cur_channel.to_json()
                     dump += json + ","
+                    print json
                     cur_channel.dump_html()
                     cur_channel.dump_json()
+                    #cur_channel.pretty_print()
                 else:
-                    print "skipping"
+                    pass
+                    #print "\tskipping"
         dump = dump[:-1]
         dump = dump + "]"
-#        print dump
+        print dump
     else:
         for x in xrange(0, times):
             channel_soup = fetch_local_channel(filenames[x])
@@ -506,9 +606,9 @@ def prefetch():
                 continue
 
 prefetch()
-#run(max_page) #run with everything fetching remote
+run(1000) #run with everything fetching remote
 #run(len(filenames))
-run(10)
+#run(10)
 
 
 
