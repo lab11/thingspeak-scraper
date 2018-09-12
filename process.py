@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.mlab as mlab
 import simplejson
+from urlparse import urlparse
+from urlparse import *
 
 # fixed nearly 30 items to remove quotes
 # 3711.json tags super broken
@@ -54,7 +56,20 @@ def word_cloud():
     plt.imshow(wordcloud, interpolation="bilinear")
     plt.axis("off")
     plt.show()
+
+def word_cloud_array(array):
+    word_str = ''.join(array)
+    wordcloud = WordCloud().generate(word_str)
+    plt.imshow(wordcloud, interpolation='bilinear')
+    plt.axis("off")
+
+    wordcloud = WordCloud(max_font_size=40).generate(word_str)
+    plt.figure()
+    plt.imshow(wordcloud, interpolation="bilinear")
+    plt.axis("off")
+    plt.show()
     
+
 def load_to_mem():
     global d
     cnt = 0
@@ -150,47 +165,115 @@ def query_all():
     for key,value in d.iteritems():
         extract(d[key])
 
+def parse_update(url):
+    qs = urlparse(chart)[4]
+    o = parse_qs(qs)
+    try:
+        return o['update']
+    except:
+        return None
+
+def parse_title(url):
+    qs = urlparse(chart)[4]
+    o = parse_qs(qs)
+    try:
+        return o['title']
+    except:
+        return None
+
+
 load_to_mem()
 query_all()
 
-
 line = 0
+line_titles = []
+line_update = []
 video = 0
 status = 0
 maps = 0
 total = 0
 column = 0
+column_titles = []
+column_update = []
 spline = 0
+spline_titles = []
+spline_update = []
 bar = 0
+bar_titles = []
+bar_update = []
 step = 0
+step_titles = []
+step_update = []
+unknown = 0
+unknown_titles = []
+unknown_update = []
 for chart in chart_list:
     total += 1
     if "type=line" in chart:
         line += 1
+        title = parse_title(chart)
+        if title:
+            line_titles.append(title[0])
+        update = parse_update(chart)
+        if update:
+            line_update.append(update[0])
     elif "www.youtube.com" in chart:
         video += 1
     elif "status/recent" in chart:
         status += 1
     elif "type=column" in chart:
         column += 1
+        title = parse_title(chart)
+        if title:
+            column_titles.append(title[0])
+        update = parse_update(chart)
+        if update:
+            column_update.append(update[0])
     elif "type=spline" in chart:
         spline += 1
+        title = parse_title(chart)
+        if title:
+            spline_titles.append(title[0])
+        update = parse_update(chart)
+        if update:
+            spline_update.append(update[0])
     elif "type=bar" in chart:
         bar += 1
+        title = parse_title(chart)
+        if title:
+            bar_titles.append(title[0])
+        update = parse_update(chart)
+        if update:
+            bar_update.append(update[0])
     elif "type=step" in chart:
         step += 1
+        title = parse_title(chart)
+        if title:
+            step_titles.append(title[0])
+        update = parse_update(chart)
+        if update:
+            step_update.append(update[0])
     elif "maps/channel_show" in chart:
         maps += 1
+    elif "channel" in chart and "chart" in chart:
+        unknown += 1
+        title = parse_title(chart)
+        if title:
+            unknown_titles.append(title[0])
+        update = parse_update(chart)
+        if update:
+            unknown_update.append(update[0])
     else:
-        print chart
-print line, video, status, maps, total
+        pass
+#        print chart
+word_cloud_array(line_titles)
+#print line, video, status, maps, total
 
 #print tag_list
 
 #word_cloud()
 #author_histogram()
 #tag_per_author()
-
 #test_retrieve(40150)
 #for key, value in d.iteritems() :
 #    print key
