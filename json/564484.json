@@ -1,1 +1,1 @@
-{"name": "Fitnessraum", "url": "https://thingspeak.com//channels/564484", "author": "lotharm1299", "disc": "", "tags": ], "charts": [{ "title": "Chart With Multiple Series 2", "second_title": "", "xaxis": "", "yaxis": "", "chart_type": "", "results": "", "header": "/apps/plugins/246938"}]}
+{"name": "Fitnessraum", "gauges": "", "gauges2": "", "statuses": "", "url": "https://thingspeak.com//channels/564484", "author": "lotharm1299", "disc": "", "tags": ], "shares": "0", "charts": ["/apps/plugins/246938"], "comments": [], "maps": "", "matlabs": "", "language": "no"}

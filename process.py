@@ -4,6 +4,7 @@ from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.mlab as mlab
+import simplejson
 
 # fixed nearly 30 items to remove quotes
 # 3711.json tags super broken
@@ -20,7 +21,7 @@ import matplotlib.mlab as mlab
 # g8: makeup of a channel (i.e. how many graphs / what grouping?)
 
 d = {}
-
+chart_list = []
 tag_list = []
 author_count = {}
 tags_per_author = {}
@@ -58,21 +59,23 @@ def load_to_mem():
     global d
     cnt = 0
     for filename in os.listdir("./json/"):
-        if ".json" in filename:
+        if ".json" in filename and not filename == ".json":
+            #print filename
             f = open("./json/"+filename,"r")
             j_str = f.read()
+            
             if '"tags": ]' in j_str: #fix broken tags section :/
                 j_str = j_str.replace('"tags": ]', '"tags": []') 
            
             if '"charts": ]' in j_str: #fix broken tags section :/
                 j_str = j_str.replace('"charts": ]', '"charts": []') 
 
-            j_str = j_str.replace("\n",'')
+            j_str = j_str.replace("\n",'').replace('\r','').replace('\t','')
 
             if "}{" in j_str: #fix append error
                 n = j_str.find("}{")
                 j_str = j_str[:n+1]
-
+            js = simplejson.loads(j_str)
             d[filename[:-5]] = j_str
 
 def author_histogram():
@@ -99,10 +102,11 @@ def extract(j_str):
     global tag_list
     global author_count
     global tags_per_author
-    print j_str
+    #print j_str
     j = json.loads(j_str)
     tags = j['tags']
     author = j['author']
+    charts = j['charts']
 
     # construct word_str for word cloud 
     for tag in tags:
@@ -113,7 +117,6 @@ def extract(j_str):
         author_count[author] = author_count[author] + 1
     except:
         author_count[author] = 1
-
 
     # tags per author
     try:
@@ -126,6 +129,11 @@ def extract(j_str):
         for tag in tags:
             cur_tag_list.append(tag)
         tags_per_author[author] = cur_tag_list
+
+    # all charts
+    for chart in charts:
+        chart_list.append(chart)
+        
 
 def test_retrieve(index):
     global d
@@ -145,7 +153,39 @@ def query_all():
 load_to_mem()
 query_all()
 
-print tag_list
+
+line = 0
+video = 0
+status = 0
+maps = 0
+total = 0
+column = 0
+spline = 0
+bar = 0
+step = 0
+for chart in chart_list:
+    total += 1
+    if "type=line" in chart:
+        line += 1
+    elif "www.youtube.com" in chart:
+        video += 1
+    elif "status/recent" in chart:
+        status += 1
+    elif "type=column" in chart:
+        column += 1
+    elif "type=spline" in chart:
+        spline += 1
+    elif "type=bar" in chart:
+        bar += 1
+    elif "type=step" in chart:
+        step += 1
+    elif "maps/channel_show" in chart:
+        maps += 1
+    else:
+        print chart
+print line, video, status, maps, total
+
+#print tag_list
 
 #word_cloud()
 #author_histogram()

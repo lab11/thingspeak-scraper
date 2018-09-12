@@ -1,1 +1,0 @@
-{"name": "ds18b20 Balkon", "url": "https://thingspeak.com//channels/132223", "author": "zyrusthc", "disc": "", "tags": ], "charts": [{ "title": "Field 1 Chart", "second_title": "", "xaxis": "", "yaxis": "", "chart_type": "line", "results": "60000", "header": "/channels/132223/charts/1?average=20&bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60000&type=line"}]}

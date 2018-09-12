@@ -1,1 +1,0 @@
-{"name": "NodeMCU-Dolgozo-Humidity", "url": "https://thingspeak.com//channels/147060", "author": "gaborsomogyvari", "disc": "", "tags": ], "charts": [{ "title": "Field 1 Chart", "second_title": "", "xaxis": "", "yaxis": "", "chart_type": "line", "results": "60", "header": "/channels/147060/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line"}]}

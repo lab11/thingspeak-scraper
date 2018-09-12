@@ -337,7 +337,7 @@ def fetch_new_channel(link):
         html = channel.read()
         cur_channel.url = base_url+link
         #print "\n\n"
-        #print base_url+link
+        print base_url+link
         channel_soup = BeautifulSoup(html, 'html.parser')
         cur_channel.html = html.decode('utf-8')
         return channel_soup
@@ -378,7 +378,7 @@ def parse_gauge(chart_soup, header, title):
 #    print base_url+header
     cur = Gauge()
     values = gauge_parser.load(base_url + header)
-    print values
+#    print values
 #    response = urllib2.urlopen(base_url + header)
 #    iframe_soup = BeautifulSoup(response, 'html.parser')
 
@@ -564,13 +564,13 @@ def run(times):
                     extract_channel(channel_soup)
                     json = cur_channel.to_json()
                     dump += json + ","
-                    print json
+                    #print json
                     cur_channel.dump_html()
                     cur_channel.dump_json()
                     #cur_channel.pretty_print()
                 else:
+                    print "\tskipping"
                     pass
-                    #print "\tskipping"
         dump = dump[:-1]
         dump = dump + "]"
         print dump
@@ -606,7 +606,7 @@ def prefetch():
                 continue
 
 prefetch()
-run(1000) #run with everything fetching remote
+run(int(max_page)) #run with everything fetching remote
 #run(len(filenames))
 #run(10)
 

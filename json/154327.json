@@ -1,1 +1,0 @@
-{"name": "Humidity", "url": "https://thingspeak.com//channels/154327", "author": "rrusinov", "disc": "humidity DHT22", "tags": ], "charts": [{ "title": "Field 1 Chart", "second_title": "", "xaxis": "", "yaxis": "", "chart_type": "spline", "results": "100", "header": "/channels/154327/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=100&type=spline"}]}

@@ -1,1 +1,0 @@
-{"name": "Pressure [hPa]", "url": "https://thingspeak.com//channels/154331", "author": "rrusinov", "disc": "BMP180", "tags": ], "charts": [{ "title": "Field 1 Chart", "second_title": "", "xaxis": "", "yaxis": "", "chart_type": "line", "results": "100", "header": "/channels/154331/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=100&type=line"}]}
