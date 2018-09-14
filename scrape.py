@@ -8,6 +8,7 @@ from os import walk
 from langdetect import detect
 import matlab_parser
 import gauge_parser
+import os
 
 # https://thingspeak.com//channels/37691 intersting channel... gauges and text box
 #
@@ -550,6 +551,17 @@ def extract_channel(channel_soup):
     extract_comments(channel_soup)
     extract_visualizations(channel_soup)
 
+def run_feeds():
+    for root, dirs, files in os.walk("./json"):  
+        for filename in files:
+            if ".json" in filename and not filename == ".json":
+                channel_num = filename.split(".")
+                #url = base_url+"channels/"+str(channel_num[0])+"/feed.json"
+                page = urllib2.urlopen(base_url+"channels/"+str(channel_num[0])+"/feed.json")
+                html = page.read()
+                f = open("feeds/"+str(channel_num[0])+".json", "w")
+                f.write(html.encode("utf-8"))
+
 def run(times):
     global dump
     global remote
@@ -605,8 +617,12 @@ def prefetch():
             except:
                 continue
 
+
+
 prefetch()
-run(int(max_page)) #run with everything fetching remote
+run_feeds()
+
+#run(int(max_page)) #run with everything fetching remote
 #run(len(filenames))
 #run(10)
 
