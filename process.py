@@ -122,7 +122,7 @@ def author_histogram():
 
 def tag_per_author():
     global tags_per_author
-    print tags_per_author
+    #print tags_per_author
     
 
 def extract(j_str):
@@ -159,7 +159,7 @@ def extract(j_str):
         author_count[author] = author_count[author] + 1
     except:
         author_count[author] = 1
-    print "authors: " + str(len(author_count.keys()))
+    #print "authors: " + str(len(author_count.keys()))
 
 
 
@@ -213,7 +213,11 @@ def query_all():
     for key,value in d.iteritems():
         extract(d[key])
 
-
+def feed_parsing():
+    global f
+    for key, value in f.iteritems():
+        js = simplejson.loads(value)
+        print js['channel']['id']
 
 def chart_parsing():
     line = 0
@@ -303,7 +307,8 @@ def chart_parsing():
 load_to_mem()
 query_all()
 #print len(language_count.keys())
-chart_parsing()
+#chart_parsing()
+feed_parsing()
 
 #print len(tag_list)
 #print len(discs)
