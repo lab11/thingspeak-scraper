@@ -23,6 +23,7 @@ from urlparse import *
 # g8: makeup of a channel (i.e. how many graphs / what grouping?)
 
 d = {}
+f = {}
 language_count = {}
 chart_list = []
 tag_list = []
@@ -73,13 +74,13 @@ def word_cloud_array(array):
     
 
 def load_to_mem():
-    global d
+    global d, f
     cnt = 0
     for filename in os.listdir("./json/"):
         if ".json" in filename and not filename == ".json":
             #print filename
-            f = open("./json/"+filename,"r")
-            j_str = f.read()
+            fi = open("./json/"+filename,"r")
+            j_str = fi.read()
             
             if '"tags": ]' in j_str: #fix broken tags section :/
                 j_str = j_str.replace('"tags": ]', '"tags": []') 
@@ -94,6 +95,15 @@ def load_to_mem():
                 j_str = j_str[:n+1]
             js = simplejson.loads(j_str)
             d[filename[:-5]] = j_str
+    for filename in os.listdir("./feeds/"):
+        if ".json" in filename and not filename == ".json":
+            #print filename
+            fi = open("./feeds/"+filename,"r")
+            j_str = fi.read()
+            #print j_str
+            js = simplejson.loads(j_str)
+            f[filename[:-5]] = j_str
+
 
 def author_histogram():
     global author_count 
