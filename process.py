@@ -23,8 +23,10 @@ from urlparse import *
 # g8: makeup of a channel (i.e. how many graphs / what grouping?)
 
 d = {}
+language_count = {}
 chart_list = []
 tag_list = []
+discs = []
 author_count = {}
 tags_per_author = {}
 num_authors = 0
@@ -117,11 +119,26 @@ def extract(j_str):
     global tag_list
     global author_count
     global tags_per_author
+    global language_count
+    global discs
     #print j_str
     j = json.loads(j_str)
     tags = j['tags']
     author = j['author']
     charts = j['charts']
+    language = j['language']
+    disc = j['disc']
+
+    if not len(disc) == 0 and language == 'en':
+        discs.append(disc)
+
+
+    try:
+        cur = language_count[language]
+        cur = cur + 1
+        language_count[language] = cur
+    except:
+        language_count[language] = 0
 
     # construct word_str for word cloud 
     for tag in tags:
@@ -132,6 +149,9 @@ def extract(j_str):
         author_count[author] = author_count[author] + 1
     except:
         author_count[author] = 1
+    print "authors: " + str(len(author_count.keys()))
+
+
 
     # tags per author
     try:
@@ -148,6 +168,24 @@ def extract(j_str):
     # all charts
     for chart in charts:
         chart_list.append(chart)
+
+
+def parse_update(url):
+    qs = urlparse(url)[4]
+    o = parse_qs(qs)
+    try:
+        return o['update']
+    except:
+        return None
+
+def parse_title(url):
+    qs = urlparse(url)[4]
+    o = parse_qs(qs)
+    try:
+        return o['title']
+    except:
+        return None
+
         
 
 def test_retrieve(index):
@@ -165,108 +203,101 @@ def query_all():
     for key,value in d.iteritems():
         extract(d[key])
 
-def parse_update(url):
-    qs = urlparse(chart)[4]
-    o = parse_qs(qs)
-    try:
-        return o['update']
-    except:
-        return None
 
-def parse_title(url):
-    qs = urlparse(chart)[4]
-    o = parse_qs(qs)
-    try:
-        return o['title']
-    except:
-        return None
 
+def chart_parsing():
+    line = 0
+    line_titles = []
+    line_update = []
+    video = 0
+    status = 0
+    maps = 0
+    total = 0
+    column = 0
+    column_titles = []
+    column_update = []
+    spline = 0
+    spline_titles = []
+    spline_update = []
+    bar = 0
+    bar_titles = []
+    bar_update = []
+    step = 0
+    step_titles = []
+    step_update = []
+    unknown = 0
+    unknown_titles = []
+    unknown_update = []
+    for chart in chart_list:
+        total += 1
+        if "type=line" in chart:
+            line += 1
+            title = parse_title(chart)
+            if title:
+                line_titles.append(title[0])
+            update = parse_update(chart)
+            if update:
+                line_update.append(update[0])
+        elif "www.youtube.com" in chart:
+            video += 1
+        elif "status/recent" in chart:
+            status += 1
+        elif "type=column" in chart:
+            column += 1
+            title = parse_title(chart)
+            if title:
+                column_titles.append(title[0])
+            update = parse_update(chart)
+            if update:
+                column_update.append(update[0])
+        elif "type=spline" in chart:
+            spline += 1
+            title = parse_title(chart)
+            if title:
+                spline_titles.append(title[0])
+            update = parse_update(chart)
+            if update:
+                spline_update.append(update[0])
+        elif "type=bar" in chart:
+            bar += 1
+            title = parse_title(chart)
+            if title:
+                bar_titles.append(title[0])
+            update = parse_update(chart)
+            if update:
+                bar_update.append(update[0])
+        elif "type=step" in chart:
+            step += 1
+            title = parse_title(chart)
+            if title:
+                step_titles.append(title[0])
+            update = parse_update(chart)
+            if update:
+                step_update.append(update[0])
+        elif "maps/channel_show" in chart:
+            maps += 1
+        elif "channel" in chart and "chart" in chart:
+            unknown += 1
+            title = parse_title(chart)
+            if title:
+                unknown_titles.append(title[0])
+            update = parse_update(chart)
+            if update:
+                unknown_update.append(update[0])
+        else:
+            pass
+    #        print chart
+    #word_cloud_array(line_titles)
+    print line, video, status, maps, total
 
 load_to_mem()
 query_all()
+#print len(language_count.keys())
+chart_parsing()
 
-line = 0
-line_titles = []
-line_update = []
-video = 0
-status = 0
-maps = 0
-total = 0
-column = 0
-column_titles = []
-column_update = []
-spline = 0
-spline_titles = []
-spline_update = []
-bar = 0
-bar_titles = []
-bar_update = []
-step = 0
-step_titles = []
-step_update = []
-unknown = 0
-unknown_titles = []
-unknown_update = []
-for chart in chart_list:
-    total += 1
-    if "type=line" in chart:
-        line += 1
-        title = parse_title(chart)
-        if title:
-            line_titles.append(title[0])
-        update = parse_update(chart)
-        if update:
-            line_update.append(update[0])
-    elif "www.youtube.com" in chart:
-        video += 1
-    elif "status/recent" in chart:
-        status += 1
-    elif "type=column" in chart:
-        column += 1
-        title = parse_title(chart)
-        if title:
-            column_titles.append(title[0])
-        update = parse_update(chart)
-        if update:
-            column_update.append(update[0])
-    elif "type=spline" in chart:
-        spline += 1
-        title = parse_title(chart)
-        if title:
-            spline_titles.append(title[0])
-        update = parse_update(chart)
-        if update:
-            spline_update.append(update[0])
-    elif "type=bar" in chart:
-        bar += 1
-        title = parse_title(chart)
-        if title:
-            bar_titles.append(title[0])
-        update = parse_update(chart)
-        if update:
-            bar_update.append(update[0])
-    elif "type=step" in chart:
-        step += 1
-        title = parse_title(chart)
-        if title:
-            step_titles.append(title[0])
-        update = parse_update(chart)
-        if update:
-            step_update.append(update[0])
-    elif "maps/channel_show" in chart:
-        maps += 1
-    elif "channel" in chart and "chart" in chart:
-        unknown += 1
-        title = parse_title(chart)
-        if title:
-            unknown_titles.append(title[0])
-        update = parse_update(chart)
-        if update:
-            unknown_update.append(update[0])
-    else:
-        pass
-#        print chart
-word_cloud_array(line_titles)
+#print len(tag_list)
+#print len(discs)
+
 #print line, video, status, maps, total
 
 #print tag_list
