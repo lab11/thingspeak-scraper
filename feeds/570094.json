@@ -1,0 +1,1 @@
+{"channel":{"id":570094,"name":"LM35 Data Test","description":"Taking the data from the LM35 sensor and sending it to the database of thingspeak","latitude":"0.0","longitude":"0.0","field1":"Temp","created_at":"2018-09-05T21:43:23Z","updated_at":"2018-09-05T21:43:23Z","last_entry_id":null},"feeds":[]}

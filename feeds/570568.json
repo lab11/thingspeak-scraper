@@ -1,0 +1,1 @@
+{"channel":{"id":570568,"name":"weather","description":"monitors temp,humidity,rain value,pressure,light intensity","latitude":"0.0","longitude":"0.0","field1":"temperature","field2":"humidity","field3":"rain value","field4":"pressure","field5":"light intensity","created_at":"2018-09-06T11:48:49Z","updated_at":"2018-09-06T11:49:13Z","last_entry_id":null},"feeds":[]}

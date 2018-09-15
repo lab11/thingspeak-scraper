@@ -1,0 +1,1 @@
+{"channel":{"id":573481,"name":"test","description":"test","latitude":"0.0","longitude":"0.0","field1":"Field Label 1","created_at":"2018-09-11T01:59:22Z","updated_at":"2018-09-11T01:59:22Z","last_entry_id":2},"feeds":[{"created_at":"2018-09-11T02:22:23Z","entry_id":1,"field1":"1000"},{"created_at":"2018-09-11T02:22:40Z","entry_id":2,"field1":"2000"}]}
