@@ -1,11 +1,12 @@
 import sys
+import simplejson
 import urllib2
 from bs4 import BeautifulSoup
 import re
 from urlparse import *
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-
+import json
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -24,8 +25,9 @@ remote = False
 def get_all_forums():
     global forums
     if not remote:
-        forums =  {u'microcontrollers': 2, u'other': 2, u'matlab': 8, u'announcements': 3, u'installation': 4, u'raspi': 2, u'thingspeak-plugins': 6, u'thingspeak-projects': 5}
-        #forums = {u'thingspeak-apps': 19, u'esp8266-wi-fi': 10, u'thingspeak-api': 43, u'mobile-apps': 3, u'arduino': 13, u'general': 12, u'feature-requests': 5, u'microcontrollers': 2, u'other': 2, u'matlab': 8, u'announcements': 3, u'installation': 4, u'raspi': 2, u'thingspeak-plugins': 6, u'thingspeak-projects': 5}
+#        forums =  {u'microcontrollers': 2, u'other': 2, u'matlab': 8, u'announcements': 3, u'installation': 4, u'raspi': 2, u'thingspeak-plugins': 6, u'thingspeak-projects': 5}
+#        forums = {u'thingspeak-apps': 19, u'esp8266-wi-fi': 10, u'thingspeak-api': 43, u'mobile-apps': 3, u'arduino': 13, 
+        forums = {u'general': 12, u'feature-requests': 5, u'microcontrollers': 2, u'other': 2, u'matlab': 8, u'announcements': 3, u'installation': 4, u'raspi': 2, u'thingspeak-plugins': 6, u'thingspeak-projects': 5}
     else:
         browser = webdriver.Chrome()
     	browser.get(base_url)
@@ -58,15 +60,20 @@ def construct_url_list(topic, max_page):
 
 def gather_post(post_soup):
     post = {}
-    date = post_soup.find('div', attrs={'class': 'spPostUserDate'}).text
-    username = post_soup.find('div', attrs={'class': 'spPostUserName'}).text
-    content = post_soup.find('div', attrs={'class': 'spPostContent'}).text.replace('"', "'").replace("\n", '').replace("\\", "").replace("\t", '').replace("\r", '')
-    num_user_posts = post_soup.find('div', attrs={'class': 'spPostUserPosts'}).text.strip().split(":")[-1]
-    post['date'] = date
-    post['author'] = username
-    post['content'] = content
-    post['num_user_post'] = num_user_posts
-    return post
+    try:
+        date = post_soup.find('div', attrs={'class': 'spPostUserDate'}).text
+        username = post_soup.find('div', attrs={'class': 'spPostUserName'}).text
+        content = post_soup.find('div', attrs={'class': 'spPostContent'}).text.replace('"', "'").replace("\n", '').replace("\\", "").replace("\t", '').replace("\r", '')
+        num_user_posts = post_soup.find('div', attrs={'class': 'spPostUserPosts'}).text.strip().split(":")[-1]
+        post['date'] = date
+        post['author'] = username
+        post['content'] = content
+        post['num_user_post'] = num_user_posts
+        return post
+    except:
+        return post
+    #post = json.dumps(post)
+    #return post
 
 
 def visit_thread(thread_url):
@@ -80,7 +87,10 @@ def visit_thread(thread_url):
         post = gather_post(post_soup)	    
         posts.append(post)
     thread['posts'] = posts
-    thread['url'] = thread_url
+    thread['url'] = str(thread_url)
+    #thread = json.dumps(thread)
+    #print thread
+    #exit()
     return thread
         
 
@@ -91,6 +101,7 @@ def visit_all_forums():
         full_forum = []
         for forum_url in url_list:
             name = forum_url.split("/")[-3]
+            page = forum_url.split("/")[-2]
             forum = {}
             threads = []
             channel = urllib2.urlopen(forum_url)
@@ -103,11 +114,14 @@ def visit_all_forums():
                 threads.append(thread)
             forum['url'] = forum_url
             forum['threads'] = threads
-            #print "\t" + forum_url
+            print "\t" + forum_url
             full_forum.append(forum)
-            print forum_url
-        f = open("forums/"+name+".json", "w")
-        f.write(str(full_forum))
+            forum_json = json.dumps(forum)
+            f = open("forums/"+name+":"+page+".json", "w")
+            f.write(str(forum_json))
+            #exit()
+        #f = open("forums/"+name+".json", "w")
+        #f.write(str(full_forum))
 #    print dump
 
 get_all_forums()
