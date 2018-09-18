@@ -26,9 +26,19 @@ from pprint import pprint
 # g7: how well do people describe graphs?
 # g8: makeup of a channel (i.e. how many graphs / what grouping?)
 
+
+# channel structure '{"name": "' + self.name + '", "gauges": "' + self.gauges + '", "gauges2": "' + self.gauges2 + '", "statuses": "' + self.statuses + '", "url": "' + self.url + '", "author": "' + self.author + '", "disc": "' + self.disc + '", "tags": ' + self.tags + ', "shares": "' + self.shares + '", "charts": ' + self.charts + ', "comments": ' + self.comments + ', "maps": "' + self.maps + '", "matlabs": "' + self.matlabs + '", "language": "' + self.language + '"}'
+
+# forum structure forum[threads[posts[author,content]
+# feeds {"channel":{"id":292812,"name":"BME280" 
+
+
+
+
 d = {} #channels
 r = {} #forums
 l = {} #feeds
+a = {} #author index
 language_count = {}
 chart_list = []
 tag_list = []
@@ -81,6 +91,8 @@ def word_cloud_array(array):
 def load_to_mem():
     global d
     global r
+    global a
+    global r
     cnt = 0
     for filename in os.listdir("./forums"):
         #print filename
@@ -91,6 +103,27 @@ def load_to_mem():
             url = j['url']
             url_s = url.split("/")
             forum_name = url_s[-3] # + "-" + url_s[-2]
+    
+            #reverse forum into author index
+            for thread in j['threads']:
+                thread_url = thread['url']
+                posts = thread['posts']
+                for post in posts:
+                    rev_post = {}
+                    author = post['author']
+                    date = post['date']
+                    content = post['content']
+                    rev_post['date'] = date
+                    rev_post['content'] = content
+                    rev_post['thread_url'] = thread_url
+                    rev_post['forum_name'] = forum_name
+                    rev_post['forum_url'] = url
+                    try: 
+                        a[author].append(rev_post)
+                    except:
+                        a[author] = []
+                        a[author].append(rev_post)
+
             try:
                 g = r[forum_name]
                 r[forum_name] = g.append(j)
@@ -244,9 +277,10 @@ def test_retrieve(index):
         cnt = cnt + 1
 
 def query_forum():
-    global r
-    for key, value in r.iteritems():
+    global a
+    for key, value in a.iteritems():
         print key
+        exit()
         try:
             print key, len(f[key])
         except:
@@ -370,11 +404,17 @@ def rake():
     print r.get_ranked_phrases_with_scores()
     '''
 
+
+def create_author_index():
+    pass
+
 #    words = get_all_descriptions()
 
 load_to_mem()
+
+
 #query_all()
-query_forum()
+#query_forum()
 
 
 #rake()
