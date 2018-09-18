@@ -7,10 +7,14 @@ import matplotlib.mlab as mlab
 import simplejson
 from urlparse import urlparse
 from urlparse import *
+import ast
+from pprint import pprint
+
 
 # fixed nearly 30 items to remove quotes
 # 3711.json tags super broken
 # 256841.json had a \ to take out
+
 
 
 # g1: super users?
@@ -22,8 +26,9 @@ from urlparse import *
 # g7: how well do people describe graphs?
 # g8: makeup of a channel (i.e. how many graphs / what grouping?)
 
-d = {}
-f = {}
+d = {} #channels
+r = {} #forums
+l = {} #feeds
 language_count = {}
 chart_list = []
 tag_list = []
@@ -74,8 +79,38 @@ def word_cloud_array(array):
     
 
 def load_to_mem():
-    global d, f
+    global d
+    global r
     cnt = 0
+    for filename in os.listdir("./forums"):
+        #print filename
+        if ".json" in filename and not filename == ".json":
+            fi = open("./forums/"+filename, "r")
+            j_str = fi.read()
+            j = ast.literal_eval(j_str)
+            url = j['url']
+            url_s = url.split("/")
+            forum_name = url_s[-3] # + "-" + url_s[-2]
+            try:
+                g = r[forum_name]
+                r[forum_name] = g.append(j)
+            except:
+                r[forum_name] = []
+                r[forum_name].append(j)
+            
+            '''
+            threads = j['threads']
+            for thread in threads:
+                posts = thread['posts']
+                for post in posts:
+                    print post
+                    exit()
+            '''
+            '''
+            for r in a:
+                print r
+                exit()
+            '''
     for filename in os.listdir("./json/"):
         if ".json" in filename and not filename == ".json":
             #print filename
@@ -102,7 +137,7 @@ def load_to_mem():
             j_str = fi.read()
             #print j_str
             js = simplejson.loads(j_str)
-            f[filename[:-5]] = j_str
+            l[filename[:-5]] = j_str
 
 
 def author_histogram():
@@ -207,15 +242,25 @@ def test_retrieve(index):
         print index
         print j_str
         cnt = cnt + 1
-    
+
+def query_forum():
+    global r
+    for key, value in r.iteritems():
+        print key
+        try:
+            print key, len(f[key])
+        except:
+            pass
+    exit()
+
 def query_all():
     global d
     for key,value in d.iteritems():
         extract(d[key])
 
 def feed_parsing():
-    global f
-    for key, value in f.iteritems():
+    global l
+    for key, value in l.iteritems():
         js = simplejson.loads(value)
         print js['channel']['id']
 
@@ -304,11 +349,39 @@ def chart_parsing():
     #word_cloud_array(line_titles)
     print line, video, status, maps, total
 
+
+
+
+def rake():
+    from rake_nltk import Rake, Metric
+    #r = Rake()
+    r = Rake(ranking_metric=Metric.WORD_FREQUENCY)
+    words = ""
+    for disc in discs:
+        words = words + ". " + disc
+    r.extract_keywords_from_text(words)
+    print r.get_ranked_phrases_with_scores()
+
+    '''
+    tags = ""
+    for tag in tag_list:
+        tags =  tags + " " + tag
+    r.extract_keywords_from_text(tags)
+    print r.get_ranked_phrases_with_scores()
+    '''
+
+#    words = get_all_descriptions()
+
 load_to_mem()
-query_all()
+#query_all()
+query_forum()
+
+
+#rake()
+
 #print len(language_count.keys())
 #chart_parsing()
-feed_parsing()
+#feed_parsing()
 
 #print len(tag_list)
 #print len(discs)
