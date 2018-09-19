@@ -1,3 +1,4 @@
+import re
 import json
 import os
 from wordcloud import WordCloud
@@ -88,89 +89,92 @@ def word_cloud_array(array):
     plt.show()
     
 
-def load_to_mem():
+def load_to_mem(forums_on, channels_on, feeds_on):
     global d
     global r
     global a
     global r
     cnt = 0
-    for filename in os.listdir("./forums"):
-        #print filename
-        if ".json" in filename and not filename == ".json":
-            fi = open("./forums/"+filename, "r")
-            j_str = fi.read()
-            j = ast.literal_eval(j_str)
-            url = j['url']
-            url_s = url.split("/")
-            forum_name = url_s[-3] # + "-" + url_s[-2]
-    
-            #reverse forum into author index
-            for thread in j['threads']:
-                thread_url = thread['url']
-                posts = thread['posts']
-                for post in posts:
-                    rev_post = {}
-                    author = post['author']
-                    date = post['date']
-                    content = post['content']
-                    rev_post['date'] = date
-                    rev_post['content'] = content
-                    rev_post['thread_url'] = thread_url
-                    rev_post['forum_name'] = forum_name
-                    rev_post['forum_url'] = url
-                    try: 
-                        a[author].append(rev_post)
-                    except:
-                        a[author] = []
-                        a[author].append(rev_post)
+    if forums_on:
+        for filename in os.listdir("./forums"):
+            #print filename
+            if ".json" in filename and not filename == ".json":
+                fi = open("./forums/"+filename, "r")
+                j_str = fi.read()
+                j = ast.literal_eval(j_str)
+                url = j['url']
+                url_s = url.split("/")
+                forum_name = url_s[-3] # + "-" + url_s[-2]
+        
+                #reverse forum into author index
+                for thread in j['threads']:
+                    thread_url = thread['url']
+                    posts = thread['posts']
+                    for post in posts:
+                        rev_post = {}
+                        author = post['author']
+                        date = post['date']
+                        content = post['content']
+                        rev_post['date'] = date
+                        rev_post['content'] = content
+                        rev_post['thread_url'] = thread_url
+                        rev_post['forum_name'] = forum_name
+                        rev_post['forum_url'] = url
+                        try: 
+                            a[author].append(rev_post)
+                        except:
+                            a[author] = []
+                            a[author].append(rev_post)
 
-            try:
-                g = r[forum_name]
-                r[forum_name] = g.append(j)
-            except:
-                r[forum_name] = []
-                r[forum_name].append(j)
-            
-            '''
-            threads = j['threads']
-            for thread in threads:
-                posts = thread['posts']
-                for post in posts:
-                    print post
+                try:
+                    g = r[forum_name]
+                    r[forum_name] = g.append(j)
+                except:
+                    r[forum_name] = []
+                    r[forum_name].append(j)
+                
+                '''
+                threads = j['threads']
+                for thread in threads:
+                    posts = thread['posts']
+                    for post in posts:
+                        print post
+                        exit()
+                '''
+                '''
+                for r in a:
+                    print r
                     exit()
-            '''
-            '''
-            for r in a:
-                print r
-                exit()
-            '''
-    for filename in os.listdir("./json/"):
-        if ".json" in filename and not filename == ".json":
-            #print filename
-            fi = open("./json/"+filename,"r")
-            j_str = fi.read()
-            
-            if '"tags": ]' in j_str: #fix broken tags section :/
-                j_str = j_str.replace('"tags": ]', '"tags": []') 
-           
-            if '"charts": ]' in j_str: #fix broken tags section :/
-                j_str = j_str.replace('"charts": ]', '"charts": []') 
+                '''
+    if channels_on:
+        for filename in os.listdir("./json/"):
+            if ".json" in filename and not filename == ".json":
+                #print filename
+                fi = open("./json/"+filename,"r")
+                j_str = fi.read()
+                
+                if '"tags": ]' in j_str: #fix broken tags section :/
+                    j_str = j_str.replace('"tags": ]', '"tags": []') 
+               
+                if '"charts": ]' in j_str: #fix broken tags section :/
+                    j_str = j_str.replace('"charts": ]', '"charts": []') 
 
-            j_str = j_str.replace("\n",'').replace('\r','').replace('\t','')
+                j_str = j_str.replace("\n",'').replace('\r','').replace('\t','')
 
-            if "}{" in j_str: #fix append error
-                n = j_str.find("}{")
-                j_str = j_str[:n+1]
-            js = simplejson.loads(j_str)
-            d[filename[:-5]] = j_str
-    for filename in os.listdir("./feeds/"):
-        if ".json" in filename and not filename == ".json":
-            #print filename
-            fi = open("./feeds/"+filename,"r")
-            j_str = fi.read()
-            #print j_str
-            js = simplejson.loads(j_str)
-            l[filename[:-5]] = j_str
+                if "}{" in j_str: #fix append error
+                    n = j_str.find("}{")
+                    j_str = j_str[:n+1]
+                js = simplejson.loads(j_str)
+                d[filename[:-5]] = j_str
+    if feeds_on:
+        for filename in os.listdir("./feeds/"):
+            if ".json" in filename and not filename == ".json":
+                #print filename
+                fi = open("./feeds/"+filename,"r")
+                j_str = fi.read()
+                #print j_str
+                js = simplejson.loads(j_str)
+                l[filename[:-5]] = j_str
 
 
 def author_histogram():
@@ -207,8 +211,15 @@ def extract(j_str):
     language = j['language']
     disc = j['disc']
 
+    REPLACE_NO_SPACE = re.compile("(\.)|(\;)|(\:)|(\!)|(\')|(\?)|(\,)|(\")|(\()|(\))|(\[)|(\])")
+    REPLACE_WITH_SPACE = re.compile("(<br\s*/><br\s*/>)|(\-)|(\/)")
+
     if not len(disc) == 0 and language == 'en':
+        disc = [REPLACE_NO_SPACE.sub("", line.lower()) for line in disc]
+        disc = [REPLACE_WITH_SPACE.sub(" ", line) for line in disc]
         discs.append(disc)
+
+    
 
 
     try:
@@ -410,10 +421,30 @@ def create_author_index():
 
 #    words = get_all_descriptions()
 
-load_to_mem()
+def clean_text(text):
+    text = text.encode('utf-8')
+    text = text.lower()
+    text = re.sub(r"what's", "what is ", text)
+    text = re.sub(r"\'s", " ", text)
+    text = re.sub(r"\'ve", " have ", text)
+    text = re.sub(r"can't", "can not ", text)
+    text = re.sub(r"n't", " not ", text)
+    text = re.sub(r"i'm", "i am ", text)
+    text = re.sub(r"\'re", " are ", text)
+    text = re.sub(r"\'d", " would ", text)
+    text = re.sub(r"\'ll", " will ", text)
+    text = re.sub(r"\'scuse", " excuse ", text)
+    text = re.sub('\W', ' ', text)
+    text = re.sub('\s+', ' ', text)
+    text = text.strip(' ')
+    return text
 
 
-#query_all()
+load_to_mem(False, True, False)
+query_all()
+#for disc in discs:
+#    print clean_text(disc)
+
 #query_forum()
 
 
