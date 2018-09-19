@@ -1,0 +1,1 @@
+{"name": "Temperatura Salon", "gauges": "", "gauges2": "", "statuses": "", "url": "https://thingspeak.com//channels/65467", "author": "kwisatz", "disc": "Pruebas", "tags": ], "shares": "0", "charts": ["/channels/65467/charts/1?dynamic=true&results=200&timescale=30&type=spline","/channels/65467/status/recent"], "comments": [], "maps": "", "matlabs": "", "language": "id"}

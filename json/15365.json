@@ -1,0 +1,1 @@
+{"name": "Pool Air Temp", "gauges": "", "gauges2": "", "statuses": "", "url": "https://thingspeak.com//channels/15365", "author": "karenbobiv", "disc": "This is the air temperature at the pool", "tags": ], "shares": "0", "charts": ["/channels/15365/charts/1?&results=60&dynamic=true","/channels/15365/status/recent"], "comments": [], "maps": "", "matlabs": "", "language": "en"}

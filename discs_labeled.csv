@@ -1,0 +1,1560 @@
+disc,label
+temperature of imac cpu in f,t
+exp8266 ccs811 bme280 ir distance sensor michaelson interferometer vibration,o
+this fetches fitbit data and plot the calories data,o
+arduino based project,u
+shows if the huddle room is available or not,o
+instantaneous performance data from my inverter,e
+switch room 311 temperature,t
+off grid solar wind system,e
+data presented here are from my weatherduino pro2 meteo station aqm development system from cz brandys l,w
+maintains the averages for each sensor,u
+with alphasense opc n2,u
+raspberry pi sense hat sensor readings from the shop,u
+tracks your mood and sound,o
+temp humidity and heat index from dht22 connected to esp8266,t
+esp8266 01 base weather data transmitter,w
+ultrasonic using iot,o
+raspberry pi at work,o
+8xport temperatury,t
+channel for visualization outdoor meteo data temperature humidity and air pressure in vut brno,t
+server room monitoring,o
+dht11 temp and humidity sensor at greenhouse,t
+monitors for utility power outages and high water level in sump,e
+particle photon with environmental sensors,w
+sensor 120 box at trees water level,o
+temperature humidity pressure,t
+dallas semiconductor ds18b20 temperature sensor attached to a adafruit huzzah esp8266 board to monitor the temperature in the storage room,t
+temperature of lwp2 6th floor,t
+office 243 temperature,t
+helping plants get optimum air light temperature humidity and soil moisture using an array of micro controllers sensors actuators and wifi,t
+esp8266 micropython raspberry pi mosquitto mqttwarn,o
+this is a test case for the sensors,o
+from bmp180,o
+we provide a community hub and have a network of volunteers working closely with our town and county councils local police and health board we provide regular weekly and also one off events for the community,o
+upload data from stm32 with esp2866,o
+sensor used pms7003,o
+data storage for weather station and subsequent data prediction,w
+weatherduino pro2 plus,o
+pig easy sow feeder 6,o
+pig easy sow feeder 2,o
+pig easy sow feeder 4,o
+weather sensors run by pic16f628 microcontroller data read by rpi and uploaded using curl on linux updates every 20 min,w
+memory usage,o
+energy produced and battery charging data,e
+meteorologic station in rumburk,o
+temperature in the big display tank,t
+stores temperature sensors readings,t
+stores temperature sensor readings,t
+stores temperature sensor readings,t
+read temperature and humidity from dht22 on wemos d1 mini,t
+sending data from raspberry to thingspeak,o
+zalishchyky gimnasia meteostation based on esp8266 board,u
+ch1 collect temperature and humidity data from adafruit feather esp8266 module,t
+csbb thermal monitor from ds18b20 sensor,t
+test weather channel,w
+with connectivity we thrive,u
+inductive sensing,o
+there is heat in se serverroom,t
+electric imp connected to max31855 thermocouple amp from adafruit reading glass fusing kiln temperature,t
+temp of the spa,t
+temperature humidity dust of soonmin park living room,t
+status location,o
+test for thing speak,o
+myhouse east 2nd outside,u
+temperature in miner room,t
+dht22 temperature humidity sensor driven by a raspberry pi 2 running a python script,t
+open or closed what is the temperature,t
+digital smart meter readings every five minutes the dsm connected particle sends out a telegram regarding the actual kwh1 kwh2 and m3gas values,t
+am2301 humidity and temperature sensor sonoff th16,t
+mckinley hive weight change in the last 10 minutes and the last 20 minutes,o
+8 x 240w solar panels schutten and 2 kw direct dc water heater,e
+temperatures in laundry room,t
+this channel displays data collected by the flc robotic gnome lab buoy timecontrol routinely runs a matlab script to parse analyze the data and post it to this channel,u
+collecting temp pressure humidity data,t
+wireless temperature and humidity monitor located in link,t
+wireless temperature and humidity monitor located in link,t
+monitor temperature and humidity from my dry aged room,t
+fish pond monitoring system,o
+testing esp8266 with ds18b20 batterypower,e
+temperature humidity and light level in guest bedroom,t
+collect and send all wifi data,o
+vaillant vrc 410 heating device monitoring,t
+remote temperature and humidity monitor data sent via wifi through a router to thing speak for interpolation operates 24 7 and allows temperature recording for applications needing logging capabilities,t
+to know the status of classroom power control,e
+this is gas detector project,o
+test temp project research,t
+inventory,o
+read temperature humidity and carbondioxide arduino nano and esp 01 is used,t
+it begins finally,u
+updated every 10 min,u
+temperature and humidity in bielefeld,t
+a variety of sensors and arduinos nodemcu collecting data around my house,o
+thingspeak make channel for rpi with bme280 and pms7003,o
+to monitor any analog sensor value,o
+photon and bmp280,o
+esp8266 and bme280 outside temperature humidity and pressure sensor,o
+foxtrot adatok,u
+energy monitoring for my cottage it based on esp8266 current transformer precision rectifier with opamp and mcp3421 18bit a d converter,e
+south ealing station,u
+some info about the isar river in munich like water level water flow and water temperature taken from http hnd bayern de and updated quarter hourly,t
+esp8266 with ds18b20,o
+iot workshop,u
+iot workshop,u
+stores temperature sensor reading,t
+lancontroller tinny v2,u
+weather and water well conditions,w
+thats mr edison to you,u
+nus l2 people counter,u
+esp8266 standalone with dht11,o
+solar powered weather station in a bird house 15 minute sample rate,w
+sensors dht22 and ds18b20 in our greenhouse air temperature humidity,t
+solar power weather station,w
+geiger counter with counts min other sensors to be added counter is located in baltimore,o
+front room temprature,t
+weather station at office,w
+temperature and rh of rm1201,t
+testing esp32 installation,o
+environmental measurement at ckp vislab office,w
+shinyei ppd42 air quality sensor 1 3 temperature humidity sesnor 1 0,t
+another test with another account,o
+data collected from the lodge,u
+tracking the solar system,o
+office sensors,o
+temperature and hummidity sensors from flat tukhachevskogo 25,t
+weather station powered by nodemcu sensors bme280 tsl2561,w
+mini project for computer interfacing,u
+all the work related to cedar and juniper,u
+raspberry,u
+temperature humidity,t
+for interfacing labview,o
+weather station bishops cleeve gloucestershire uk,w
+arduino based geiger counter w sbm 19 geiger tube and uv sensor,o
+some outdoor infos,w
+my room temperature read from lm35 on arduino,t
+learning temperature to cloud,t
+second ups statistics,o
+nextempmon battery test,e
+temperature in chicken coop,t
+records barometric pressure,w
+weather from dht11,w
+temperature and humidity of asi ramm screen room,t
+soil moisture monitoring at jasmin and new citrus slopes,o
+temperature humidity sensors esp8266 am2320 with a lipo charger under over voltage protection and 3 7v 780mah lipo battery,t
+this is a test with nodemcu,o
+temperature and humidity sensor located in the living room,t
+teploty_metyl,u
+local weather data in k nigsbach stein germany,w
+iot workshop,u
+nodemcu esp8266 bme280 weather station,w
+with alphasense opc n2 running on alternator power,e
+automatic weather station,w
+home weather station,w
+this is channel for agrihealth by kolatel,u
+sensor data from nodemcu is communicated to thingspeak,o
+an lnd7317 tube has been connected through the theremino geiger sensor to an esp8266 tasmota firmware,o
+outside temp barometer and humidity,t
+weather station esp8266 bmp280 bme280 dht22,w
+aqi index computed from a wheatherduino station,w
+temperatures humidity and luminosity sensors,t
+count pulses from 3 sources and relay to server,o
+wemos d1 mini lite read temperature and humidity from dht22,t
+radmon plus with bme680 sensor,o
+iot workshop,u
+iot workshop,u
+this project is ment for temperature monitering on the live basis,t
+my first weather station with 2 sensors,w
+only temperature in celcius,t
+ternopil real time outdoor air quality monitor point 1,o
+weather station bought in spring of 2017 from karl berger,w
+fan status 0 fan off 1 fan on,o
+light status 0 light off 1 light on,e
+outdoor weather data rheinzabern germany,w
+show room sensing,o
+device control 0 lighton 1 lightoff 2 fan on 3 fan off,o
+from some raspberry pi with dht22,u
+welcome to ecosense thingspeak channel,o
+ict weather station,w
+esp8266 bme280 lacrosse anemometer and rain gauges modified,w
+monitor temperature humidity and heat index,t
+audrino based heart beat monitoring system,o
+wet monitor,u
+outer temperature real values humidity probably not good values of 2x dht22 bme280 for comparition of sensors output esp8266,t
+wireless outdoor thermometer esp8266 ds18b20,t
+let the force be,u
+ens210 relative humidity and temperature sensor by ams,t
+recording current,e
+show temperature humidity and pressure collected in the birdnest,t
+capasitty is a solar powered wi fi ap and usb recharge station bundled in a concrete park bench,o
+training temperaturesensor,t
+temp sensors in the freezer,t
+average pollution intensity obtained such as to obtain alternate path with help of this value,o
+self regulating temperature controller for infant warmers,t
+this is for the monitoring system,u
+this is for the monitoring system,u
+elias channel that hold temperature and humidity measures,t
+short film science engineering,u
+thermostabilised box,t
+temperature humidity and light level in master bedroom,t
+energy produced and battery charging data,e
+this is a raspberry pi 2 and dht22 based dy room condition monitoring system,o
+santaclaratempbot provide temperature and related infos in real time in santa clara california usa silicon valley powered by smartytempy a smartywiot solution wanna be an ambassador in your district wanna use our open data contact us,t
+data coming from sensors and relay states from ac wall sockets outfitted with microcontrollers and esp8266 modules,e
+temperature humidity monitor,t
+teacher,u
+monitoring water levels to help automate water storage tank 2 sensor being installed and site temp humidity,o
+healthcare,u
+i am building many sensors using nodemcu and lua trying to connect everything together,o
+testing 2,u
+to monitor humidity temperature and lighting at home,t
+davis weather station on the roof of 417 mandarin flyway,w
+power meter at 417 mandarin flyway,e
+temperature and humidity levels,t
+for home use,u
+to check the water level in dam,o
+smart home,u
+mathwork,u
+smart monitoring system for temperature humidity and light sensor,t
+monitoring temperature using lm35 sensor,t
+rds110 thermostat,t
+data from node 2 located inside a1 office room,u
+solar powered weather station esp32 running micropython,w
+chcs project 6 axis data logging,o
+do you want to know how many times you have squished your connected gato,o
+diy multi zone regulation in my house based on arduino dallas onewire bus and thermoelectric valves,t
+practice work for iot lab,u
+the purpose of this channel is totally related to internet of things with the help of this platform where we learn now things related to iot,u
+the purpose of this channel is totally related to internet of things with the help of this platform we learn new things related to iot,u
+internet of things,u
+it is the most emerging technology in cs field,u
+home temperature monitoring,t
+room temperature humidity using si7021 lux using tsl2561 barometric pressure bmp180,t
+weather at taursa observatory,w
+this channel measures pulse rate and temperature for id 569607,t
+this is the air temperature at the pool,t
+smart home automation using iot and arduino uno for 13 09 2018,o
+record the health of tpms in every 18hrs,o
+computer room,u
+environment data of country house,w
+measuring weather parameters,w
+this channel shows temperature and pressure logged by raspberry pi and a bmp180 sensor using rpispy implementation,t
+which detects the hazardous gaseous and show it in the lcd and and upload it to the webserver in the form of ppm,o
+reports pond temperature every 15 minutes to cloud via cellular,t
+upload of moisture sensor data received over hc12,o
+real weather at home,w
+ach_temp humid,t
+field monitor,u
+temperature and humidity monitoring device 2,t
+just some temerature readings from my htpc,t
+my paris home temperature humidity etc,t
+all statistics related to harold my hamster,o
+analysing the wi fi signal strength rssi of an esp8266 to a thingspeak channel using the thingspeak api,o
+charles gerber 54 hotmail fr,u
+combined weather and diagnostic data from arduino based station,w
+kyiv outdoor temp pressure,t
+power data from the hut,e
+demonstrate dht11 from arduino,t
+heating and data for house taking feeds from 1 nanode arduino clone 2 electric imp,t
+monitoring the updates from temperature and humidity sensor5,t
+air t rh water t,u
+heartrate monitor project,o
+first test,u
+in f,t
+temperature and humidity some other shit,t
+channel to monitor environmental conditions of my apartment channel is supplied data via an esp8266 wifi module which has a bme280 sensor connected to it these are powered from a usb wall socket outlet for minimal setup installation,w
+nodemcu weather data balkon,w
+outside temperature in beaconsfield uk,t
+pa temperature humidity pressure,t
+temperature and humidity,t
+pig easy sow feeder 5,o
+temperature of cold room 1,t
+solar powered temperature humidity pressure sensor,e
+testing,u
+about room 205,u
+educational,u
+department of cse,u
+pig easy sow feeder 3,u
+check temperature of cooking field with infrared sensor,t
+analytics channel for southlands,u
+meteo data from wifi meteo station located on gru,o
+trying to upload the data,u
+temp of the chicks,t
+smart home,u
+weather station iot,w
+test for iot,u
+this channel measures pulse rate and temperature for id 532501,t
+athul,u
+dust sensor and bmp180 sensor connected to an esp8266,t
+3x ds18b20 on raspberry pi,t
+data about house living room conditions,u
+testing iot,u
+temperature logger with esp8266 and ds18b20 sensor,t
+iofthings accel data,o
+iofthings accel data,o
+iofthings accel data,o
+for the prototype of smart irrigation,o
+temp s2,t
+channel for nico to show speedtest,o
+temperatures on the property,t
+test esp8266 and ds18b20,t
+counter of scenarios,u
+temperature and humidity monitor,t
+temp plotting,t
+alarme vom wlan thermo nano,t
+measuring weather parameters,w
+wlan thermo,t
+monitoring of the farm,o
+weather info,w
+cooling fans auto on off,o
+weather at east part of tampere,w
+45 9 khz rf signal strength receiver for detecting sids sudden ionospheric disturbances triggered by an x ray burst of our sun,o
+diy weather station brno nov l skovec,w
+the 5v version dht22 and nodemcu on mongoose os,t
+temperature reading for all the pool sensors,t
+temperature and humidity sensor,t
+fields 1 2 3 5 6 first device,u
+temps humidity barometric pressure,t
+my first channel is my first channel,u
+realtime logging of data from emu 2 energy monitor home is 3000 sq ft 1st floor and 2500 sq ft basement 1st floor is conditioned air space using geothermal all electric home with heat pump hot water tank and icf construction,e
+home automation using computer vision,o
+rain water analysis,o
+to measure air quality and sound system in db,o
+collecting data from weather meteo station nova jezna cz,w
+random temperature and humidity data passed from a java program at an interval of 10 seconds,t
+just knowledge,u
+weather condition display,w
+the temperature in my workroom,t
+weather in vilar formoso portugal,w
+weather in penha garcia portugal,w
+weather in anadia portugal,w
+weather in avel s de caminho portugal,w
+esp wroom 32 and bme280 powerd by an 6v 4 5w solarpanel with an 2500mah 1c 3 7v lipo,e
+weather in alvares portugal,w
+monitor the current draw of the water heater and the temperature of the outlet,e
+light and temperature readings from my chicken coop you can see the coop at www thechickinn us,t
+temperature measurements on central heating,t
+temp and hum in server testing,t
+analyze of data acquired from home weather hvac and electrical systems,w
+heart without heart,o
+test thingspeak,u
+we are collecting data from moisture temperature and humidity sensors and storing it on the cloud server,t
+weather data from the misty valley farmhouse,w
+indoor locations,o
+loft temperature reading and ventilation fan status,t
+test with pi,u
+solar hot water system esp8266 as thingspeak logger from serial csv data,o
+home power consumption measurement,e
+local temperature humidity,t
+test node for photon to particle cloud to ts channel for mutual air prototype mk2,o
+the sound sensor will detect the sound,o
+receiving temperature and humidity data from nodemcu also receiving data from thingspeak to feed an amazon alexa skill to read the glasshouse temperature,t
+temperature and humidity,t
+indoor temperature humidity pressure luminosity bme280 wemos,t
+dht22 temperature humidity sensor driven by a raspberry pi 3 running a python script,t
+best tycoon channel,u
+best tycoon channel,u
+best tycoon channel,u
+best tycoon channel,u
+best tycoon channel,u
+best tycoon channel,u
+first channel thingspeak,u
+best tycoon channel,u
+best tycoon channel,u
+6 onewire sensors with raspberry pi and python 1 neptune r900v3 municipal water meter,o
+water heater solar panel monitoring,o
+different parameters of the aquarium,o
+esp wroom external sensor temerature pressure humidity altitude,t
+electric line voltage as measured in hsr bangalore,e
+second esp8266 module for testing sensors periferal devices,o
+temp_light intensity reading,t
+monitor temperatures of t wort 3 4 wort in top 1 4 of fermenter t wort 1 4 wort in bottom 1 4 of fermenter t chamber inside chamber on outside of fermenter 1 4 from bottom,t
+cas studio temperature and humidity earth straw wall measurements,t
+local temperature and humidity near lausanne switzerland feeding weatherstation display source code based on code from squix78 https blog squix org,t
+highfields,u
+dassault systemes hackathon 2018 perth mechatronics,u
+weather,w
+getting the temperature and atmospheric pressure from the summer house in the garden in cornwall uk,t
+measure of temperatures,t
+this is temperature and pressure data from my room in jena germany and just outside of it,t
+bandwidth monitoring of home internet connection,o
+weather station placed in my garden,w
+weather station placed in my garden,w
+weather engadine nsw,w
+weather station engadine nsw,w
+log of a pendulum regulator clock time keeping error against the ntp time reference using a nodemcu esp8266,o
+temperature humidity and atmospheric pressure in the pod,t
+receive temperature updates of the inside temperature,t
+alert for high temperature with jun temp sensor,t
+powered by arduino and dht11 dht22,t
+uploading data from a raspberry pi,u
+g f server room temperature and humidity,t
+esp8266 nodemcu lua 1 0 with dht11 22,t
+esp8266 nodemcu lua 1 0 with dht11 22,t
+test channel for weather station experiment,w
+if temperature is too high hot is diplayed,t
+channel for lorawan test,o
+embedded system project which works with an stm32f4xx microcontroller,u
+dht22 temperature humidity sensor driven by a raspberry pi 2 running a python script,t
+small solar powered meteo station in city opocno czech republic value from sensor bmp280 2pcs communication over wifi with esp8266,t
+check tempereture from hives by ds18b20 over omega2,t
+esp8266 nodemcu with dht22 bme280 ds18b20 and ldr sensors,t
+ape laser rh monitor,o
+themperature,t
+testing sensor with nodemcu,u
+temperature and humidity from dht22,t
+establish tcp ip connection,o
+electrical power meter,e
+estimated time of arrival project of monero xmr transaction experimental project,o
+this channel is used to monitoring movements in a specific area,o
+monitoring the temperature and humidity using dht11,t
+a simple app to track the player count over time,o
+crawlspace info,o
+posting data from inference to this channel,u
+iternetnet of thinking,u
+arduino monitor for 4 herb planters,o
+brightness sensor value of my wifi clock,o
+for collecting heating oil usage data,e
+temperature at home,t
+esp8266 based geiger counter weather station w bme280 and 4x si 180g gm tubes,t
+continuously transmit a sinus signal,o
+testing sending cpu temperature to iot,t
+what is the air like,o
+eight one wire temp sensors and nodemcu over wifi,t
+weather in guas boas portugal,w
+this channel allows you to see the highest and lowest amount of power consumption it can also calculate the average humidity of your working environment as well as high and low temperature,e
+rolling 7 minute average minimum maximum of wind speed measured in miles per hour using homemade wired anemometer homemade wireless temperature transmitter using mcp9700a,w
+temperature and humidity sensor based on esp8266 and sht31 with 3d printed case uploading to thingspeak,t
+environment monitoring from wio node,w
+to measure the temperature and the voltage,t
+temperature and humidity located in germany by,t
+si7021 temperature relative humidity sensor mh z19 co2 sensor iot thing esp8266,t
+measuring temperatures in and around a shed to test insulation effectiveness,t
+power usage from a home power monitor designed to record data every minute,e
+temp humidity,t
+the thing with the stuff in the place with the people at the time of day,u
+testing,u
+path 1 oai bom weather site,w
+monitoring water quality of pond fish farming,o
+home indoor weather station data from nodemcu trm,w
+in house environmental monitoring,o
+miniyun test at home,o
+water heater controler,o
+a channel to measure the height,o
+display graphs of in service system,u
+envision power monitor,e
+checking temp and humidity,t
+low cost lass system,u
+esp8266 nodemcu lua 1 0 with dht11 22,o
+with sht30 shield,t
+modem statistics,o
+wether,w
+my smart fridge on esp8266 with simple energy wattage metering kharkiv ukraine,e
+different sensors in my my home,u
+iotshit,u
+test for the slit on voltage raining slit status,e
+first attempt,o
+home linux box as per http community thingspeak com 2014 05 official tutorial monitoring linux server statistics,o
+the raspberry checks the temperatures and controls the water tank if the water is too colt for the bathroom heat it up the raspberry has solid state relays to switch the heating elements and the pump,t
+weight measurements taken from an hx711 load cell amplifier this is the full weight of a keg including its remaining content,o
+radiation monitor with bme280 barometer temp and humidity sensor,o
+this measures reports the status of a solar charger for batteries on the boat nellie brett,e
+the measured room temperature and humidity,t
+fgn 3f shared office,o
+esp8266 thing with dth22 sensor located in czech republic vysoke studnice,t
+lolin esp 12e esp8266 nodemcu sb mc with bosch bme280 weather sensor,w
+give real time temperature of surabaya,t
+data source for kradiator room temperature widget,t
+using led notifier,o
+home temperature humidity,t
+arduino uno based monitoring system for severinghaus lab dissolved noble gas equilibration experiments updates every 2 5 minutes with readings of top and bottom water temperatures and near surface pressure air temperature and humidity,t
+data from my particle boar,o
+arthronics data systems background radiation monitoring system station michendorf west germany,o
+inhouse temperature and humidity logger,t
+indoor and outdoor temps of the del monte hoop house particle photon gathering temp data from two ds18b20 digital temp sensors and forwarding to thingspeak with webhooks,t
+reads,u
+first channel on things speak,u
+home weather station agyagfalva lutita,w
+solar array voltage and amps,e
+latencies for various hu services,o
+shows when people trip the sensor at the main door of steamworks in rohrbach library,o
+updates every 30 minutes,u
+a solar iot sensor that uses aprs fi,o
+temp humidity,t
+measures outside temperature and humidity and water temperature of the spa,t
+data from a respirable dust sensor sds011 outside my window in stuttgart,o
+twice daily logs and running temperatures of the front cabinets 1 and 2 and the cool rooms 1 and 2 at the ashgrove store,t
+switch with led,o
+arduino mkr1000 with dht22 and maxsonar mb1240 for indoor temp hum and oiltank volume arduino uno with ds18b29 for solar boiler and davis vantage vue for the rest,t
+a nodemcu with 3 ds18b20 monitors the temperatures t o t u of a storage tank heated by a combination of oil boiler wood boiler and solar panels the temperature of the wood boiler t hv and the temperature of the exhaust gas t ag,t
+iot workshop,u
+heating boiler,o
+r r water leak detector,o
+air temperature in csc room,t
+heatbox v0 1,o
+home monitoring,o
+scale with wemos d1 mini espeasy domoticz,o
+using the internet of things iot in homes and industries it is possible to control any electrical or electronic equipment,u
+to control the temperature,t
+house temperature,t
+monitor cto office,u
+sends a forecast to user via thingspeak,w
+lchome weather sensors,w
+greenhouse in berthoud colorado,u
+we need to maintain sensors data permanently over the cloud,u
+tank level and pump state for pond,o
+output from pibot,u
+it shows the air pollution in the air,o
+weather in porto portugal,w
+weather in amarante portugal,w
+weather in castro daire portugal,w
+weather in trancoso portugal,w
+weather in feira portugal,w
+weather in arouca portugal,w
+weather in oliveira do hospital portugal,w
+weather in guarda portugal,w
+weather in vagos portugal,w
+weather in viseu portugal,w
+co2 humidity and temperature in my home,t
+sensors outside of conference room,u
+monitoring of ions using smart ions,u
+weather nodemcu and sensors,w
+weather1,w
+soil humidity measurements,o
+sensing and control,o
+sump pump water level,o
+we can check our solar pannel battery real time status,e
+this data stream is shared among all data loggers running my python code create your own data stream once you complete your test posting data here,u
+air quality station from lorathens network,o
+in an outhouse we have a wood pellet burner for central heating of the house combined with solar panels and a 500liter accumulation tank,o
+temperature measurement at home 3 arduino uno with ds18b20 sensors and nrf24l01 wireless modules and 1xarduino mega base with nrf24l01 wireless module 20x4 i2c lcd rtc ds3231 sd card datalogger,t
+this is my first ts channel it is going to be useful for cloud computing class,u
+channel of test for the first example of access information from the terminal to thingspeak,u
+iot workshop,u
+monitors temperature and motion around the house,t
+started at tue jan 17 2017 19 40,u
+data from the aquaponics system at chloroplast stuttgart,o
+southwest sydney fertility and ivf clinic,u
+potable water cistern levels,o
+outdoor arduino geiger counter with sbm 20 tube located in pezinok slovakia,o
+no central heated room,t
+uses arduino uno ethernet shield proto screw shield bme280 and am2315 sensors watchdog sleep code with modified metal tiki like torch as sleep red led on awake green led on indicator,t
+program based on sensor,u
+programs based on sensor and motor board compiled by adruino,u
+program based on sensor,u
+dht11 connected to a nodemcu esp8266,t
+measurements from s08 unit,u
+using an esp8266 esp 01 module and an arduino pro mini 3 3v i wirelessly update all outputs from my thermostat to here for data analysis and because it cool,t
+temperature of pfsense firewall cpu in f,t
+collect temperature from photon,t
+this is the example of humidity sensor using dh11,o
+iot test,u
+a garden weather station with temp hum rain pressure and light sensors,w
+channel to monitor environmental conditions of my apartment channel is supplied data via an esp8266 wifi module which has a bme280 sensor connected to it these are powered from a usb wall socket outlet for minimal setup installation,w
+test temperature home home outdoor,t
+return water from solar hot water collector on roof giving indication of daily maximum temperature and amount of hot water produced,o
+temperature and humidity monitoring system for greenhouse,t
+total time s spent for rendering within last 5 minutes,o
+meteo data read from personal weather station ws1080,w
+1np_room_103 conference room,u
+environment of my fish tank,o
+temperatur auf link more information klicken,t
+soil moisture for plants stored over winter in basement,o
+shared data at montreuil sur mer,u
+temperature log of solar thermal collector,t
+in this project we will monitor a person heart beat and body temperature,t
+radmon geiger counter set up to trigger a warning when radiation gets above a threshold value also displays temperature pressure and humidity data,o
+temperature data for simply garlic cold rooms,t
+data from arduino on board nbinstigator,u
+a test channel for paring project,u
+weather station,w
+weerstation diamant,w
+arduino atmega 328 dht22 shed link to esp 12e wifi,t
+dht11 remote station external humidity and temperature logging,t
+the very first,u
+weather at westmoreland park south portland or,w
+home weather station,w
+nodemcu with bme280 in black box,t
+temperatures in fermentation,t
+weather in lisbon portugal,w
+weather in peniche portugal,w
+power generation and usage,e
+pv production issy,u
+temperature and humidity sensor 1,t
+test sent temp to thingspeak,t
+moisture levels of work plants,o
+temperature with ds18b20 esp8266,t
+case study raspberry pi2 sr 04,u
+channel test class cloud computing,u
+weather station,w
+waterlevelmonitor,o
+arduino mega control and uploading values to thingsspeak and domoticz at the same time with esp8266,u
+is the pool heat on or off,o
+temperature and humidity sensing with nodemcu and dht11,t
+ternopil real time outdoor air quality monitor point 2,t
+power usage of pump,e
+hot water at top of tank at home,o
+test feed running on a wemos d1 mini esp8266 variant with a dht22 for room temp humidity data and a ds18b20 for the tank temperature,t
+monitors temp humidity rain value pressure light intensity,t
+temperature office humidity office,t
+temperature and humidity display,t
+air quality index for whitefield bangalore,o
+weatherduino pro2 plus air quality monitor,w
+v1 channel to test data from photon module till static ip and application i sready,o
+to detect ph value of a solution,o
+wibre wireless speed,o
+ttn network heartbeat,o
+keep track of my solar energy harvesting usage and batteries,e
+air quality monitoring,o
+nothing is impossible,u
+th 011,u
+th 010,u
+th 008,u
+monitoring the temperate using lm29,t
+vremea de pe yuhuu weather,w
+gets analog value from an ldr attached to the led of a relais and monitors critical temperatures,t
+main fridge in butchery,t
+hive monitoring system consisting of a hx711 weigh sensor a htu21d for sensing temperature and humidity inside the hive and a ds18b20 for sensing the temperature of the stress sensor for making temperature dependent corrections to the weight data,t
+iot workshop,u
+my home data light temp humidity using witty dht11 and relay board,t
+this is for testing,u
+this channel records vehicle electrical and mechanical parameters,e
+to mseaurement the temperature and humidity,t
+weather in alcoutim portugal,w
+weather in salir portugal,w
+weather in serta portugal,w
+weather in castelo branco portugal,w
+weather in mogadouro portugal,w
+weather in vila nova de foz c a portugal,w
+weather in alpalh o portugal,w
+weather in bemposta portugal,w
+esp8266 with a ds18b20 temperature sensor mounted in the hvac plenum right above the air handler,t
+weather in slavutich,w
+the craftbeerpi temperature sensor logging for the brewery mikrobrauerei orler,t
+knbw polymer loader 4 production data,o
+this is a new channel,u
+remote monitoring of solar array battery and auxiliary charger status,e
+arduino mega and nano weather station dht22 bme280 tx23,t
+monitoring of spare hive,o
+test of water flow reading system,o
+measure outside temp and water tank level,t
+templeoftimefrogtank,u
+weather in the upstairs room,w
+john workstation,o
+water level indicator,o
+temperature humidity on my terrace using orvet,t
+test av wemos,u
+made by civil engineering student 2015 2019 from srinix college of engineering,u
+says which computers are used in our lab if sb is running an experiment detects motion gets temperature and humidity,t
+testing data from iq610 in shelton office,o
+moisture levels of plants at work,o
+the chicken coop,u
+ants server room,u
+the video not mine explains the settings of a similar system i am using for more info go to http openenergymonitor org emon,e
+measurement of the outside temperature at my house in victoria park western australia,t
+sensor data to the cloud,u
+measure co2 and temp,t
+home energy meters pharm and todd,e
+monitors energy consumption,e
+celcius percent millibar of shaftesbury dorset uk,w
+onsite weight transmission,o
+reads dht11 temperature humidity sensor,t
+real time gpsw finding,o
+heart beat monitoring over internet using arduino and thingspeak,o
+combined sensor array 1,u
+bc robotics weather station,w
+for learning purpose i just want to see how we can upload data to cloud and vice versa,u
+monitoring system for temperature humidity and light intensity,t
+some sensor data measured with bme280 and ds18b20 and sent once a minute using esp8266,t
+wind speed at flying field,w
+weather in albufeira portugal,w
+mini weather station v2 bmp280 si7021 ds18b20 sensors with esp8266 nodemcu kharkiv ukraine,w
+all the data from my pool,o
+ssid and bus mac address,o
+temperature and humidity inside my charcuterie chamber parameters are controlled via a custom algorithm implemented in a rpi using python,t
+data from 2 soladin 600 solar converters of mastervolt which has to be updated every 20 seconds,e
+the number show the productivity,u
+temperature and humidity data from office room cce416b,t
+weather station,w
+simple weather station for chernigov in debug mode,w
+this is a dht22 connected to a particle photon and powered by a solar pad this is version 0 4,t
+environmental and systems monitoring at rochedale community garden,o
+to measure the distance,o
+which measures distance using ultrasonic sensor,o
+ultrasonic waves,o
+the three of life,u
+weather in santiago do cac m portugal,w
+weather in aljustrel portugal,w
+weather in grandola portugal,w
+weather in vidigueira portugal,w
+weather in amareleja portugal,w
+weather in set bal portugal,w
+weather in vendas novas portugal,w
+weather in evora portugal,w
+weather in borba portugal,w
+count the weight,u
+esp8266 and dht22 test,t
+geolocation test,o
+weather station project,w
+this channel displays flow measurements taken with a particle electron,u
+monitoring and recording the status of my koi pond duplicated to a mysql db captured on a arduino mega and sent to a mysql db then scrapped to here by an esp8266 monitor,o
+dht11 connection with nodemcu,t
+parameters extracted from digital power meter,e
+temperature humidity airpressure wil sg ch,t
+contains limits for the form,u
+monitoring of environmental parameters of our house and garden in vienna,o
+low power version of lora mini mega328p sensor si7021 kharkiv ukraine,u
+temperature humidity atm pressure light intensity uv index rain,t
+lsm800 sd room and incubator temps,t
+nus l1 people counter,u
+water levels of four rainwater tanks at lindley,o
+server room temp and humidity monitoring,t
+lorawan testchannel,u
+a channel to report the status of my internet connection,o
+esp wemos with oled display,o
+sensors installed outside and inside of the house,o
+humidity and temperature monitering,t
+skoltech_innovation_workshop_iot_group_3 perform an air quality analysis of a meeting room and predicting its readiness for the next meeting,o
+displays the typing speed of the workers in characters minute,o
+aircare sensor at tower 18 prestige shantiniketan whitefield,u
+temperature and humidity,t
+text,u
+elecrow red bme280,t
+this is weather monitoring from utycc,w
+testting for sonoff,u
+blitzortung temperature read from webpage,t
+a channel to upload from lm 35 censor,t
+temperature and humidity sensor of bedroom,t
+data from wifi,u
+esp32 server collects data from outdoor and indoor sensors based on particle photons and esp8266 esp32 serves data in a html page and sends selected channels to thingspeak,t
+temperature in the terrarium,t
+monitors a 80c thermo scientific medical freezer,t
+water jacket boiler temperature via electric imp,t
+envision power monitor,e
+albany hs co2 measurements,o
+temp and humidity sensor project,t
+at new headend site,u
+homebrew weather station on arduino solar powered this is the power supply feed,w
+based on paulrb code our bedroom,u
+buffer temperature heating,t
+refrigerator showcase homebrew storage,o
+piggy backing on the work of nicholas wilde,u
+monitoring of 88c temperature and humidity one fibaro one aeon,t
+current sampling on electric kiln provides a ignature curve for each firing enabling remote monitoring with minimal resources,e
+fire_forest_home_protec,o
+real time visualization structured things,u
+temperature humidity light level and barometric reading in my living room,t
+2 ds18b20 temp probes for monitoring room and incubator temperatures,t
+st vincent pallotti college of engineering and technology nagpur,u
+esp8266 temprature sensor on ioannina greece,t
+this is for student purposes made test channel,u
+petfood,u
+dht22 temperature humidity sensor driven by a raspberry pi 2 running a python script,t
+motion new,o
+temperature and humidity from an sht30 sensor connected to a raspberry pi zero,t
+esp8266 with temp sensor and bmp180,t
+adafruit feather m0 winc1500 wifi,o
+weather station in my garden micro climate build with wemos mini pro wifi and solar powered,w
+adafruit feather huzzah esp32 wifi,u
+you can get updated about what is going on in the greenhouse n 27,o
+monitor temperature of yogurt maker,t
+weerstation via sigfox 2017,w
+monitoring of temperatures,t
+show weather data including temperature relative humidity and wind speed,w
+health monitor of pi at kiara residence,o
+tinycontroll lk3 as2320,u
+this is a description,u
+tritium decay long time experiment,o
+5 rtc gps ok 32 cmd pmp on 64 acoustic tx ok 128 transmission fault,o
+pump controller based on arduino and esp link,o
+pi in wash room,u
+first weather station,w
+sparkcore sending humidity light and temperature,t
+testing esp,u
+present data from daylight sensor as light pulses in ms and us and temp in degree c,o
+water flow detection,o
+mathworks weather station west garage natick ma 01760 usa,w
+sk orchids fern plant monitoring,o
+first trial with thingspeak and pi3,u
+wemos d1 mini lite read temperature and humidity from dht22,t
+this channel receives 8 parameters pertaining to vehicle gps data,o
+trying to connect arduino uno with esp8266,u
+logging of temp and humidity in the kitchen fridge using esp8266 dht22,t
+current weather readings and solar powered station battery voltage,w
+temperature and humidity,t
+esp 8266 based heating controller equipped with forecast feature to compensate lag of the hydronic underfloor heating,o
+wifi thermometer with esp8266 and dht12 bmp280,t
+temperature sensor use wifi to update on thingspeak,t
+temp logging whit esp8266,t
+data from weatherstation located in korolev moscow region taken with davis vantage pro 2,w
+3 devices measuring energy at home,e
+weather station using esp8266,w
+to count the waste thrown,o
+this datastream shows inside and outside temperature of my home and also the battery power and voltage of my solar powered home,t
+ultrasonic waves,o
+weather station,w
+test channel for logging data to verify functionality,u
+track output changes of my homecontrol openhab,o
+use for home automation,u
+this will be the first esp 8266 readout channel,u
+the connected beehive,o
+tracking temperature and humidity in the brewery,t
+reading the updated temperature sensor values,t
+temperature and humidity,t
+living room temperature humidity and atmospheric pressure in taipei taiwan,t
+home security and monitor in wilmington nc,o
+measurement of road traffic in front of ont headquarters in krak w poland,o
+find temperature,t
+higrometro y termometro via wifi,t
+keeps an eye on the air quality around our precious developers,o
+iot workshop by platforuma,u
+iotworkshop by platforuma,u
+iot workshop,u
+iot workshop,u
+sensor readings from the main bedroom sensor block,u
+home water cylinder temparature,o
+atmostpheric data using a d1 mini and bme280 sensor,w
+testing esp8266 weather station,w
+monitoring system for silkworms incubator,o
+bedroom temperature humidity monitored using an esp32 and a dht11 sensor,t
+ict task,u
+this one leg of the 220 vac feed to the submersible pump supplying our farm,o
+logs data from bedroom heater control,t
+time it takes to spend 1 watt,e
+height of electrolyte,o
+itdepartmentsecyear,u
+selci is a very bad,u
+using esp12 and ds18b20 sensor powered from small solar panel 0 5w and li ion battery,t
+esp8266 201 thermometer,t
+connection of ac split core transformers to my washer and dryer with esp8266 and ads1115,e
+sht30 sensor connected to wemos d1 mini platform with antenna low power,t
+home status monitoring,o
+esp8266 with i2c arduino slave and mq 2 mq 7 gas sensors with sht21 temp hum sensor posting via mobile 4g wifi,t
+from iot module 8,u
+temperature humidity,t
+2 rain barrels and smart irrigation systems,o
+irrigation water level monitoring and temp humidity via dht11 sensor,t
+second weather station based on nodemcu and dht22,w
+this data displays the air quality information gathered from the palmy weather website based in palmerston north new zealand http palmyweather co nz,o
+bme280 ds18b20 bh1750 dht11 esp 8266 ssd1306 attiny13a fs1000a,t
+temp and vibration,t
+sensors dht22 and adafruit bmp280 inside of the shed wireless connection esp8266 and arduino uno,t
+autonomous temperature wifi sensor for my fish tank,t
+lora iot home environmental monitoring system,o
+outside temperature humidity air pressure and light level,t
+internal sm1131 th06,w
+temperature and humidity monitoring device 1,t
+temperature humidity monitoring channel,t
+ockway bay tide measured using maxbotix ultrasonic range sensor particle electron,o
+temperature and humidity monitoring at home,t
+weather condition in humenne slovakia measured by bme280 data sended by iot lpwan sigfox node uart modem 868mhz,w
+wine stability temperature and extras,t
+mesure temperature and humidity,t
+reads from dth11 sensor and uploads every 30 seconds,t
+receive change in data and send an email,u
+zolly hive data adjusted for humidity,o
+home made station based on arduino nano dht22 and bmp180,w
+monitors the temperature and humidity in the lab,t
+heating curve computed by the matlab gathering data online from sensors in the house,o
+updated every 15 minutes this is the first lora weather station installed in the felton valley with the assistance of cambooya landcare association this is a demonstration evaluation and educational project by queensland daf and dsiti,w
+working on wifi module,o
+temperature pressure and humidity readings in moscow koptevo,t
+personal weather station,w
+test arduino uno wifi analog read a0 and a1 dht22 for humidity and temperature,t
+pig easy sow feeder 1,o
+solar power generation,e
+this clock is eibenoria wifi clock,u
+solar powered wifi weather station wemos d1 mini bme280,w
+esp8266 d1 mini with dallas ds18b20 temperature sensor,t
+chicken coop heater light and temperature controll,t
+lab temperature and humidity measurement,t
+nodemcu with bmp180 and dht22,t
+indoor and outdoor temperature plus outdoor humidity and tank level,t
+crop monitoring system,o
+wemos d1 show temp humid for 7 days,t
+iot workshop,u
+iot workshop,u
+iot workshop by platforuma,u
+prater bedroom tempaerature and humidity,t
+a wemos d1 mini pro based weather station to measure ambient temperature humidity barometric pressure amount of rainfall,w
+arduino uno wiznet shield measuring temperature with kty10 6,t
+esp8266 with bme280,t
+things about my vm posted trough a bash script called every 10 minutes,u
+tracer upload from esp8266,o
+temperature humidity barometric pressure altitude sensor,t
+monitors a medical freezer at 80c,t
+monitors a medical freezer at 80c,t
+front porch shaded,u
+monitoring temperature and humidity,t
+iaq air quality test of live data to the channel feed,o
+faculty of engineering in bilbao university of the basque country upv ehu,u
+electricity meter,e
+dust in the space,o
+this is to monitor temperature humidity and light intensity,t
+heating,o
+temp and humidity in my humidor,t
+data logger in the utility server closet at home,u
+a ds18b20 temp senor in my basement connected to an esp8266 01 running nodemcu,t
+temperature humidity,t
+heart beat project,o
+contains projects in iot robot programming course,o
+testing,u
+this channel displays data collected by the flc robotic gnome lab buoy timecontrol routinely runs a matlab script to parse analyze the data and post it to this channel,o
+a generic data logger that is used to display the water level in overhead tank sump as a percentage,o
+esp8266 and ds18b20,t
+this is a rad mon geiger counter located at the cly institute for radio research directly west of 3 mile island,o
+measure temperature and air humidity in and around my house,t
+temperatures at a cabin in willow canyon catalina mountains near tucson arizona readings are taken outside inside and in the crawl space under the cabin,t
+temprature humidity and heat index data logger,t
+solar water heating system direct coupled separate vac tube array connected to a well insulted 150 litre geyser using natural thermo siphon for heat transfer electric element backup is connected with timer set on from 18h00 to 20h00,o
+temp and humidity,t
+weather monitoring,w
+hg_testlora01,u
+created by srinix college of engg bls 7th semester 2015 2019,u
+monitoring hive temperature humidity and weight,t
+project to monitor the weather,w
+showing the values of an more than 20 years old thermometer working with a z 80 cpu from zilog,t
+this channel is use for temp and humidity sensor,t
+read temp by dht11,t
+to measure the analog output from potentio sensor,o
+data from node in box on water center roof,o
+temperature in the swindon makerspace,t
+tvoc measured by iaq core c,o
+upload temperature and humidity,t
+thermometer ds18b20 simple light meter photoresistor and bh1750 for lux metering on balcony west side 2nd floor in shadow,t
+this channel include data receiving from device,u
+temperature of upper and lower compartments,t
+analyzing data of weather factors in cultives,w
+iot workshop,u
+esp weather station,w
+for working,u
+change temperature from celsius to farenheit automatically,t
+humidity and temp from oregon and fibaro daaf,t
+inter exterior temperature conditions,t
+weather master_br node,w
+nus l5 people counter,o
+nus l3 people counter,o
+temperature humidity,t
+experimental outdoor geiger counter with 20 tube,o
+temperature humidity and pressure in dresden klotzsche germany from bosch bme280 sensor,t
+room occupancy status,o
+weatherstation based on wemos d1 mini and bme280,w
+tmp,t
+temperature humidity,t
+wifi signal strength temperature humidity itb home,t
+do you want to know how many times you have squished your connected gato,o
+outside temperature homematic differential sensor preassure humidity bme280 hooked up to a wemos d1 mini windspeed meassured with an anemometer connected to a second wemos d1 mini all data is collected by a raspberry pi running iobroker the tran,t
+temperature humidity light level and barometric reading in my office and outside the window,t
+dry walls within 200m2 protection against the return of rising damp it destroys removes mold the smell disappears,u
+know how to work with thingspeak,u
+this data is from a weatherduino pro2 plus air quality monitor development module weather station is located in darra qld australia,w
+raspberry pi temp monitoring of motorhome,t
+diy mcu coffee plant channel esp8266 dht22 vh400 tsl2561 bmp180 mqtt server test mosquitto org wildcard subscription sensors op 477895 twitter https twitter com mrcoffeeplant,o
+temperature humidity test,t
+smartthings integration thingspeak monitoring all smart switches kw,u
+homemade weatherstation,w
+test input from multiple sources,u
+nodemcu with 4 ds18b20 temperature probes i will eventually move the probes over to the furnace and hot water heater etc when i get a more permanent enclosure for it,t
+co2 temperature humidity air pressure,t
+my thermometer experiment,t
+oder turn turbine rotation navigator,o
+second ieee weather station,w
+water level from hydroalert device at lakewood drive at bull creek crossing,o
+power supply watch,e
+sketch_sep09a_monitoring_door_opening_energy_use,e
+all in one,u
+family medical tphcm,u
+temperature humidity heat index,t
+sky quality meter at taursa observatory,o
+this board measures the temperature light intensity,t
+display of industrial safety and hazard parameters,o
+raspi 06 firewall,u
+computed data from 01d25ff,u
+temperature from current cost via hah,t
+air quality station from lorathens network national rd dafni,o
+if temperature is above 20 degree need to get mail,t
+temperature is cool,t
+iot workshop,u
+reading of temp sensor,t
+to receive the donate easy parameters,u
+testing purpose,u
+send text from sim800a to thingspeak server,o
+temp of room,t
+this is data from a weatherduino proplus air quality monitor,w
+weather in sobreira portugal,w
+a testbed for the technology used for a diy arduino based weather station in hebburn,w
+iot workshop,u
+iot workshop,u
+weerstation in onze hobbykas,w
+iot workshop,u
+costal piko 10 1 basic plus some php code,u
+pomiar temperatury ds18b20,t
+temperature humidity pressure monitoring,t
+just for learning,u
+dance machine with programming,o
+my personal server,u
+i am a software engineer,u
+to learn,u
+ik0adr thingspeak test,u
+wc outside dht 01,u
+outdoor weather,w
+humidity and temperature monitoring over a week,t
+this channel displays the vocs and equivalent c02 in the air using various environmental sensors the values are currently updated every 10 minutes,o
+temp humid of parts room,t
+th 007,u
+by home,u
+temperature and pressure,t
+daily high low temps heating vent,t
+humboldt county california,u
+channel for extended fhm demonstrator 2,u
+sensor information from my top bar honey bee hive,u
+posting light and temperature data from my particle photon,t
+my diy weather station data,w
+samplant humidity and temp north west corner,t
+pressure readings from the main well pump,o
+heating system,u
+esp32 thingspeak node red,u
+pzem 004t and esp8266 energy monitor,e
+weather station home,w
+arduino and esp for iot,u
+temperature at lvl 2 of the gordon building,t
+air quality sensor at visionsbox,o
+tele information,o
+tphcm eca gpis4 4eth,u
+outdoor temperature and humidity,t
+pal server room temp and humidity,t
+warrington,u
+location germany bw,u
+i me and myself only,u
+i am a software engineer,u
+internet of things,u
+this channel shows temperature pressure and humidity logged by andre raspberry pi and a bosch bme280 sensor,t
+kitchen temperature outside temperature,t
+ground water level,o
+checking temperature measurement,t
+status location,u
+roses are red,u
+my research projects,u
+please be accurate,u
+temperature sensors in glycol tank,t
+humidity and temp sensor,t
+decagon 5tm soil moisture and temperature sensor in my backyard sdi 12 usb adapter and raspberry pi zero,t
+3d printed weather station using arduino based mbili board wee wifi board and sensors,w
+ivf clinic sister to roseville f1f134403010,u
+the mtv team,u
+temperature sensors living room incl outside,t
+shows iphone gps coordinates lat lon altitude and speed uses blynk gps widget and esp8266 wifi micro controller,o
+measures the temperature and humidity of home brew during fermentation and carbonation,t
+iroomba weather,w
+it is a miniature monitoring system that connects living plants to the world of internet,o
+this is my new channel,u
+automatic door lock with rfid basic iot,o
+this channel monitors the air and water temperature of my 10ft pool,t
+bedroom temperature humidity and atmospheric pressure in taipei taiwan,
+temperature and humidity somewhere in germany,t
+test thingspeak,u
+dht22 sensor attached to an esp201 esp8266 based microcontroller,t
+monitoring that i have,u
+tipping bucket rain gauge modified pro mini 3 3v nrf24 sleep mode battery operated low power 6ua during stand by,w
+to help poultry firm,u
+for calibration,u
+real time temprature analysis,t
+arduino nano esp8266 bmp180 dht11 dht22 ds18b20 wh1080 anemometer wind direction meter and rain gauge,w
+esp8266 with mq135 to measure air quality and dht22 to measure temperature and humidity,t
+measuring weather parameters,w
+measuring weather related parameters,w
+measuring weather related parameters,w
+ternopil real time outdoor air quality monitor point 3,o
+the temp of him,t
+main power consumption,e
+solar off grid with tracking,e
+using the arduino temperature and humidity sensor,t
+basement furnace and freezer,o
+esp weather station,w
+test sigfox wisol arduino raspberry esp8266,u
+kty10 6 connected to the adc of a ts 7200 cpu board running ts linux,o
+top and bottom of evaporator panel,u
+the daniel boat,u
+my home channels tinaco taguatinaco,u
+indoor from esp8266,u
+lolin esp 12e esp8266 nodemcu sb mc with bosch bme280 weather sensor,w
+weather at thasala by bmp280,w
+temp humidity1,t
+weather,w
+only temperature in celcius,t
+i will make some useful and successfull hardwares for use,u
+temp_testing,t
+information of crayfish aquarium,o
+inside air temperature based on esp8266 wifi module and ds18b20 temp sensor,t
+temperature humidity and pressure with bme280 wemos,t
+my flat,u
+meteo data from vihorlat mountains slovakia measured by bme280 sensor data is transmitted by iot lpwan sigfox node uart modem 868mhz,o
+temperature humidity pressure light from nodemcu with dht22 bmp180,t
+home outside temp humidity from nodemcu and dht22,t
+a little iot lab,u
+checking in out temperature from central heater using one wemos d1 and two ds18b20 code and schematics will be avaiable soon,t
+display weather report,w
+this is the temperature swings of bedroom on the first floor with the heater vent open,t
+pfsense comcast speed test,o
+water level monitoring,o
+esp8266 counter iot,u
+unisoft,u
+collection of data from arduino weather station new data every 10 minutes,w
+location germany bw,u
+envision power monitor,e
+with alphasense opc n2 running on alternator power,e
+tracking drift in time with an atmega328 acting as the rtc using 32 768 khz crystal,u
+monitors the house temp humidty downstairs temperature upstairs to interface with ducted heating controller and also measures 2x roof cavity temperatures and outdoor temp to evaluate heat extraction during winter,t
+temperatures of two ds18b20 sensors,t
+data from soil moisture temperature humidity and luminosity sensors,t
+temperatur in my house and outdoor with teperature tubes out and in of gas boiler,t
+this channel is about some basic commands and projects based on arduino uno,u
+temperature humidity pressure cpm dose us and rssi,t
+heating at home,o
+pm2 5 pm10 contentration in my house in warsaw,o
+radiation level in montreal click on more information,o
+weather station placed in my garden,w
+weather station placed in my garden,w
+sense voltage and current of battery,e
+esp8266 weather station,w
+some esp8266 mini d1 with ds18b20 temperature sensors latest experiment is with the bmp280 exact barometric pressure and really good temperature,w
+im a plant living near bricogeek,o
+weather station data at langar airfield,w
+smart home,u
+temperatur pressure and humidity in mayen germany,t
+temperature with ds18b20 esp8266,t
+my room temperature humidity,t
+temperatur ofen,t
+testing,u
+trakian beach weather data,w
+this channel is for iot practice,u
+three ds18b20 sensors,t
+broadcast studio air conditioning temp monitors for sensing issues with units using react and http plugins i can send alerts to engineering dept cellphones,t
+temperature and humidity in the apartment,t
+ttn lorawan gateway frightanic one,u
+weather in sever do vouga portugal,w
+weather in pombal portugal,w
+weather in benavente portugal,w
+weather in reguengos de monsaraz portugal,w
+weather in fronteira portugal,w
+weather in portalegre portugal,w
+weather in torres vedras portugal,w
+weather in aguiar portugal,w
+weather in montargil portugal,w
+filtering out data,u
+around,u
+measure 4 x strom volt auf 3 phasen,e
+radiation and weather louisa va,w
+humidity and temperature monitoring over 24 hour period,t
+wsth itb rack office,u
+auto watering project prototype phase,o
+in ampere,e
+first try to get some data from the sensor,u
+well this is a testing channel,u
+dht22 temperature humidity sensor driven by a raspberry pi 2 running a python script,t
+home temperature humidity and lipo voltage by esp8266,t
+monitor rssi signal level of iot device,o
+solar pv mains import export and hot water diversion power values,o
+photovoltaik powered nodemcu with lipo buffer reading a bme280 bh1750 and a sds011 pm sensor,t
+first project,u
+datalogger based on arduino with 434mhz radio and bme280 sensor supplied by 3 6v battery for the transmitter and arduino and raspberry with python program for receiver,u
+to plot the data 10min,u
+its a best place where anyone can have future career where they can do what they want in the field of iot,u
+test wemos dht11,t
+wemos d1 mini and dht22 and oled shield in potting shed,t
+a hotbed somewhere in southern germany,u
+to monitor any analog sensor value,o
+sensors in hive 1,o
+raspberry pi zero w ds18b20 bh1750fvi sensors monitoring aquarium water temperature and lighting,t
+contain relay state,o
+outdoor pool temperature data fed from raspberry pi zero w with dsxxxxx waterproof sensor alexa skill also picks up latest temperature to provide a verbal response to what is the temperature in my pool,t
+unparallel innovation weather station power consumption,e
+unparallel innovation weather station,w
+data shows the measurement of distance between sensor hc sr04 and object and data transmitting on 2g network via module sim900a on prepaid sim controlled by arduino uno r3,o
+matlab analysis to compute dew point,o
+temperature and status data of my hot tub https github com olivierhill spaduino,t
+measuring dew point,o
+data from air quality sensors connected to a weatherduino pro2 plus system by werk_ag,o
+test showing the temperature and airpressure in my shag,t
+to monitor temperature and humidity of the place for mushroom,t
+the temperature of the garage,t
+monitoring of water consumption for residences of social interest,o
+dht22 humidity and temperature sensor wemos d1 mini pro,t
+measuring of co2 concentration relative humidity temperature and atmospheric pressure,t
+temperature of the freezers in the garage,t
+vegtronix vh400 sending data through a solar battery powered xbee dry soil triggers my drip irrigation system powered by opensprinkler,e
+aquarium survey and automation system for aquarium,o
+beehive from b107,o
+temperature and humidity in various locations in my house,t
+altecsharedsrv,u
+solar powered wireless temperature humidity sensor,t
+relative humidity and c temperature,t
+mini weather station v2 bmp280 si7021 ds18b20 sensors with esp8266 nodemcu kharkiv ukraine,w
+office climate control system,o
+esp8266 nodemcu lua 1 0 with dht11 22,t
+imexpharm tphcm,u
+esp8266 nodemcu lua 1 0 with dht11 22,t
+my own device based on esp8266 sensor for temp humm and pressure is bme280 second sensor is mh z19 for co2 concentration device located at office or home moscow russia,t
+ads1115 esp 01 1m ota updated based on https goo gl ah8y3w sketch adapted to my 30a ct and 6v transformer esp is powered from a separate 3 3v source,o
+charts various system data including weather light level and power usage,w
+temp humidity using dht11 raspberry pi,t
+watching my garage humidity and temperature to keep a look on my bikes,t
+interior high and low temps for the day,t
+temperature humidity sensor running a pyth script,t
+measurement of room temperature humidity and door open status,t
+address zhenli ave hedong tianjin china,o
+real time weather conditions and records,w
+temperatur of my room,t
+data from thingspeak channel 12397 weather station following tutorial at https www mathworks com help thingspeak collect data in a new channel html,w
+logging temperature from a photon mounted to the wall right behind the stove,t
+boiler status and temperatures,t
+a hot water recirculation pump controller with self learning from the user pattern using a esp32 board based on a statistic data model,o
+as measured by esp8266,u
+well pump house,u
+testing how ts works,u
+via smartthings,u
+this is about how led and sensor is connected to raspberry pi,u
+power meter in private house with photovoltaic plant 3 75kw,e
+nodemcu weather station,w
+this channel is used to monitoring movements in a specific area the movements are registered by a passive ir detector and processed by an arduino nano and transmitted by a,o
+dht22 temperature humidity sensor driven by a raspberry pi 3b running a python script,t
+iot for fun with blynk padawan,o
+attiny85 dht22 rf transmitter using watchdog sleep 4 8 a powered down battery voltage measurement uses readvcc uno as rf receiver using enc28j60 ethernet,e
+noise in our office,o
+esp8266 wifi module bme280 pressure temperature and humidity sensor,t
+1 wire greger a raspberry pi 2 running raspbian,o
+a weatherduino pro2 air quality monitor station located in canberra,w
+howto,u
+to connect wifi module,u
+central air heating duct temperature this is the output vent in the living space,t
+weather station,w
+thing speak test,u
+network monitor,o
+measuring temperature of sealing cavity living room and hot water cylinder,t
+a temperature sensor is connected,t
+connect thing to raspi,u
+air quality station from lorathens network peristeri,o
+humidity and temperature,t
+office temperature,t
+temperatures of outdoor and pipe coil temp of hp for defrost cheating,t
+wayne living room temp and humidity,t
+to measure the performance of the solar panel by analyzing the voltage current temperature and power,e
+weather station data 15 minute intervals,w
+my home temperature and humidity sensor based on esp 01 and dht22 using example found here on thing speak,t
+daily water leveling reading,o
+qwerty,u
+4f nb iot hlr 2,u
+sensors real time,u
+raspberrypi cpu and memory usage,o
+just the ordinary flower pot,o
+reading p1 port of my electrical power monitor with a netduino running net micro,e
+garage temperature and humidity,t
+iot workshop,u
+some weather sensors near daxstein,w
+temperature inside and outside the house,t
+esp8266 with ow sensor net,u
+lg5 demo room with arduino yun,u
+indoor and outdoor temperature humidity and air pressure readings at ingle farm south australia,t
+lab temperature and humidity record,t
+5 minute median creek level from sensor 1,o
+read temperature and humidity of the environment,t
+temperature in basement workroom at the shore,t
+office temperature inside and outside,t
+260w micro island solar system live data,o
+bee supervision in development,o
+dht22 readings in sc190a,t
+measure ac temperatures to monitor duty cycle and health of the system monitoring the vent outlet random room temperature and the garage temperature near the air handler,e
+wifi clock,o
+various monitors on a backyard aquaponics system,o
+programs based on sensor and motor board compiled by adruino,o
+temp humidity using dht11 raspberry pi,t
+solar thermosiphon installed graphs show the temperature of 240l solar tank,o
+temp humidity measured by an esp8266 on a nodemcu lua board using a dht22 sensor,o
+pharmacy temperatures,t
+uses d1 mini with configuration data stored in rtc memory data updates every 10 minutes data also appears on https aprs fi w4krl 15,u
+posting to twitter providing json frame and posting to thingspeak channel here,u
+monitors a medical freezer model eppendorf cryocube f570 80c,t
+real data of waste level in vit,o
+sf barobusting,u
+for keeping a count of spares in industry and a program for updation,u
+ricks ph,u
+testing with tmp for my peltier,t
+home temperature,t
+speedtest on raspberry pi 3,o
+to check temperature in room,t
+it is a temp sensing,t
+measurement of temperature and,t
+yes this is my channel,u
+temperature humidity and airpressure in my garden house lystrup denmark,t
+the purpose of this channel is totally related to internet of things with the help of this platform where we learn new things related to iot,u
+attic temperature and humidity using esp8266 and dh22 pc vbscript thingspeak,t
+weather in fundao portugal,w
+weather in arganil portugal,w
+weather in caldas da rainha portugal,w
+weather in coimbra portugal,w
+weather in figueira da foz portugal,w
+weather in santarem portugal,w
+weather in fatima portugal,w
+test weather station temp rain wind,w
+monitors the energy consumption of an appliance,e
+temp and humidity logger,t
+show ds18b20 c h network,t
+aquarium controller monitoring based on a nodemcu 1 0,o
+monitoring my fridge,t
+arduino based iot recording hygrothermograph with 2 bme280 sensors used for monitoring conditions of grafted tomatoes,o
+this channel cuantifies the water volume,o
+data from temprature sensors around house and garden,t
+co2 level and temp inside 618 room at lviv1,t
+record of temperature in crr college,t
+provides a feed from a currentcost electricity monitor also includes the inside temperature,e
+spencer symes final year project hmi,u
+team members harish avinash prasad lokesh bharat,u
+arduino based aquarium computer by redeque nl,o
+home power usage from hemv1 devices,e
+temp and humid,t
+display prototype,u
+application logs and records a residence or rental properties use of water and presents a graphic visualization of current water flow and month to date total use available to view on a mobile phone or computer,o
+testing and testing,u
+testchannel for programming analyses,u
+ground source heat pump,o
+esp8266 wemos d1 mini dfrobot weatherproof ultrasonic sensor sen0208,
+ldr is photo resistor,o
+run times for ac,u
+tomsk cardio net in tomsk city russia,u
+7 temp values from 2 different weather stations are uploaded with curl every 10 min,w
+cabin monitoring with arduino and zte mf275r internet hub,u
+internal sm1131 th06,t
+collected by an arduino,u
+matic hren,u
+temperature vcc with ds18b20 nodemcu,t
+at nakhon si thamarat technical collage,u
+see above,u
+taking the data from the lm35 sensor and sending it to the database of thingspeak,t
+solar hot water heater data,o
+temperature in the office in gertrudsvik,t
+test of esp8266 dev board,u
+testing wasp,u
+pool input temp sensor,t
+app displays my current water use liters per minute and the overall accumulated amount of used water,o
+temperature humidity atmospheric pressure in london e14,t
+sense humidity temperature,t
+wheather station in bulgaria,w
+tracking temperature and humidity from my raspberry pi,t
+rad monitor in bamberg germany bayern,o
+monitor air pressure at powerblanket,o
+this is live electricity usage generated data from my home,e
+digiware air quality index monitoring,o
+monitor the freezer,t
+conditions in greenhouse,o
+sending data from rasp 3 to thingspeak,u
+measure wi fi signal levels with the esp8266 and thingspeak,o
+channel for measuring temperature of a water tank,t
+motion room,o
+heloworld,u
+outdoor temperature sensor using wemos d1 mini pro,t
+hillsdaletempbot provide temperature and related infos in real time in the city of hillsdale new jersey usa powered by smartytempy a smartywiot solution wanna be an ambassador in your district wanna use our open data contact us,t
+temperatur humidity sensor,t
+lora world,u
+data relating to the dry air cooler air sourced heat,o
+this is a description,u
+esp8266 nodemcu lua 1 0 with dht11 22,t
+cmoney,u
+temperature and humidity control,t
+a small weather station project using the iot,w
+humidity temperature cigar box iotsense,t
+measure my house temp and humity,t
+weather conditions in hamburg,w
+microgreen system sump tank and air temperature,o
+temperature and state of the pool solar controller,t
+temperature of the water coming out of the pool heater whether it on or off,t
+temperature and humidity monitor,t
+temperature humidity light level and door status in my garage,t
+stores temperature,t
+cc exp 9 iot temperature readings,t
+forest fire detection using nodemcu with iot,o
+stores temperature sensor reading,t
+stores temperature sensor readings,t
+temperature and humidity sampling,t
+this channel displays data collected by the flc robotic gnome lab buoy timecontrol routinely runs a matlab script to parse analyze the data and post it to this channel,o
+collection of readings from different sensors,u
+this graph will show how much water is loged,o
+channel for arduino yun in basement,u
+weather station,w
+using chirp a capacitive humidity sensing with esp8266 for my potted plants,o
+6 x 290w pv panels in string outputting about 220v dc through msw inverter in to hot water cylinder 2kw,e
+creating a sensor,u
+a domestic residence in kallangur brisbane,u
+data presented here is from an weatherduino air quality monitor development system,w
+thermistor based temperature sensor,t
+transmitting temperature to thingspeak,t
+testing,u
+prototype platform for self powered sensing station,u
+gather data from 3 sensors and display it,u
+recreational vehicle,u
+iot workshop,u
+hey hi,u
+stores temperature sensor reading,t
+kpis of my pv system,e
+weather in odemira portugal,w
+weather in serpa portugal,w
+weather in m rtola portugal,w
+weather in castro verde portugal,w
+weather in tavira portugal,w
+weather in almod var portugal,w
+weather in faro portugal,w
+weather in aljezur portugal,w
+weather in lagos portugal,w
+water level temperature and humidity,o
+humidity adsorption,o
+moschato,u
+monitors rssi of 2 routers,o
+decagon 2d sonic anemometer to measure wind direction wind speed and gust for golf app applications,o
+data from my home,u
+to learn iot,u
+create a channel as part of iot training 11 sept 2018,u
+pm 10 2 5 sensor not certified treat it approximate educational purpose,u
+temperature and pressure sensor connected to a pi zero,t
+nbn internet connection fttn currently in pakenham on a 100 speed tier speedtest runs automatically on pfsense firewall and uploading results to thingspeak a few times a day,o
+bat watchers,o
+the beta version of our aquahive is measuring the following parameter and uploads them to the cloud,o
+backupheater for greenhouses,o
+weatherstation with arduino controller of dennis,w
+monitoring a raspberrypi controlling an aquaponics setup,o
+diy home kit based on esp32,u
+temperature and humidity with dht22 and rasppi3 in hamburg germany,t
+temperature and humidity of the room,t
+weather station,w
+monitor sump water level takes reading every 15 seconds,o
+testing version of weather station the data comes from a weather station i designed and built it is still in development both hardware and software so some gaps erroneous readings are expected,w
+temperature logging with multiple raspberry pi,t
+home meteo station,u
+outside temp monitoring,t
+shows temperature inside outside basement attic and also shows mains electricity ac voltage measurements data updates every minute,t
+2np bathroom,u
+1np hall bathroom 1np 102 103,u
+system for analysing air condition designed specifically for nursery schools and disabled people,o
+previous revision saved sensor named as 2np hall and stored in thingspeak as 2np 2ndroom continuing data stream bad allocation,u
+temp check via raspberry pi,t
+temperature from adafruit huzzah esp8266 using sparkfun tmp102,t
+updated hourly ideal hive temp is 33 37 but reported temp appears consistently 5deg below this expected range,t
+track temperatures and status from home automation,t
+humidity and temperature monitoring over 30 day period,t
+the environmental readings from socially rented accommodation by renfrewshire council,o
+solar gas heating near sofia,o
+module reported data from dht 11 and powered by battery,t
+monitors radioactivity,o
+arduino meteo czech republic weather station homemade,w
+using a sodaq explorer connected to the things network then mqtt via nodered into thingspeak,u
+temperature humidity barometric pressure and tank water level at vincentia nsw,t
+checking how the automower 305 is receiving charge,o
+a channel that we can store our data of nodemcu that connect to gps neo6m,u
+monitor temperature and humidityliving,t
+esp8266 house monitor,u
+test data to send to the server from esp32,u
+this will show the temp and humidity in the mining room,t
+to find the distance,u
+ultrasonic waves,o
+monitor garage state information,o
+weather in chaves portugal,w
+weather in povoa de varzim portugal,w
+weather in sam es portugal,w
+weather in vila real portugal,w
+weather in refojos de basto portugal,w
+weather in areosa portugal,w
+weather in braga portugal,w
+temperature logs from my home,t
+controller and radio rx from arduino_duty_cycle_measurement_v12,o
+cycle test hybrid heater,o
+to monitor any analogue sensor value,o
+absolute humidity computation helper channel,o
+ambient and water temperatures light and ph to follow,t
+it receives bpm data from a bbc micro bit and sends it to the cloud,u
+monitoring raspberry pi on my home rpi handles my smart home via openhab,u
+sensors connected through esp8266 module,u
+sense door position and close,o
+light and temperature data from nodemcu8266,t
+mundo weather station,w
+air temperature in the greenhouse,t
+digital temperature and humidity sensor barometric sensor water level sensor pressure sensor win speed and win direction,t
+fermentation tank temperature monitoring and control,t
+sonde 18s20 bas ballon,o
+weather data collected at kingaroy queensland australia,w
+this channel shows the data generated by a homemade solar heating control system,e
+this is a test,u
+weather station using dht22 and air quality using mq135 sensor with an arduino mega board powered by simone cecchetti mr watt s r l,w
+a2 longford,u
+pal server outside temp and humidity,t
+temperature and humidity measured with esp01 dht11,t
+history of internet,o
+temperature sensors in the greenhouse,t
+wi fi rssi level with esp8266,o
+smart monitoring systemto monitor temperature humidity and light intensity,t
+living room temperature control,t
+get the ambient temperature and humidity data,t
+readings from the apds9930 ambient light sensor and lm 35 temperature sensor,t
+1 my server hmip online,u
+sensors that measure the moisture in the soil,o
+text,u
+data collection of background radiation count dose temperature humidity atmospheric pressure,t
+test system for temperature monitoring against the depth of fuel in the ch oil tank measured ultrasonically 9cm full 120cm 1200l consumed,t
+esp8266 nodemcu 12e with bme280,t
+current voltage measurement from ina219,e
+it detect the air pollution in the air,o
+air quality station from lorathens network ilion,o
+ach_temp humid room2,t
+monitor the fridge temperatures testing stage,t
+this channel captures the moisture levels of up to two sensors,o
+migneco house,u
+temperature humidity sensor sht15 of sensirion,t
+location nearby royal flora chiang mai around 2500m,u
+dht11 temp humidity stream from humidor,t
+detect the temperature,t
+mini weather station v2 bme280 si7021 ds18b20 ssd1306 pir kharkiv ukraine,w
+available water supply,o
+esp8266 thing measuring indoor temperature and humidity on my cottage,t
+29 pleasant st outdoor sensor,u
+household electricity consumption,e
+temperature and humidity sensor,t
+iot workshop,u
+iot workshop,u
+dht22 temperature humidity sensor driven by a raspberry pi 2 running a python script,t
+testing dht22 adn bmp280 with esp8266 12 and an 3 aaa eneloop 1 5 accu cells sample every 6 min voltagebatt is via internal adc systems is powerd with 3v using a low drop ht7330 regulator,t
+water closet temp,t
+home weather station,w
+internal temp,t
+th 009,u
+trying out the wifi module,u
+smart indoor workplace based on human data analytics,u
+weather in nazare portugal,w
+background radiation milford mi 48380,o
+ice devices on the internet,u
+data from poolpi and three ds18b20,o
+weather in leiria portugal,w
+health parameters from my server,o
+weather in tomar portugal,w
+weather station detects temperature humidity barometric pressure and incident light,w
+send a message through media social,o
+total kwh consumption and prediction,e
+these datas are streamed from solar tracker system at central electric power college vietnam,e
+temperature and humidity sensor,t
+smart monitoring system for temperature humidity and light intensity,t
+it will send the weight using iot,o
+iot channel of sc fridingen,u
+a low cost open source weather station in zakopane poland bme280 raspberrypi esp8266,w
+meteorological station temperature humidity and thermal sensation esp8266,w
+home electricity usage,e
+live measure of the earths magnetic field large peeks indicate the chance of aurora,o
+weather and related returning from imp,w
+will collect and send over garden vital data,u
+channel for home made weather weather station powered by raspberry pi zero located in ipswich ip1 uk,w
+sensor to gas and flamme,o
+2nd wifi weather sensor inside,w
+iot workshop,u
+iot workshop,u
+iot workshop,u
+iot workshop,u
+iot workshop,u
+monitor my home pool temperature and air temperature,t
+iot workshop,u
+iot workshop,u
+mh_greenhouse_co_gasii,u
+monitor the temp and humidity inside a guitar case,t

@@ -1,0 +1,1 @@
+{"name": "Temperture Trend", "gauges": "", "gauges2": "", "statuses": "", "url": "https://thingspeak.com//channels/8260", "author": "karenbobiv", "disc": "Pool Input Temp Sensor", "tags": ], "shares": "0", "charts": ["/channels/8260/charts/1?&days=1&dynamic=true","/channels/8260/status/recent"], "comments": [], "maps": "", "matlabs": "", "language": "en"}
