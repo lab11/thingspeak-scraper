@@ -204,21 +204,39 @@ def extract(j_str):
     global language_count
     global discs
     #print j_str
+    
+    
+    uf_discs = {}
+    f = open('discs_labeled.csv','r')
+    dis = f.read()
+    dis_s = dis.split("\n")
+    for line in dis_s:
+        if len(line.split(",")) == 2:
+            l_spl = line.split(",")
+            disc = l_spl[0]
+            label = l_spl[1]
+            uf_discs[disc] = label
+    
+    
+    
+    
     j = json.loads(j_str)
     tags = j['tags']
     author = j['author']
     charts = j['charts']
     language = j['language']
     disc = j['disc']
+    c_id = j['url'].split("/")[-1]
 
     REPLACE_NO_SPACE = re.compile("(\.)|(\;)|(\:)|(\!)|(\')|(\?)|(\,)|(\")|(\()|(\))|(\[)|(\])")
     REPLACE_WITH_SPACE = re.compile("(<br\s*/><br\s*/>)|(\-)|(\/)")
 
     if not len(disc) == 0 and language == 'en':
-        disc = [REPLACE_NO_SPACE.sub("", line.lower()) for line in disc]
-        disc = [REPLACE_WITH_SPACE.sub(" ", line) for line in disc]
-        discs.append(disc)
-
+        #disc = [REPLACE_NO_SPACE.sub("", line.lower()) for line in disc]
+        #disc = [REPLACE_WITH_SPACE.sub(" ", line) for line in disc]
+        discs.append(clean_text(disc))
+        
+        print author + "," + clean_text(disc) + "," + c_id + "," + uf_discs[clean_text(disc)] # + "," + charts + "," + tags
     
 
 
@@ -438,6 +456,13 @@ def clean_text(text):
     text = re.sub('\s+', ' ', text)
     text = text.strip(' ')
     return text
+
+
+    '''
+    for line in dis.split("\n"):
+        l_spl = line.split(",")
+        print line
+    '''
 
 
 load_to_mem(False, True, False)
