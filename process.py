@@ -1,4 +1,6 @@
 import re
+import watson
+#import azure_query
 import json
 import os
 from wordcloud import WordCloud
@@ -107,6 +109,7 @@ def load_to_mem(forums_on, channels_on, feeds_on):
                 forum_name = url_s[-3] # + "-" + url_s[-2]
         
                 #reverse forum into author index
+                f_dd = {}
                 for thread in j['threads']:
                     thread_url = thread['url']
                     posts = thread['posts']
@@ -120,19 +123,45 @@ def load_to_mem(forums_on, channels_on, feeds_on):
                         rev_post['thread_url'] = thread_url
                         rev_post['forum_name'] = forum_name
                         rev_post['forum_url'] = url
+
+
+                        print author + "," + clean_text(content)
+
+                        #wt = watson.run_watson(clean_text(content))
+                        #print author + "@@@" + clean_text(content) + "@@@" + wt
+                        #exit()
+                        
+                        '''
+                        try:
+                            f_dd[content] = f_dd[content] + 1
+                        except:
+                            f_dd[content] = 1
+                        '''
+
                         try: 
                             a[author].append(rev_post)
                         except:
                             a[author] = []
                             a[author].append(rev_post)
 
+                
                 try:
                     g = r[forum_name]
                     r[forum_name] = g.append(j)
                 except:
                     r[forum_name] = []
                     r[forum_name].append(j)
-                
+
+                 
+
+                '''
+                for author, value in a.iteritems():
+                    for post in value:
+                        ct = clean_text(post['content'])
+                        wt = watson.run_watson(ct)
+                        print author + "@@@" + ct + "@@@" + str(wt)
+                '''
+
                 '''
                 threads = j['threads']
                 for thread in threads:
@@ -147,10 +176,10 @@ def load_to_mem(forums_on, channels_on, feeds_on):
                     exit()
                 '''
     if channels_on:
-        for filename in os.listdir("./json/"):
+        for filename in os.listdir("./_json/"):
             if ".json" in filename and not filename == ".json":
                 #print filename
-                fi = open("./json/"+filename,"r")
+                fi = open("./_json/"+filename,"r")
                 j_str = fi.read()
                 
                 if '"tags": ]' in j_str: #fix broken tags section :/
@@ -204,8 +233,10 @@ def extract(j_str):
     global language_count
     global discs
     #print j_str
-    
-    
+   
+    #exit()
+
+    ''' 
     uf_discs = {}
     f = open('discs_labeled.csv','r')
     dis = f.read()
@@ -216,7 +247,7 @@ def extract(j_str):
             disc = l_spl[0]
             label = l_spl[1]
             uf_discs[disc] = label
-    
+    '''
     
     
     
@@ -235,9 +266,8 @@ def extract(j_str):
         #disc = [REPLACE_NO_SPACE.sub("", line.lower()) for line in disc]
         #disc = [REPLACE_WITH_SPACE.sub(" ", line) for line in disc]
         discs.append(clean_text(disc))
-        
-        print author + "," + clean_text(disc) + "," + c_id + "," + uf_discs[clean_text(disc)] # + "," + charts + "," + tags
-    
+#        print author + "@@@" + clean_text(disc) + "@@@" + c_id + "@@@" + azure.run_azure_keywords(clean_text(disc))
+#        exit()
 
 
     try:
@@ -274,7 +304,7 @@ def extract(j_str):
 
     # all charts
     for chart in charts:
-        chart_list.append(chart)
+        chart_list.append([chart,c_id])
 
 
 def parse_update(url):
@@ -308,13 +338,13 @@ def test_retrieve(index):
 def query_forum():
     global a
     for key, value in a.iteritems():
-        print key
-        exit()
+        #print key
+        #exit()
         try:
             print key, len(f[key])
         except:
             pass
-    exit()
+    #exit()
 
 def query_all():
     global d
@@ -350,10 +380,13 @@ def chart_parsing():
     unknown = 0
     unknown_titles = []
     unknown_update = []
-    for chart in chart_list:
+    for chart_l in chart_list:
+        chart = chart_l[0]
+        uid = chart_l[1]
         total += 1
         if "type=line" in chart:
             line += 1
+            print "line,"+uid
             title = parse_title(chart)
             if title:
                 line_titles.append(title[0])
@@ -362,10 +395,13 @@ def chart_parsing():
                 line_update.append(update[0])
         elif "www.youtube.com" in chart:
             video += 1
+            print "video,"+uid
         elif "status/recent" in chart:
             status += 1
+            print "s,"+uid
         elif "type=column" in chart:
             column += 1
+            print "column,"+uid
             title = parse_title(chart)
             if title:
                 column_titles.append(title[0])
@@ -374,6 +410,7 @@ def chart_parsing():
                 column_update.append(update[0])
         elif "type=spline" in chart:
             spline += 1
+            print "spline,"+uid
             title = parse_title(chart)
             if title:
                 spline_titles.append(title[0])
@@ -382,6 +419,7 @@ def chart_parsing():
                 spline_update.append(update[0])
         elif "type=bar" in chart:
             bar += 1
+            print "bar,"+uid
             title = parse_title(chart)
             if title:
                 bar_titles.append(title[0])
@@ -390,6 +428,7 @@ def chart_parsing():
                 bar_update.append(update[0])
         elif "type=step" in chart:
             step += 1
+            print "step,"+uid
             title = parse_title(chart)
             if title:
                 step_titles.append(title[0])
@@ -397,8 +436,10 @@ def chart_parsing():
             if update:
                 step_update.append(update[0])
         elif "maps/channel_show" in chart:
+            print "map,"+uid
             maps += 1
         elif "channel" in chart and "chart" in chart:
+            print "unknown,"+uid
             unknown += 1
             title = parse_title(chart)
             if title:
@@ -410,7 +451,8 @@ def chart_parsing():
             pass
     #        print chart
     #word_cloud_array(line_titles)
-    print line, video, status, maps, total
+#    print line, video, status, maps, total, column, spline, bar, step, unknown
+
 
 
 
@@ -476,7 +518,7 @@ query_all()
 #rake()
 
 #print len(language_count.keys())
-#chart_parsing()
+chart_parsing()
 #feed_parsing()
 
 #print len(tag_list)
