@@ -1,0 +1,2 @@
+{"name": "DZ istaba", "gauges": "", "gauges2": "", "statuses": "", "url": "https://thingspeak.com//channels/25534", "author": "vinchilv", "disc": "Arduino ESP8266, DHT11", "tags": ["Arduino ESP8266","DHT11
+Humidity and temperature"], "shares": "0", "charts": ["/channels/25534/charts/1?&results=60&dynamic=true","/channels/25534/charts/2?&results=60&dynamic=true","/channels/25534/status/recent"], "comments": [], "maps": "", "matlabs": "", "language": "fr"}

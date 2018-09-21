@@ -1,0 +1,2 @@
+{"name": "Dolní Bečva venkovní teplota čidlo DS18b20(°C)", "gauges": "", "gauges2": "", "statuses": "", "url": "https://thingspeak.com//channels/30458", "author": "filuta", "disc": "", "tags": ["Dolní Bečva","teplota
+DS18B20"], "shares": "0", "charts": ["/channels/30458/charts/1?&average=10&results=500&days=2&dynamic=true","/apps/plugins/10508","/channels/30458/maps/channel_show","/channels/30458/status/recent"], "comments": [], "maps": "", "matlabs": "", "language": "cs"}
