@@ -1,0 +1,10 @@
+type count
+"Line Plot" 90
+"Spline Plot" 7
+"Status" 7
+"Location Map" 5
+"Plugin" 11
+"Column Plot" 0
+"Video" 0
+"Step Plot" 0
+"Bar Plot" 0
