@@ -67,8 +67,9 @@ num_images = 0
 
 def word_cloud():
     global tag_list
-    word_str = ''.join(tag_list)
-    wordcloud = WordCloud().generate(word_str)
+    tag_list2 = filter( lambda x: ( 'temp' not in x.lower() ) and ( 'hum' not in x.lower() ) and ( 'dew' not in x.lower() ) and ( 'weather' not in x.lower() ), tag_list )
+    word_str = '+'.join(tag_list2)
+    wordcloud = WordCloud(width=1000, height=500, regexp=r"\w[\w' ]+").generate(word_str)
     plt.imshow(wordcloud, interpolation='bilinear')
     plt.axis("off")
 
@@ -176,10 +177,10 @@ def load_to_mem(forums_on, channels_on, feeds_on):
                     exit()
                 '''
     if channels_on:
-        for filename in os.listdir("./_json/"):
+        for filename in os.listdir("./json/"):
             if ".json" in filename and not filename == ".json":
                 #print filename
-                fi = open("./_json/"+filename,"r")
+                fi = open("./json/"+filename,"r")
                 j_str = fi.read()
                 
                 if '"tags": ]' in j_str: #fix broken tags section :/
@@ -518,7 +519,7 @@ query_all()
 #rake()
 
 #print len(language_count.keys())
-chart_parsing()
+# chart_parsing()
 #feed_parsing()
 
 #print len(tag_list)
@@ -528,7 +529,7 @@ chart_parsing()
 
 #print tag_list
 
-#word_cloud()
+word_cloud()
 #author_histogram()
 #tag_per_author()
 #test_retrieve(40150)
